@@ -4,24 +4,29 @@ from src.logger import logger
 from src.discord_handler import DiscordHandler
 from src.bridge import Bridge
 from src.dst_chat_handler import DSTChatHandler
-from src.dst_sync_handler import DSTSyncHandler
+from src.dst_day_season import DSTDaySeasonHandler
+from src.dst_log_handler import DSTLogHandler
 
 async def main():
     config = Config()
     bridge = Bridge()
 
+    # Handlers
     discord_bot = DiscordHandler(bridge, config)
     chat_handler = DSTChatHandler(bridge, config)
-    sync_handler = DSTSyncHandler(bridge, config)
+    day_season_handler = DSTDaySeasonHandler(bridge, config)
+    log_handler = DSTLogHandler(bridge, config)
 
+    # 🔥 Connect bridge
     bridge.discord = discord_bot
-
-    logger.info("Starting DST Discord Sync with separate handlers...")
+    bridge.day_season = day_season_handler
+    bridge.dst = chat_handler   
+    logger.info("Starting DST Discord Sync (REALTIME MODE)...")
 
     await asyncio.gather(
         discord_bot.start(config.discord_token),
         chat_handler.start(),
-        sync_handler.start()
+        log_handler.start(),
     )
 
 if __name__ == "__main__":

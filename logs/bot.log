@@ -175,3 +175,528 @@
 2026-03-26 15:47:14,347 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
 2026-03-26 15:47:34,169 | INFO | → Discord: Server:  **M B** Leave
 2026-03-26 15:47:34,169 | INFO | Leave detected: M B
+2026-03-26 16:27:29,185 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-26 16:27:29,185 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-26 16:29:45,643 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-26 16:29:45,643 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-26 16:30:16,542 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-26 16:30:16,542 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-26 16:30:16,547 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-26 16:30:16,547 | INFO | logging in using static token
+2026-03-26 16:30:16,550 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-26 16:30:16,550 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-26 16:30:18,394 | INFO | Shard ID None has connected to Gateway (Session ID: 731fbb343c9c0cb4d63bd002724baea8).
+2026-03-26 16:30:20,439 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-26 16:31:02,789 | INFO | Join detected: M B
+2026-03-26 16:31:02,805 | INFO | [SYNC] Day 13 | autumn
+2026-03-26 16:31:02,805 | INFO | [UPDATE] Day 13 | autumn
+2026-03-26 16:31:03,352 | INFO | → Discord: Server: **16:31** | **Day 13 (autumn)** | **M B** Joined
+2026-03-26 16:31:03,732 | INFO | Channel renamed → wynern-autumn-13
+2026-03-26 16:31:32,949 | INFO | → Discord: M B: 2
+2026-03-26 16:31:32,950 | INFO | Chat: M B: 2
+2026-03-26 16:31:41,154 | INFO | → Discord: M B: day la dai phat thanh tieng noi vietnam
+2026-03-26 16:31:41,154 | INFO | Chat: M B: day la dai phat thanh tieng noi vietnam
+2026-03-26 16:31:45,320 | INFO | ← From Discord: MB: 9
+2026-03-26 16:31:51,665 | INFO | ← From Discord: MB: eqweqweqwe
+2026-03-26 16:33:35,351 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-26 16:33:35,351 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-26 16:33:35,354 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-26 16:33:35,355 | INFO | logging in using static token
+2026-03-26 16:33:35,357 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-26 16:33:35,358 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-26 16:33:37,169 | INFO | Shard ID None has connected to Gateway (Session ID: 237449d8cafb6d86bc6ea9f2c415061d).
+2026-03-26 16:33:39,219 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-26 16:34:03,725 | ERROR | Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/steam/dst-discord-chat-sync/src/discord_handler.py", line 23, in on_message
+    await self.bridge.send_to_game(str(message.author.display_name), content)
+  File "/home/steam/dst-discord-chat-sync/src/bridge.py", line 11, in send_to_game
+    self.dst.send_to_game(username, message)
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DSTChatHandler' object has no attribute 'send_to_game'
+2026-03-26 16:34:59,470 | INFO | → Discord: Death:  M B was killed by the passage of time. She became a spooky ghost!
+2026-03-26 16:34:59,470 | INFO | Death detected: M B was killed by the passage of time. She became a spooky ghost!
+2026-03-26 16:38:21,164 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-26 16:38:21,164 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-26 16:38:21,167 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-26 16:38:21,168 | INFO | logging in using static token
+2026-03-26 16:38:21,170 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-26 16:38:21,171 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-26 16:38:23,103 | INFO | Shard ID None has connected to Gateway (Session ID: da53c53ee0796f217d20b842e9ea58a3).
+2026-03-26 16:38:25,203 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-26 16:38:32,131 | INFO | → To Game: MB: 123
+2026-03-26 16:38:32,131 | INFO | ← From Discord: MB: 123
+2026-03-26 16:38:37,884 | INFO | → Discord: M B: sdf
+2026-03-26 16:38:37,884 | INFO | Chat: M B: sdf
+2026-03-26 16:38:41,112 | INFO | → To Game: MB: 111
+2026-03-26 16:38:41,112 | INFO | ← From Discord: MB: 111
+2026-03-26 16:41:46,602 | INFO | Leave detected: M B
+2026-03-26 16:41:49,606 | ERROR | SYNC timeout
+2026-03-26 16:41:50,182 | INFO | → Discord: Server: **16:41** | **Day ? (?)** | **M B** Leave
+2026-03-26 16:41:50,570 | INFO | Channel renamed → wynern-?-?
+2026-03-26 16:43:47,813 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-26 16:43:47,813 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-26 16:43:47,817 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-26 16:43:47,817 | INFO | logging in using static token
+2026-03-26 16:43:47,820 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-26 16:43:47,821 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-26 16:43:49,567 | INFO | Shard ID None has connected to Gateway (Session ID: 86bf29d3362ba2028af8d621ecfa979f).
+2026-03-26 16:43:51,612 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-26 16:47:21,830 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-26 16:47:21,830 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-26 16:47:21,837 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-26 16:47:21,837 | INFO | logging in using static token
+2026-03-26 16:47:21,839 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-26 16:47:21,842 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-26 16:47:23,728 | INFO | Shard ID None has connected to Gateway (Session ID: a661ea9a9bf1f8f633b9cdd56dee4c0e).
+2026-03-26 16:47:25,773 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-26 16:48:26,438 | INFO | Join detected: M B
+2026-03-26 16:48:26,455 | INFO | [SYNC] Day 1 | autumn
+2026-03-26 16:48:26,455 | INFO | [UPDATE] Day 1 | autumn
+2026-03-26 16:48:27,094 | INFO | → Discord: Server: **16:48** | **Day 1 (autumn)** | **M B** Joined
+2026-03-26 16:48:27,458 | INFO | Channel renamed → wynern-autumn-1
+2026-03-26 16:48:53,013 | INFO | → To Game: MB: 123
+2026-03-26 16:48:53,013 | INFO | ← From Discord: MB: 123
+2026-03-26 16:48:57,453 | INFO | → To Game: MB: 333
+2026-03-26 16:48:57,453 | INFO | ← From Discord: MB: 333
+2026-03-26 16:50:00,401 | INFO | → To Game: MB: 123
+2026-03-26 16:50:00,401 | INFO | ← From Discord: MB: 123
+2026-03-26 16:50:27,062 | INFO | → To Game: MB: 123
+2026-03-26 16:50:27,062 | INFO | ← From Discord: MB: 123
+2026-03-26 16:50:29,928 | INFO | → To Game: MB: f
+2026-03-26 16:50:29,928 | INFO | ← From Discord: MB: f
+2026-03-26 16:50:38,760 | INFO | → Discord: M B: k
+2026-03-26 16:50:38,760 | INFO | Chat: M B: k
+2026-03-26 16:50:51,772 | INFO | Leave detected: M B
+2026-03-26 16:50:51,788 | INFO | [SYNC] Day 1 | autumn
+2026-03-26 16:50:51,788 | INFO | [UPDATE] Day 1 | autumn
+2026-03-26 16:50:52,233 | INFO | → Discord: Server: **16:50** | **Day 1 (autumn)** | **M B** Leave
+2026-03-26 16:50:52,563 | INFO | Channel renamed → wynern-autumn-1
+2026-03-26 16:55:49,464 | INFO | Join detected: M B
+2026-03-26 16:55:49,480 | INFO | [SYNC] Day 1 | autumn
+2026-03-26 16:55:49,481 | INFO | [UPDATE] Day 1 | autumn
+2026-03-26 16:55:50,201 | INFO | → Discord: Server: **16:55** | **Day 1 (autumn)** | **M B** Joined
+2026-03-26 16:55:50,675 | INFO | Channel renamed → wynern-autumn-1
+2026-03-26 17:03:19,409 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-26 17:03:19,409 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-26 17:03:19,416 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-26 17:03:19,416 | INFO | logging in using static token
+2026-03-26 17:03:19,418 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-26 17:03:19,421 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-26 17:03:21,281 | INFO | Shard ID None has connected to Gateway (Session ID: 488f38c953616dedb206a52fc7aeac41).
+2026-03-26 17:03:23,327 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-26 17:03:31,980 | INFO | → Discord: M B: Hi
+2026-03-26 17:03:31,980 | INFO | Chat: M B: Hi
+2026-03-26 17:03:40,047 | INFO | → To Game: MB: Hi there
+2026-03-26 17:03:40,047 | INFO | ← From Discord: MB: Hi there
+2026-03-26 17:04:13,700 | INFO | → To Game: MB: just wanna ask
+2026-03-26 17:04:13,700 | INFO | ← From Discord: MB: just wanna ask
+2026-03-26 17:04:25,679 | INFO | → To Game: MB: hows the connection in your end?
+2026-03-26 17:04:25,679 | INFO | ← From Discord: MB: hows the connection in your end?
+2026-03-26 17:04:35,486 | INFO | → To Game: MB: yellow right?
+2026-03-26 17:04:35,486 | INFO | ← From Discord: MB: yellow right?
+2026-03-26 17:04:56,366 | INFO | → Discord: Pow 󰀗: green
+2026-03-26 17:04:56,366 | INFO | Chat: Pow 󰀗: green
+2026-03-26 17:05:14,125 | INFO | → To Game: MB: tks gd
+2026-03-26 17:05:14,125 | INFO | ← From Discord: MB: tks gd
+2026-03-26 17:06:02,642 | INFO | → Discord: Pow 󰀗: xd
+2026-03-26 17:06:02,643 | INFO | Chat: Pow 󰀗: xd
+2026-03-26 17:08:37,368 | INFO | Join detected: Lullaby
+2026-03-26 17:08:37,384 | INFO | [SYNC] Day 1 | autumn
+2026-03-26 17:08:37,384 | INFO | [UPDATE] Day 1 | autumn
+2026-03-26 17:08:37,982 | INFO | → Discord: Server: **17:08** | **Day 1 (autumn)** | **Lullaby** Joined
+2026-03-26 17:08:38,423 | INFO | Channel renamed → wynern-autumn-1
+2026-03-26 17:09:30,961 | INFO | Leave detected: Lullaby
+2026-03-26 17:09:30,977 | INFO | [SYNC] Day 1 | autumn
+2026-03-26 17:09:30,977 | INFO | [UPDATE] Day 1 | autumn
+2026-03-26 17:09:31,494 | INFO | → Discord: Server: **17:09** | **Day 1 (autumn)** | **Lullaby** Leave
+2026-03-26 17:09:31,861 | INFO | Channel renamed → wynern-autumn-1
+2026-03-26 17:09:44,121 | INFO | → To Game: Chee: đù vuyp
+2026-03-26 17:09:44,122 | INFO | ← From Discord: Chee: đù vuyp
+2026-03-26 17:12:17,028 | INFO | Death detected: Pow 󰀗 was killed by Merm. He became a spooky ghost!
+2026-03-26 17:12:17,040 | INFO | [SYNC] Day 1 | autumn
+2026-03-26 17:12:17,040 | INFO | [UPDATE] Day 1 | autumn
+2026-03-26 17:12:17,645 | INFO | → Discord: Server: **17:12** | **Day 1 (autumn)** | Pow 󰀗 was killed by Merm. He became a spooky ghost!
+2026-03-26 17:12:18,112 | INFO | Channel renamed → wynern-autumn-1
+2026-03-26 17:12:20,246 | INFO | Join detected: Lullaby
+2026-03-26 17:12:20,262 | INFO | [SYNC] Day 1 | autumn
+2026-03-26 17:12:20,262 | INFO | [UPDATE] Day 1 | autumn
+2026-03-26 17:12:20,775 | INFO | → Discord: Server: **17:12** | **Day 1 (autumn)** | **Lullaby** Joined
+2026-03-26 17:12:21,149 | INFO | Channel renamed → wynern-autumn-1
+2026-03-26 17:12:25,465 | INFO | → Discord: Pow 󰀗: =-)))
+2026-03-26 17:12:25,465 | INFO | Chat: Pow 󰀗: =-)))
+2026-03-26 17:13:29,042 | INFO | → Discord: Lullaby: moi ng 1 roll me r
+2026-03-26 17:13:29,042 | INFO | Chat: Lullaby: moi ng 1 roll me r
+2026-03-26 17:14:03,273 | INFO | → Discord: Lullaby: e sv nay ong chet t bi giam nao~
+2026-03-26 17:14:03,273 | INFO | Chat: Lullaby: e sv nay ong chet t bi giam nao~
+2026-03-26 17:14:09,966 | INFO | → Discord: Pow 󰀗: :))
+2026-03-26 17:14:09,966 | INFO | Chat: Pow 󰀗: :))
+2026-03-26 17:15:10,463 | INFO | → Discord: Lullaby: sao k roll dc ra
+2026-03-26 17:15:10,464 | INFO | Chat: Lullaby: sao k roll dc ra
+2026-03-26 17:15:18,174 | INFO | → Discord: Pow 󰀗: chiu
+2026-03-26 17:15:18,175 | INFO | Chat: Pow 󰀗: chiu
+2026-03-26 17:15:27,097 | INFO | → Discord: Pow 󰀗: dang test bi dam chet
+2026-03-26 17:15:27,097 | INFO | Chat: Pow 󰀗: dang test bi dam chet
+2026-03-26 17:15:34,857 | INFO | → To Game: is Pow: <@1005125632176443492>
+2026-03-26 17:15:34,857 | INFO | ← From Discord: is Pow: <@1005125632176443492>
+2026-03-26 17:15:48,460 | INFO | → To Game: is Pow: c_rollback(2)
+2026-03-26 17:15:48,460 | INFO | ← From Discord: is Pow: c_rollback(2)
+2026-03-26 17:15:54,113 | INFO | → Discord: Pow 󰀗: meos dc r
+2026-03-26 17:15:54,113 | INFO | Chat: Pow 󰀗: meos dc r
+2026-03-26 17:16:07,414 | INFO | → Discord: Pow 󰀗: mac dinh ghi vao console la c_au... roi
+2026-03-26 17:16:07,414 | INFO | Chat: Pow 󰀗: mac dinh ghi vao console la c_au... roi
+2026-03-26 17:16:30,812 | INFO | → Discord: Lullaby: qua chat r
+2026-03-26 17:16:30,812 | INFO | Chat: Lullaby: qua chat r
+2026-03-26 17:18:02,270 | INFO | → Discord: Pow 󰀗: map dc cai xau phet\
+2026-03-26 17:18:02,270 | INFO | Chat: Pow 󰀗: map dc cai xau phet\
+2026-03-26 17:30:52,527 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-26 17:30:52,527 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-26 17:30:52,534 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-26 17:30:52,534 | INFO | logging in using static token
+2026-03-26 17:30:52,537 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-26 17:30:52,537 | WARNING | Không tìm thấy bridge.bot để set status
+2026-03-26 17:30:52,538 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-26 17:30:52,540 | INFO | ✅ Đang theo dõi server_chat_log.txt...
+2026-03-26 17:30:54,373 | INFO | Shard ID None has connected to Gateway (Session ID: 82298640e11aab580b7bbf9d3294fb1a).
+2026-03-26 17:30:56,418 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-26 17:31:59,222 | INFO | → Discord: Lullaby: tui o cong ne
+2026-03-26 17:31:59,222 | INFO | Chat: Lullaby: tui o cong ne
+2026-03-26 17:32:10,451 | INFO | → Discord: Pow 󰀗:  I have a meat with 100% freshness.
+2026-03-26 17:32:10,451 | INFO | Chat: Pow 󰀗:  I have a meat with 100% freshness.
+2026-03-26 17:32:19,633 | INFO | → Discord: Pow 󰀗: lam may lv2
+2026-03-26 17:32:19,633 | INFO | Chat: Pow 󰀗: lam may lv2
+2026-03-26 17:32:27,151 | INFO | → Discord: Lullaby: o cong co r
+2026-03-26 17:32:27,151 | INFO | Chat: Lullaby: o cong co r
+2026-03-26 17:32:31,392 | INFO | → Discord: Pow 󰀗: ok
+2026-03-26 17:32:31,392 | INFO | Chat: Pow 󰀗: ok
+2026-03-26 17:32:32,234 | INFO | → Discord: Lullaby: de kiem thit
+2026-03-26 17:32:32,234 | INFO | Chat: Lullaby: de kiem thit
+2026-03-26 17:33:02,841 | INFO | → Discord: Pow 󰀗:  I have 2 meats, and this one has 98% freshness.
+2026-03-26 17:33:02,841 | INFO | Chat: Pow 󰀗:  I have 2 meats, and this one has 98% freshness.
+2026-03-26 17:33:23,937 | INFO | → Discord: Lullaby: co 2 thit
+2026-03-26 17:33:23,937 | INFO | Chat: Lullaby: co 2 thit
+2026-03-26 17:33:24,408 | INFO | → Discord: Pow 󰀗:  I have 4 meats, and this one has 95% freshness.
+2026-03-26 17:33:24,408 | INFO | Chat: Pow 󰀗:  I have 4 meats, and this one has 95% freshness.
+2026-03-26 17:33:53,490 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-26 17:33:53,490 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-26 17:33:53,497 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-26 17:33:53,497 | INFO | logging in using static token
+2026-03-26 17:33:53,499 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-26 17:33:53,500 | WARNING | Không tìm thấy bridge.bot để set status
+2026-03-26 17:33:53,502 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-26 17:33:53,504 | INFO | ✅ Đang theo dõi server_chat_log.txt...
+2026-03-26 17:33:55,520 | INFO | Shard ID None has connected to Gateway (Session ID: ceb9dec9f7e6538f184106c47a097106).
+2026-03-26 17:33:57,561 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-26 17:33:57,562 | INFO | ✅ Đã set status MimU style: /help • discord.gg/wyvern • DST Dedicated Server
+2026-03-26 17:33:57,562 | INFO | 🎮 Đã thiết lập Discord Activity giống MimU
+2026-03-26 17:34:18,438 | INFO | → Discord: Lullaby: ua co 1 con knight z
+2026-03-26 17:34:18,438 | INFO | Chat: Lullaby: ua co 1 con knight z
+2026-03-26 17:34:31,761 | INFO | → Discord: Pow 󰀗: 1 con moi giu dc
+2026-03-26 17:34:31,761 | INFO | Chat: Pow 󰀗: 1 con moi giu dc
+2026-03-26 17:34:44,317 | INFO | → Discord: Lullaby: gio kiem 2 con kia  =)))
+2026-03-26 17:34:44,317 | INFO | Chat: Lullaby: gio kiem 2 con kia  =)))
+2026-03-26 17:34:47,593 | INFO | → Discord: Pow 󰀗: xin it co
+2026-03-26 17:34:47,593 | INFO | Chat: Pow 󰀗: xin it co
+2026-03-26 17:35:01,940 | INFO | → Discord: Pow 󰀗: lat kiem sau
+2026-03-26 17:35:01,940 | INFO | Chat: Pow 󰀗: lat kiem sau
+2026-03-26 17:35:10,121 | INFO | → Discord: Pow 󰀗: ve cong che giap nay kia da
+2026-03-26 17:35:10,121 | INFO | Chat: Pow 󰀗: ve cong che giap nay kia da
+2026-03-26 17:35:33,311 | INFO | → Discord: Lullaby: h phai giu con xuc v nay nua
+2026-03-26 17:35:33,312 | INFO | Chat: Lullaby: h phai giu con xuc v nay nua
+2026-03-26 17:35:40,868 | INFO | → Discord: Pow 󰀗: uh
+2026-03-26 17:35:40,868 | INFO | Chat: Pow 󰀗: uh
+2026-03-26 17:35:55,538 | INFO | → Discord: Pow 󰀗: ngay 1 moi co newm ma
+2026-03-26 17:35:55,538 | INFO | Chat: Pow 󰀗: ngay 1 moi co newm ma
+2026-03-26 17:36:10,116 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-26 17:36:10,116 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-26 17:36:10,123 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-26 17:36:10,123 | INFO | logging in using static token
+2026-03-26 17:36:10,125 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-26 17:36:10,126 | WARNING | Không tìm thấy bridge.bot để set status
+2026-03-26 17:36:10,128 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-26 17:36:10,130 | INFO | ✅ Đang theo dõi server_chat_log.txt...
+2026-03-26 17:36:12,077 | INFO | Shard ID None has connected to Gateway (Session ID: 1e03680304866cb260a8acc25c71d164).
+2026-03-26 17:36:14,151 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-26 17:36:14,152 | INFO | ✅ Đã set status MimU style: /help • discord.gg/wyvern • DST Dedicated Server
+2026-03-26 17:36:14,152 | INFO | 🔄 Đã bật rotate status mỗi 50 giây
+2026-03-26 17:36:14,152 | INFO | 🎮 Đã thiết lập Discord Activity giống MimU
+2026-03-26 17:36:19,627 | INFO | → Discord: Pow 󰀗: dau
+2026-03-26 17:36:19,627 | INFO | Chat: Pow 󰀗: dau
+2026-03-26 17:36:25,549 | INFO | → Discord: Pow 󰀗: may dau
+2026-03-26 17:36:25,549 | INFO | Chat: Pow 󰀗: may dau
+2026-03-26 17:37:10,713 | INFO | → Discord: Lullaby: kiem 2 con kia di
+2026-03-26 17:37:10,713 | INFO | Chat: Lullaby: kiem 2 con kia di
+2026-03-26 17:37:18,215 | INFO | → Discord: Pow 󰀗: qua oasis di
+2026-03-26 17:37:18,215 | INFO | Chat: Pow 󰀗: qua oasis di
+2026-03-26 17:37:26,457 | INFO | → Discord: Lullaby: ok
+2026-03-26 17:37:26,457 | INFO | Chat: Lullaby: ok
+2026-03-26 17:37:45,251 | INFO | → Discord: Pow 󰀗:  I have a suspicious marble.
+2026-03-26 17:37:45,251 | INFO | Chat: Pow 󰀗:  I have a suspicious marble.
+2026-03-26 17:38:59,408 | INFO | → Discord: Pow 󰀗: dung ghep voi nha
+2026-03-26 17:38:59,408 | INFO | Chat: Pow 󰀗: dung ghep voi nha
+2026-03-26 17:39:50,910 | INFO | → Discord: Pow 󰀗: tim dc cai dau con xe keu nha
+2026-03-26 17:39:50,910 | INFO | Chat: Pow 󰀗: tim dc cai dau con xe keu nha
+2026-03-26 17:41:13,586 | INFO | → Discord: Lullaby: hinh nhu gan cai may co cai sung
+2026-03-26 17:41:13,586 | INFO | Chat: Lullaby: hinh nhu gan cai may co cai sung
+2026-03-26 17:41:46,930 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-26 17:41:46,930 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-26 17:41:46,937 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-26 17:41:46,937 | INFO | logging in using static token
+2026-03-26 17:41:46,940 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-26 17:41:46,940 | WARNING | Không tìm thấy bridge.bot để set status
+2026-03-26 17:41:46,942 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-26 17:41:46,944 | INFO | ✅ Đang theo dõi server_chat_log.txt...
+2026-03-26 17:41:48,723 | INFO | Shard ID None has connected to Gateway (Session ID: 6eb00e32cc7036bf83decca24f739049).
+2026-03-26 17:41:50,767 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-26 17:41:50,768 | INFO | ✅ Đã set status MimU style: /help • discord.gg/wyvern • DST Dedicated Server
+2026-03-26 17:41:50,768 | INFO | 🔄 Đã bật rotate status mỗi 50 giây
+2026-03-26 17:41:50,768 | INFO | 🎮 Đã thiết lập Discord Activity giống MimU
+2026-03-26 17:42:31,201 | INFO | → To Game: MB: chut nua mn thu test command rollback nhe
+2026-03-26 17:42:31,205 | INFO | ← From Discord: MB: chut nua mn thu test command rollback nhe
+2026-03-26 17:42:48,722 | INFO | [ROLLBACK] MB → 1 days
+2026-03-26 17:42:48,725 | INFO | ← From Discord: MB: !rollback(number)
+2026-03-26 17:43:28,526 | INFO | → To Game: MB: ua hinh nhu bam roll me r ha
+2026-03-26 17:43:28,530 | INFO | ← From Discord: MB: ua hinh nhu bam roll me r ha
+2026-03-26 17:44:10,532 | INFO | → Discord: Pow 󰀗: ua
+2026-03-26 17:44:10,532 | INFO | Chat: Pow 󰀗: ua
+2026-03-26 17:44:10,532 | INFO | Leave detected: M B
+2026-03-26 17:44:10,551 | INFO | [SYNC] Day 3 | autumn
+2026-03-26 17:44:10,551 | INFO | [UPDATE] Day 3 | autumn
+2026-03-26 17:44:10,927 | INFO | → Discord: Server: **17:44** | **Day 3 (autumn)** | **M B** Leave
+2026-03-26 17:44:11,330 | INFO | Channel renamed → wynern-autumn-3
+2026-03-26 17:44:22,011 | INFO | → Discord: Lullaby: xe ne
+2026-03-26 17:44:22,011 | INFO | Chat: Lullaby: xe ne
+2026-03-26 17:44:47,736 | INFO | → Discord: Pow 󰀗: len xuong hang loi vbai
+2026-03-26 17:44:47,736 | INFO | Chat: Pow 󰀗: len xuong hang loi vbai
+2026-03-26 17:45:07,666 | INFO | → Discord: Pow 󰀗: vl
+2026-03-26 17:45:07,666 | INFO | Chat: Pow 󰀗: vl
+2026-03-26 17:45:13,611 | INFO | → Discord: Pow 󰀗: mat 4 trai den r
+2026-03-26 17:45:13,612 | INFO | Chat: Pow 󰀗: mat 4 trai den r
+2026-03-26 17:45:31,930 | INFO | → Discord: Pow 󰀗: giap cung mat r
+2026-03-26 17:45:31,930 | INFO | Chat: Pow 󰀗: giap cung mat r
+2026-03-26 17:45:33,471 | INFO | → Discord: Pow 󰀗:  I have 2 meats, and this one has 90% freshness.
+2026-03-26 17:45:33,471 | INFO | Chat: Pow 󰀗:  I have 2 meats, and this one has 90% freshness.
+2026-03-26 17:45:38,024 | INFO | → To Game: MB: co gi cu  note lai nhe, chut ve lam sau
+2026-03-26 17:45:38,027 | INFO | ← From Discord: MB: co gi cu  note lai nhe, chut ve lam sau
+2026-03-26 17:45:42,969 | INFO | → To Game: MB: di don' con da
+2026-03-26 17:45:42,972 | INFO | ← From Discord: MB: di don' con da
+2026-03-26 17:45:55,158 | INFO | → Discord: Pow 󰀗: ong rollback a
+2026-03-26 17:45:55,158 | INFO | Chat: Pow 󰀗: ong rollback a
+2026-03-26 17:46:23,554 | INFO | → Discord: Pow 󰀗: qua oasis di ong
+2026-03-26 17:46:23,554 | INFO | Chat: Pow 󰀗: qua oasis di ong
+2026-03-26 17:48:03,549 | INFO | → Discord: Pow 󰀗: vcl
+2026-03-26 17:48:03,549 | INFO | Chat: Pow 󰀗: vcl
+2026-03-26 17:48:06,453 | INFO | → Discord: Pow 󰀗: mat dau con hau r
+2026-03-26 17:48:06,453 | INFO | Chat: Pow 󰀗: mat dau con hau r
+2026-03-26 17:48:50,333 | INFO | → Discord: Pow 󰀗: len cai rollback het ba r
+2026-03-26 17:48:50,333 | INFO | Chat: Pow 󰀗: len cai rollback het ba r
+2026-03-26 17:48:57,004 | INFO | → Discord: Pow 󰀗:  I need 1 more cut grass to make a campfire.
+2026-03-26 17:48:57,004 | INFO | Chat: Pow 󰀗:  I need 1 more cut grass to make a campfire.
+2026-03-26 17:49:24,296 | INFO | → Discord: Pow 󰀗: sang danh ha
+2026-03-26 17:49:24,296 | INFO | Chat: Pow 󰀗: sang danh ha
+2026-03-26 17:49:33,915 | INFO | → Discord: Lullaby: chua che do nua
+2026-03-26 17:49:33,915 | INFO | Chat: Lullaby: chua che do nua
+2026-03-26 17:49:39,480 | INFO | → Discord: Pow 󰀗: day
+2026-03-26 17:49:39,480 | INFO | Chat: Pow 󰀗: day
+2026-03-26 17:49:58,457 | INFO | → Discord: Lullaby: che 1 dong giap di
+2026-03-26 17:49:58,457 | INFO | Chat: Lullaby: che 1 dong giap di
+2026-03-26 17:50:09,095 | INFO | Leave detected: Pow 󰀗
+2026-03-26 17:50:09,109 | INFO | [SYNC] Day 3 | autumn
+2026-03-26 17:50:09,110 | INFO | [UPDATE] Day 3 | autumn
+2026-03-26 17:50:09,543 | INFO | → Discord: Server: **17:50** | **Day 3 (autumn)** | **Pow 󰀗** Leave
+2026-03-26 17:50:09,910 | INFO | Channel renamed → wynern-autumn-3
+2026-03-26 17:50:20,620 | INFO | → To Game: is Pow: Ơ t sập r
+2026-03-26 17:50:20,624 | INFO | ← From Discord: is Pow: Ơ t sập r
+2026-03-26 17:50:25,037 | INFO | → To Game: is Pow: Vcl
+2026-03-26 17:50:25,041 | INFO | ← From Discord: is Pow: Vcl
+2026-03-26 17:50:39,807 | INFO | → Discord: Lullaby: tui trong nay ma
+2026-03-26 17:50:39,808 | INFO | Chat: Lullaby: tui trong nay ma
+2026-03-26 17:50:51,692 | INFO | → To Game: is Pow: Bay game r
+2026-03-26 17:50:51,695 | INFO | ← From Discord: is Pow: Bay game r
+2026-03-26 17:50:53,090 | INFO | → To Game: is Pow: :)))
+2026-03-26 17:50:53,093 | INFO | ← From Discord: is Pow: :)))
+2026-03-26 17:51:53,348 | INFO | → To Game: is Pow: Đen thôi bro
+2026-03-26 17:51:53,352 | INFO | ← From Discord: is Pow: Đen thôi bro
+2026-03-26 17:52:15,850 | INFO | → Discord: Lullaby: rac roi z
+2026-03-26 17:52:15,850 | INFO | Chat: Lullaby: rac roi z
+2026-03-26 17:52:36,073 | INFO | → Discord: Lullaby: thay ko on lam
+2026-03-26 17:52:36,073 | INFO | Chat: Lullaby: thay ko on lam
+2026-03-26 17:52:53,290 | INFO | → Discord: Lullaby: co danh nua k
+2026-03-26 17:52:53,291 | INFO | Chat: Lullaby: co danh nua k
+2026-03-26 17:53:24,466 | INFO | Leave detected: Lullaby
+2026-03-26 17:53:24,480 | INFO | [SYNC] Day 4 | autumn
+2026-03-26 17:53:24,480 | INFO | [UPDATE] Day 4 | autumn
+2026-03-26 17:53:25,074 | INFO | → Discord: Server: **17:53** | **Day 4 (autumn)** | **Lullaby** Leave
+2026-03-26 17:53:25,402 | INFO | Channel renamed → wynern-autumn-4
+2026-03-26 17:58:25,910 | INFO | Shard ID None has successfully RESUMED session 6eb00e32cc7036bf83decca24f739049.
+2026-03-26 19:33:15,912 | INFO | Shard ID None has successfully RESUMED session 6eb00e32cc7036bf83decca24f739049.
+2026-03-26 20:18:29,472 | INFO | Shard ID None has successfully RESUMED session 6eb00e32cc7036bf83decca24f739049.
+2026-03-26 21:23:47,560 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-26 21:23:47,561 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-26 21:23:47,568 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-26 21:23:47,568 | INFO | logging in using static token
+2026-03-26 21:23:47,570 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-26 21:23:47,570 | WARNING | Không tìm thấy bridge.bot để set status
+2026-03-26 21:23:47,572 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-26 21:23:47,575 | INFO | ✅ Đang theo dõi server_chat_log.txt...
+2026-03-26 21:23:49,482 | INFO | Shard ID None has connected to Gateway (Session ID: fe0d6a56c25940f9eaaaa0f60837d112).
+2026-03-26 21:23:51,567 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-26 21:23:51,568 | INFO | ✅ Đã set status MimU style: /help • discord.gg/wyvern • DST Dedicated Server
+2026-03-26 21:23:51,568 | INFO | 🔄 Đã bật rotate status mỗi 50 giây
+2026-03-26 21:23:51,568 | INFO | 🎮 Đã thiết lập Discord Activity giống MimU
+2026-03-26 21:24:09,711 | ERROR | Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/steam/dst-discord-chat-sync/src/discord_handler.py", line 55, in on_message
+    has_permission = any(role.id in ALLOWED_ROLE_IDS for role in message.author.roles)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/src/discord_handler.py", line 55, in <genexpr>
+    has_permission = any(role.id in ALLOWED_ROLE_IDS for role in message.author.roles)
+                                    ^^^^^^^^^^^^^^^^
+NameError: name 'ALLOWED_ROLE_IDS' is not defined
+2026-03-26 21:26:24,053 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-26 21:26:24,053 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-26 21:26:24,060 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-26 21:26:24,060 | INFO | logging in using static token
+2026-03-26 21:26:24,063 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-26 21:26:24,063 | WARNING | Không tìm thấy bridge.bot để set status
+2026-03-26 21:26:24,066 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-26 21:26:24,067 | INFO | ✅ Đang theo dõi server_chat_log.txt...
+2026-03-26 21:26:25,742 | INFO | Shard ID None has connected to Gateway (Session ID: d014d769ada348fe059ec4a80e61c5e5).
+2026-03-26 21:26:27,836 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-26 21:26:27,836 | INFO | ✅ Đã set status MimU style: /help • discord.gg/wyvern • DST Dedicated Server
+2026-03-26 21:26:27,836 | INFO | 🔄 Đã bật rotate status mỗi 50 giây
+2026-03-26 21:26:27,836 | INFO | 🎮 Đã thiết lập Discord Activity giống MimU
+2026-03-26 21:28:55,799 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-26 21:28:55,799 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-26 21:28:55,806 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-26 21:28:55,806 | INFO | logging in using static token
+2026-03-26 21:28:55,808 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-26 21:28:55,809 | WARNING | Không tìm thấy bridge.bot để set status
+2026-03-26 21:28:55,811 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-26 21:28:55,813 | INFO | ✅ Đang theo dõi server_chat_log.txt...
+2026-03-26 21:28:57,664 | INFO | Shard ID None has connected to Gateway (Session ID: b9c8ac037bda6bcb459bb4f83db2127f).
+2026-03-26 21:28:59,736 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-26 21:28:59,737 | INFO | ✅ Đã set status MimU style: /help • discord.gg/wyvern • DST Dedicated Server
+2026-03-26 21:28:59,737 | INFO | 🔄 Đã bật rotate status mỗi 50 giây
+2026-03-26 21:28:59,737 | INFO | 🎮 Đã thiết lập Discord Activity giống MimU
+2026-03-26 21:31:23,619 | INFO | Join detected: M B
+2026-03-26 21:31:23,720 | INFO | [SYNC] Day 4 | autumn
+2026-03-26 21:31:23,720 | INFO | [UPDATE] Day 4 | autumn
+2026-03-26 21:31:24,865 | INFO | → Discord: Server: **21:31** | **Day 4 (autumn)** | **M B** Joined
+2026-03-26 21:31:25,298 | INFO | Channel renamed → 𖦹﹒wynern-autumn-4
+2026-03-26 21:32:23,204 | INFO | → Discord: M B: !rb 1
+2026-03-26 21:32:23,205 | INFO | Chat: M B: !rb 1
+2026-03-26 21:34:05,703 | INFO | Leave detected: M B
+2026-03-26 21:34:05,731 | INFO | [SYNC] Day 4 | autumn
+2026-03-26 21:34:05,731 | INFO | [UPDATE] Day 4 | autumn
+2026-03-26 21:34:06,338 | INFO | → Discord: Server: **21:34** | **Day 4 (autumn)** | **M B** Leave
+2026-03-26 21:34:06,732 | INFO | Channel renamed → 𖦹﹒wynern-autumn-4
+2026-03-26 21:44:54,985 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-26 21:44:54,986 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-26 21:44:54,992 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-26 21:44:54,993 | INFO | logging in using static token
+2026-03-26 21:44:54,998 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-26 21:44:54,998 | WARNING | Không tìm thấy bridge.bot để set status
+2026-03-26 21:44:55,000 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-26 21:44:55,002 | INFO | ✅ Đang theo dõi server_chat_log.txt...
+2026-03-26 21:44:56,798 | INFO | Shard ID None has connected to Gateway (Session ID: b6df5049d9c0639be0097b6fbb8cfe9f).
+2026-03-26 21:44:58,845 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-26 21:44:58,846 | INFO | ✅ Đã set status MimU style: /help • discord.gg/wyvern • DST Dedicated Server
+2026-03-26 21:44:58,846 | INFO | 🔄 Đã bật rotate status mỗi 50 giây
+2026-03-26 21:44:58,846 | INFO | Activities actived
+2026-03-26 21:46:52,260 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-26 21:46:52,260 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-26 21:46:52,267 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-26 21:46:52,267 | INFO | logging in using static token
+2026-03-26 21:46:52,269 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-26 21:46:52,270 | WARNING | Không tìm thấy bridge.bot để set status
+2026-03-26 21:46:52,272 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-26 21:46:52,274 | INFO | ✅ Đang theo dõi server_chat_log.txt...
+2026-03-26 21:46:54,367 | INFO | Shard ID None has connected to Gateway (Session ID: 56c730253b270d2e5bd32f2ef711ad1d).
+2026-03-26 21:46:56,485 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-26 21:46:56,486 | INFO | ✅ Đã set status MimU style: /help • discord.gg/wyvern • DST Dedicated Server
+2026-03-26 21:46:56,486 | INFO | 🔄 Đã bật rotate status mỗi 50 giây
+2026-03-26 21:46:56,486 | INFO | Activities actived
+2026-03-26 21:48:10,270 | INFO | Join detected: M B
+2026-03-26 21:48:10,285 | INFO | [SYNC] Day 4 | autumn
+2026-03-26 21:48:10,285 | INFO | [UPDATE] Day 4 | autumn
+2026-03-26 21:48:10,869 | INFO | → Discord: Server: **21:48** | **Day 4 (autumn)** | **M B** Joined
+2026-03-26 21:48:11,255 | INFO | Channel renamed → 𖦹﹒wynern-autumn-4
+2026-03-26 21:48:47,304 | INFO | → Discord: M B: asdfasdf
+2026-03-26 21:48:47,305 | INFO | Chat: M B: asdfasdf
+2026-03-26 22:00:55,129 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-26 22:00:55,130 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-26 22:00:55,152 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-26 22:00:55,153 | INFO | logging in using static token
+2026-03-26 22:00:55,157 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-26 22:00:55,157 | WARNING | Không tìm thấy bridge.bot để set status
+2026-03-26 22:00:55,159 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-26 22:00:55,161 | INFO | ✅ Đang theo dõi server_chat_log.txt...
+2026-03-26 22:00:56,991 | INFO | Shard ID None has connected to Gateway (Session ID: 4f48eaa5ea8001281282e1b230947f8e).
+2026-03-26 22:00:59,111 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-26 22:00:59,112 | INFO | ✅ Đã set status MimU style: /help • discord.gg/wyvern • DST Dedicated Server
+2026-03-26 22:00:59,112 | INFO | 🔄 Đã bật rotate status mỗi 50 giây
+2026-03-26 22:00:59,112 | INFO | Activities actived
+2026-03-26 22:04:34,567 | INFO | → Discord: M B: h
+2026-03-26 22:04:34,576 | INFO | Chat: M B: h
+2026-03-26 22:06:34,336 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-26 22:06:34,337 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-26 22:06:34,345 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-26 22:06:34,345 | INFO | logging in using static token
+2026-03-26 22:06:34,351 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-26 22:06:34,351 | WARNING | Không tìm thấy bridge.bot để set status
+2026-03-26 22:06:34,353 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-26 22:06:34,355 | INFO | ✅ Đang theo dõi server_chat_log.txt...
+2026-03-26 22:06:36,025 | INFO | Shard ID None has connected to Gateway (Session ID: 9d7d3545ccf5e1a4d87f5a217f6c7036).
+2026-03-26 22:06:38,080 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-26 22:06:38,081 | INFO | ✅ Đã set status MimU style: /help • discord.gg/wyvern • DST Dedicated Server
+2026-03-26 22:06:38,081 | INFO | 🔄 Đã bật rotate status mỗi 50 giây
+2026-03-26 22:06:38,081 | INFO | Activities actived
+2026-03-26 22:11:08,556 | INFO | Join detected: Trần Nhiên
+2026-03-26 22:11:08,616 | INFO | [SYNC] Day 5 | autumn
+2026-03-26 22:11:08,616 | INFO | [UPDATE] Day 5 | autumn
+2026-03-26 22:11:09,485 | INFO | → Discord: Server: **22:11** | **Day 5 (autumn)** | **Trần Nhiên** Joined
+2026-03-26 22:11:09,869 | INFO | Channel renamed → 𖦹﹒wynern-autumn-5
+2026-03-26 22:12:05,786 | INFO | Leave detected: Trần Nhiên
+2026-03-26 22:12:05,806 | INFO | [SYNC] Day 5 | autumn
+2026-03-26 22:12:05,806 | INFO | [UPDATE] Day 5 | autumn
+2026-03-26 22:12:06,558 | INFO | → Discord: Server: **22:12** | **Day 5 (autumn)** | **Trần Nhiên** Leave
+2026-03-26 22:12:06,901 | INFO | Channel renamed → 𖦹﹒wynern-autumn-5
+2026-03-26 22:14:05,872 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-26 22:14:05,873 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-26 22:14:05,907 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-26 22:14:05,907 | INFO | logging in using static token
+2026-03-26 22:14:05,911 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-26 22:14:05,911 | WARNING | Không tìm thấy bridge.bot để set status
+2026-03-26 22:14:05,912 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-26 22:14:05,915 | INFO | ✅ Đang theo dõi server_chat_log.txt...
+2026-03-26 22:14:13,022 | INFO | Shard ID None has connected to Gateway (Session ID: 92e9078c237377857540556ad979604f).
+2026-03-26 22:14:15,074 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-26 22:14:15,075 | INFO | ✅ Đã set status MimU style: /help • discord.gg/wyvern • DST Dedicated Server
+2026-03-26 22:14:15,075 | INFO | 🔄 Đã bật rotate status mỗi 50 giây
+2026-03-26 22:14:15,075 | INFO | Activities actived
+2026-03-26 22:14:20,600 | INFO | ← From Discord: MB: fff
+2026-03-26 22:14:41,531 | INFO | → Discord: M B: ALLOWED_ROLE_IDS = {        1385632295498678312,        1385907308235718656,        1385632574470226081        }        if message.author.bot:
+2026-03-26 22:14:41,531 | INFO | Chat: M B: ALLOWED_ROLE_IDS = {        1385632295498678312,        1385907308235718656,        1385632574470226081        }        if message.author.bot:
+2026-03-26 22:18:23,123 | INFO | Leave detected: M B
+2026-03-26 22:18:24,829 | INFO | [SYNC] Day 5 | autumn
+2026-03-26 22:18:24,829 | INFO | [UPDATE] Day 5 | autumn
+2026-03-26 22:18:33,819 | INFO | → Discord: Server: **22:18** | **Day 5 (autumn)** | **M B** Leave
+2026-03-26 22:18:35,135 | INFO | Channel renamed → 𖦹﹒wynern-autumn-5
+2026-03-26 22:21:35,416 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-26 22:21:35,416 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-26 22:21:35,423 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-26 22:21:35,423 | INFO | logging in using static token
+2026-03-26 22:21:35,428 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-26 22:21:35,428 | WARNING | Không tìm thấy bridge.bot để set status
+2026-03-26 22:21:35,430 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-26 22:21:35,431 | INFO | ✅ Đang theo dõi server_chat_log.txt...
+2026-03-26 22:21:37,270 | INFO | Shard ID None has connected to Gateway (Session ID: 619a5c4d3f354a08194736e5a8afefbb).
+2026-03-26 22:21:39,354 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-26 22:21:39,355 | INFO | ✅ Đã set status MimU style: /help • discord.gg/wyvern • DST Dedicated Server
+2026-03-26 22:21:39,355 | INFO | 🔄 Đã bật rotate status mỗi 50 giây
+2026-03-26 22:21:39,355 | INFO | Activities actived
