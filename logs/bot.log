@@ -1,0 +1,177 @@
+2026-03-25 19:13:20,065 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-25 19:13:20,065 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-25 19:13:20,065 | INFO | Starting DST Discord Sync with separate handlers...
+2026-03-25 19:13:20,065 | INFO | logging in using static token
+2026-03-25 19:13:20,067 | INFO | Chat Handler started - Monitoring: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-25 19:13:20,069 | INFO | Sync Handler started - Monitoring: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-25 19:13:21,760 | INFO | Shard ID None has connected to Gateway (Session ID: f5d545199931ae5e96b597117cc86ea5).
+2026-03-25 19:13:23,805 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-25 19:14:30,012 | INFO | → Discord: M B: 32
+2026-03-25 19:14:30,012 | INFO | Chat: M B: 32
+2026-03-25 19:16:38,417 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-25 19:16:38,417 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-25 19:16:38,417 | INFO | Starting DST Discord Sync with separate handlers...
+2026-03-25 19:16:38,417 | INFO | logging in using static token
+2026-03-25 19:16:38,419 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-25 19:16:38,421 | INFO | Sync Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-25 19:16:40,238 | INFO | Shard ID None has connected to Gateway (Session ID: 442e3f40a4fe8eea7b7c9a055f928cdb).
+2026-03-25 19:16:42,335 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-25 19:18:44,831 | INFO | → Discord: Death: 💀 M B was killed by the passage of time. She became a spooky ghost!
+2026-03-25 19:18:44,831 | INFO | Death detected: M B was killed by the passage of time. She became a spooky ghost!
+2026-03-25 19:19:04,494 | INFO | → Discord: Server: 👋 **M B** đã rời máy chủ
+2026-03-25 19:19:04,494 | INFO | Leave detected: M B
+2026-03-25 19:22:18,192 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-25 19:22:18,192 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-25 19:22:18,192 | INFO | Starting DST Discord Sync with separate handlers...
+2026-03-25 19:22:18,192 | INFO | logging in using static token
+2026-03-25 19:22:18,194 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-25 19:22:18,195 | INFO | Sync Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-25 19:22:19,905 | INFO | Shard ID None has connected to Gateway (Session ID: f18f1a69783b43fb62c40f6081500c64).
+2026-03-25 19:22:22,083 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-25 19:23:03,123 | INFO | → Discord: Server:  **M B** Joined
+2026-03-25 19:23:03,123 | INFO | Join detected: M B
+2026-03-25 19:24:00,970 | INFO | → Discord: Death:  M B was killed by Powder Monkey. She became a spooky ghost!
+2026-03-25 19:24:00,970 | INFO | Death detected: M B was killed by Powder Monkey. She became a spooky ghost!
+2026-03-25 19:24:27,258 | INFO | → Discord: Server:  **M B** Leave
+2026-03-25 19:24:27,258 | INFO | Leave detected: M B
+2026-03-25 19:29:55,044 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-25 19:29:55,044 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-25 19:29:55,044 | INFO | Starting DST Discord Sync with separate handlers...
+2026-03-25 19:29:55,044 | INFO | logging in using static token
+2026-03-25 19:29:55,046 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-25 19:29:55,047 | INFO | Sync Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-25 19:29:56,886 | INFO | Shard ID None has connected to Gateway (Session ID: d26ea443f20103ec6f1a838a06ece1dd).
+2026-03-25 19:29:58,932 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-25 19:30:39,000 | INFO | → Discord: Server:  **M B** Joined
+2026-03-25 19:30:39,000 | INFO | Join detected: M B
+2026-03-25 19:31:45,854 | INFO | → Discord: Death:  M B was killed by the passage of time. She became a spooky ghost!
+2026-03-25 19:31:45,854 | INFO | Death detected: M B was killed by the passage of time. She became a spooky ghost!
+2026-03-25 19:32:20,813 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-25 19:32:20,813 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-25 19:32:20,813 | INFO | Starting DST Discord Sync with separate handlers...
+2026-03-25 19:32:20,813 | INFO | logging in using static token
+2026-03-25 19:32:20,815 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-25 19:32:20,817 | INFO | Sync Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-25 19:32:22,574 | INFO | Shard ID None has connected to Gateway (Session ID: ed3d0ad6e7a830a08d6353f0c90e0c0a).
+2026-03-25 19:32:24,722 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-25 19:32:43,577 | INFO | → Discord: Death:  M B was killed by the passage of time. She became a spooky ghost!
+2026-03-25 19:32:43,577 | INFO | Death detected: M B was killed by the passage of time. She became a spooky ghost!
+2026-03-25 19:33:00,896 | INFO | → Discord: Server:  **M B** Leave
+2026-03-25 19:33:00,896 | INFO | Leave detected: M B
+2026-03-25 19:33:57,756 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-25 19:33:57,756 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-25 19:33:57,756 | INFO | Starting DST Discord Sync with separate handlers...
+2026-03-25 19:33:57,756 | INFO | logging in using static token
+2026-03-25 19:33:57,758 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-25 19:33:57,759 | INFO | Sync Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-25 19:33:59,746 | INFO | Shard ID None has connected to Gateway (Session ID: 33145baec93486c183b4298255f51d36).
+2026-03-25 19:34:01,782 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-25 19:35:49,798 | INFO | → Discord: Death:  M B was killed by Powder Monkey. He became a spooky ghost!
+2026-03-25 19:35:49,798 | INFO | Death detected: M B was killed by Powder Monkey. He became a spooky ghost!
+2026-03-25 19:36:08,763 | INFO | → Discord: Server:  **M B** Leave
+2026-03-25 19:36:08,763 | INFO | Leave detected: M B
+2026-03-25 19:36:11,125 | INFO | ← From Discord: Thanh Sơn: mb
+2026-03-25 19:36:15,558 | INFO | ← From Discord: Thanh Sơn: sao choi host day zay
+2026-03-25 19:37:38,421 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-25 19:37:38,422 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-25 19:37:38,422 | INFO | Starting DST Discord Sync with separate handlers...
+2026-03-25 19:37:38,422 | INFO | logging in using static token
+2026-03-25 19:37:38,424 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-25 19:37:38,425 | INFO | Sync Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-25 19:37:40,155 | INFO | Shard ID None has connected to Gateway (Session ID: 96ecb2fca2f496d6e41da234782d383c).
+2026-03-25 19:37:42,200 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-25 19:38:28,246 | INFO | → Discord: Server:  **M B** Joined
+2026-03-25 19:38:28,246 | INFO | Join detected: M B
+2026-03-25 19:38:42,852 | INFO | ← From Discord: MB: dau co, mb test bot ma
+2026-03-25 19:38:52,116 | INFO | → Discord: Server:  **M B** Leave
+2026-03-25 19:38:52,116 | INFO | Leave detected: M B
+2026-03-25 19:39:48,798 | INFO | ← From Discord: Thanh Sơn: vao voice di
+2026-03-25 19:40:07,032 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-25 19:40:07,032 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-25 19:40:07,032 | INFO | Starting DST Discord Sync with separate handlers...
+2026-03-25 19:40:07,032 | INFO | logging in using static token
+2026-03-25 19:40:07,034 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-25 19:40:07,036 | INFO | Sync Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-25 19:40:08,983 | INFO | Shard ID None has connected to Gateway (Session ID: f4db5daa824ffcdf2cefe7bad60a99c0).
+2026-03-25 19:40:11,029 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-25 19:44:56,321 | INFO | → Discord: Server:  **M B** Joined
+2026-03-25 19:44:56,321 | INFO | Join detected: M B
+2026-03-25 19:45:49,749 | INFO | → Discord: Server:  **M B** Leave
+2026-03-25 19:45:49,750 | INFO | Leave detected: M B
+2026-03-25 20:33:25,811 | INFO | Shard ID None has successfully RESUMED session f4db5daa824ffcdf2cefe7bad60a99c0.
+2026-03-25 21:07:28,870 | INFO | Shard ID None has successfully RESUMED session f4db5daa824ffcdf2cefe7bad60a99c0.
+2026-03-25 22:17:04,774 | INFO | Shard ID None has successfully RESUMED session f4db5daa824ffcdf2cefe7bad60a99c0.
+2026-03-26 00:34:50,716 | INFO | Shard ID None has successfully RESUMED session f4db5daa824ffcdf2cefe7bad60a99c0.
+2026-03-26 02:59:55,173 | INFO | → Discord: Server:  **kurama2005** Joined
+2026-03-26 02:59:55,173 | INFO | Join detected: kurama2005
+2026-03-26 03:13:49,400 | INFO | → Discord: Death:  kurama2005 was killed by Batilisk. They became a spooky ghost!
+2026-03-26 03:13:49,400 | INFO | Death detected: kurama2005 was killed by Batilisk. They became a spooky ghost!
+2026-03-26 03:14:19,405 | INFO | → Discord: Server:  **kurama2005** Leave
+2026-03-26 03:14:19,405 | INFO | Leave detected: kurama2005
+2026-03-26 03:33:11,665 | INFO | Shard ID None has successfully RESUMED session f4db5daa824ffcdf2cefe7bad60a99c0.
+2026-03-26 04:19:34,869 | INFO | Shard ID None has successfully RESUMED session f4db5daa824ffcdf2cefe7bad60a99c0.
+2026-03-26 05:35:11,991 | INFO | Shard ID None has successfully RESUMED session f4db5daa824ffcdf2cefe7bad60a99c0.
+2026-03-26 06:26:23,910 | INFO | Shard ID None has successfully RESUMED session f4db5daa824ffcdf2cefe7bad60a99c0.
+2026-03-26 08:01:58,967 | INFO | → Discord: Server:  **Lullaby** Joined
+2026-03-26 08:01:58,967 | INFO | Join detected: Lullaby
+2026-03-26 09:31:36,909 | INFO | → Discord: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-26 09:31:36,909 | INFO | Chat: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-26 09:31:57,740 | INFO | → Discord: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-26 09:31:57,740 | INFO | Chat: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-26 09:32:18,741 | INFO | → Discord: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-26 09:32:18,741 | INFO | Chat: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-26 09:32:40,029 | INFO | → Discord: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-26 09:32:40,029 | INFO | Chat: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-26 09:33:01,212 | INFO | → Discord: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-26 09:33:01,212 | INFO | Chat: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-26 09:33:21,679 | INFO | → Discord: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-26 09:33:21,679 | INFO | Chat: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-26 09:41:03,944 | INFO | → Discord: Server:  **Lullaby** Leave
+2026-03-26 09:41:03,944 | INFO | Leave detected: Lullaby
+2026-03-26 09:48:32,805 | INFO | Shard ID None has successfully RESUMED session f4db5daa824ffcdf2cefe7bad60a99c0.
+2026-03-26 10:25:22,245 | INFO | Shard ID None has successfully RESUMED session f4db5daa824ffcdf2cefe7bad60a99c0.
+2026-03-26 13:40:19,370 | INFO | Shard ID None has successfully RESUMED session f4db5daa824ffcdf2cefe7bad60a99c0.
+2026-03-26 15:18:49,637 | INFO | ← From Discord: nguyễn văn núi: 2
+2026-03-26 15:38:49,905 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-26 15:38:49,905 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-26 15:38:49,905 | INFO | Starting DST Discord Sync with separate handlers...
+2026-03-26 15:38:49,905 | INFO | logging in using static token
+2026-03-26 15:38:49,907 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-26 15:38:49,909 | INFO | Sync Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-26 15:38:51,747 | INFO | Shard ID None has connected to Gateway (Session ID: 47b25a284164b6e5d218587d96271d07).
+2026-03-26 15:38:53,835 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-26 15:39:27,358 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-26 15:39:27,358 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-26 15:39:27,358 | INFO | Starting DST Discord Sync with separate handlers...
+2026-03-26 15:39:27,358 | INFO | logging in using static token
+2026-03-26 15:39:27,360 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-26 15:39:27,361 | INFO | Sync Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-26 15:39:29,108 | INFO | Shard ID None has connected to Gateway (Session ID: 4d09e7d0d56379abee2e403e4dfd58dd).
+2026-03-26 15:39:31,153 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-26 15:41:07,300 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-26 15:41:07,300 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-26 15:41:07,300 | INFO | Starting DST Discord Sync with separate handlers...
+2026-03-26 15:41:07,300 | INFO | logging in using static token
+2026-03-26 15:41:07,302 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-26 15:41:07,304 | INFO | Sync Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-26 15:41:09,108 | INFO | Shard ID None has connected to Gateway (Session ID: c2a33c385286c71f3e9d57c04ce9737e).
+2026-03-26 15:41:11,154 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-26 15:43:49,318 | INFO | → Discord: Server:  **M B** Joined
+2026-03-26 15:43:49,318 | INFO | Join detected: M B
+2026-03-26 15:44:21,386 | INFO | → Discord: M B: 9
+2026-03-26 15:44:21,386 | INFO | Chat: M B: 9
+2026-03-26 15:44:27,296 | INFO | ← From Discord: MB: 1
+2026-03-26 15:44:36,089 | INFO | ← From Discord: MB: 1
+2026-03-26 15:44:38,878 | INFO | ← From Discord: MB: sadf
+2026-03-26 15:45:18,203 | INFO | → Discord: Death:  M B was killed by the passage of time. She became a spooky ghost!
+2026-03-26 15:45:18,203 | INFO | Death detected: M B was killed by the passage of time. She became a spooky ghost!
+2026-03-26 15:47:10,512 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-26 15:47:10,512 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-26 15:47:10,512 | INFO | Starting DST Discord Sync with separate handlers...
+2026-03-26 15:47:10,512 | INFO | logging in using static token
+2026-03-26 15:47:10,514 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-26 15:47:10,515 | INFO | Sync Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-26 15:47:12,301 | INFO | Shard ID None has connected to Gateway (Session ID: e84903bcb610c7437ad7d23b9f6fa95a).
+2026-03-26 15:47:14,347 | INFO | ✅ Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-26 15:47:34,169 | INFO | → Discord: Server:  **M B** Leave
+2026-03-26 15:47:34,169 | INFO | Leave detected: M B
