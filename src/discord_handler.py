@@ -3,6 +3,7 @@ from src.bridge import Bridge
 from src.logger import logger
 from src.status_manager import setup_status   
 import commands.players as players_cmd
+from src.weather_status import WeatherStatus
 
 class DiscordHandler(discord.Client):
     def __init__(self, bridge: Bridge, config):
@@ -40,6 +41,8 @@ class DiscordHandler(discord.Client):
             logger.info("Activities actived")
         else:
             logger.warning("Bridge not built yet")
+        weather = WeatherStatus(self)
+        self.loop.create_task(weather.update_status_loop())
 
     async def on_message(self, message):
         if message.author.bot:

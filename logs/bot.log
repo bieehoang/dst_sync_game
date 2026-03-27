@@ -1232,3 +1232,263 @@ discord.errors.Forbidden: 403 Forbidden (error code: 50001): Missing Access
 2026-03-27 16:31:54,218 | INFO | [UPDATE] Day 1 | autumn
 2026-03-27 16:31:54,742 | INFO | → Discord: Server: **Day 1 (autumn)** | **M B** Leave
 2026-03-27 16:31:55,120 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-1
+2026-03-27 16:36:43,712 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-27 16:36:43,713 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-27 16:36:43,719 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-27 16:36:43,720 | INFO | logging in using static token
+2026-03-27 16:36:43,722 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-27 16:36:43,722 | WARNING | Passing
+2026-03-27 16:36:43,724 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-27 16:36:43,727 | INFO | Watching server_chat_log.txt...
+2026-03-27 16:36:45,387 | INFO | Shard ID None has connected to Gateway (Session ID: 78d634b314fc8bea7d0ad34c08446b8c).
+2026-03-27 16:36:47,544 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-27 16:36:47,954 | INFO | Commands: ['players']
+2026-03-27 16:36:47,954 | INFO | Bot status's working
+2026-03-27 16:36:47,955 | INFO | Rotate status 30 sec each
+2026-03-27 16:36:47,955 | INFO | Activities actived
+2026-03-27 16:57:37,611 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-27 16:57:37,612 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-27 16:57:37,618 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-27 16:57:37,619 | INFO | logging in using static token
+2026-03-27 16:57:37,621 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-27 16:57:37,621 | WARNING | Passing
+2026-03-27 16:57:37,624 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-27 16:57:37,627 | INFO | Watching server_chat_log.txt...
+2026-03-27 16:57:39,441 | INFO | Shard ID None has connected to Gateway (Session ID: 4cec217f7144d7edadc1f2a0b78bc840).
+2026-03-27 16:57:41,470 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-27 16:57:41,811 | INFO | Commands: ['players']
+2026-03-27 16:57:41,812 | INFO | Bot status's working
+2026-03-27 16:57:41,812 | INFO | Rotate status 30 sec each
+2026-03-27 16:57:41,812 | INFO | Activities actived
+2026-03-27 17:03:40,825 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-27 17:03:40,825 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-27 17:03:40,832 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-27 17:03:40,832 | INFO | logging in using static token
+2026-03-27 17:03:40,834 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-27 17:03:40,834 | WARNING | Passing
+2026-03-27 17:03:40,837 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-27 17:03:40,839 | INFO | Watching server_chat_log.txt...
+2026-03-27 17:03:42,475 | INFO | Shard ID None has connected to Gateway (Session ID: 9a8e4c34b485a5a7772b53a2a19c844a).
+2026-03-27 17:03:44,510 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-27 17:03:44,914 | INFO | Commands: ['players']
+2026-03-27 17:03:44,914 | INFO | Bot status's working
+2026-03-27 17:03:44,914 | INFO | Rotate status 30 sec each
+2026-03-27 17:03:44,914 | INFO | Activities actived
+2026-03-27 17:08:04,844 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-27 17:08:04,844 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-27 17:08:04,851 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-27 17:08:04,851 | INFO | logging in using static token
+2026-03-27 17:08:04,853 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-27 17:08:04,854 | WARNING | Passing
+2026-03-27 17:08:04,856 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-27 17:08:04,858 | INFO | Watching server_chat_log.txt...
+2026-03-27 17:08:06,440 | INFO | Shard ID None has connected to Gateway (Session ID: 4b02db40158557e848f73b7709703e09).
+2026-03-27 17:08:08,472 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-27 17:08:08,823 | INFO | Commands: ['players']
+2026-03-27 17:08:08,824 | INFO | Bot status's working
+2026-03-27 17:08:08,824 | INFO | Rotate status 30 sec each
+2026-03-27 17:08:08,824 | INFO | Activities actived
+2026-03-27 17:13:21,727 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-27 17:13:21,727 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-27 17:13:21,734 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-27 17:13:21,734 | INFO | logging in using static token
+2026-03-27 17:13:21,736 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-27 17:13:21,737 | WARNING | Passing
+2026-03-27 17:13:21,739 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-27 17:13:21,741 | INFO | Watching server_chat_log.txt...
+2026-03-27 17:13:23,187 | INFO | Shard ID None has connected to Gateway (Session ID: e77a2278fc84f769a30d33eaceeba1f7).
+2026-03-27 17:13:25,258 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-27 17:13:25,740 | INFO | Commands: ['players']
+2026-03-27 17:13:25,740 | INFO | Bot status's working
+2026-03-27 17:13:25,741 | INFO | Rotate status 30 sec each
+2026-03-27 17:13:25,741 | INFO | Activities actived
+2026-03-27 17:15:21,046 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-27 17:15:21,046 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-27 17:15:21,053 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-27 17:15:21,053 | INFO | logging in using static token
+2026-03-27 17:15:21,055 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-27 17:15:21,055 | WARNING | Passing
+2026-03-27 17:15:21,057 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-27 17:15:21,060 | INFO | Watching server_chat_log.txt...
+2026-03-27 17:15:22,596 | INFO | Shard ID None has connected to Gateway (Session ID: 03465ff588d84010954c941bc3fb079b).
+2026-03-27 17:15:24,625 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-27 17:15:24,962 | INFO | Commands: ['players']
+2026-03-27 17:15:24,963 | INFO | Bot status's working
+2026-03-27 17:15:24,963 | INFO | Rotate status 30 sec each
+2026-03-27 17:15:24,963 | INFO | Activities actived
+2026-03-27 17:16:03,539 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-27 17:16:03,539 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-27 17:16:03,546 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-27 17:16:03,547 | INFO | logging in using static token
+2026-03-27 17:16:03,549 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-27 17:16:03,549 | WARNING | Passing
+2026-03-27 17:16:03,551 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-27 17:16:03,553 | INFO | Watching server_chat_log.txt...
+2026-03-27 17:16:05,396 | INFO | Shard ID None has connected to Gateway (Session ID: d9ae25668eb15f4d1cf20f7ba6e10930).
+2026-03-27 17:16:07,439 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-27 17:16:07,842 | INFO | Commands: ['players']
+2026-03-27 17:16:07,842 | INFO | Bot status's working
+2026-03-27 17:16:07,842 | INFO | Rotate status 30 sec each
+2026-03-27 17:16:07,842 | INFO | Activities actived
+2026-03-27 17:20:56,990 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-27 17:20:56,990 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-27 17:20:56,997 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-27 17:20:56,997 | INFO | logging in using static token
+2026-03-27 17:20:56,999 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-27 17:20:56,999 | WARNING | Passing
+2026-03-27 17:20:57,001 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-27 17:20:57,004 | INFO | Watching server_chat_log.txt...
+2026-03-27 17:20:58,609 | INFO | Shard ID None has connected to Gateway (Session ID: 7114f475eeadb81284b8a7fc7a81f9b0).
+2026-03-27 17:21:00,667 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-27 17:21:01,027 | INFO | Commands: ['players']
+2026-03-27 17:21:01,027 | INFO | Bot status's working
+2026-03-27 17:21:01,027 | INFO | Rotate status 30 sec each
+2026-03-27 17:21:01,027 | INFO | Activities actived
+2026-03-27 17:24:29,064 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-27 17:24:29,064 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-27 17:24:29,071 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-27 17:24:29,071 | INFO | logging in using static token
+2026-03-27 17:24:29,074 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-27 17:24:29,074 | WARNING | Passing
+2026-03-27 17:24:29,076 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-27 17:24:29,078 | INFO | Watching server_chat_log.txt...
+2026-03-27 17:24:30,743 | INFO | Shard ID None has connected to Gateway (Session ID: 631f6aa86e6069aa0a12f40f4f7587ec).
+2026-03-27 17:24:32,820 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-27 17:24:33,176 | INFO | Commands: ['players']
+2026-03-27 17:24:33,176 | INFO | Bot status's working
+2026-03-27 17:24:33,176 | INFO | Rotate status 30 sec each
+2026-03-27 17:24:33,176 | INFO | Activities actived
+2026-03-27 17:25:03,377 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-27 17:25:03,377 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-27 17:25:03,384 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-27 17:25:03,384 | INFO | logging in using static token
+2026-03-27 17:25:03,386 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-27 17:25:03,387 | WARNING | Passing
+2026-03-27 17:25:03,389 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-27 17:25:03,391 | INFO | Watching server_chat_log.txt...
+2026-03-27 17:25:05,128 | INFO | Shard ID None has connected to Gateway (Session ID: 60edef43e5e421407e43444338ede9fe).
+2026-03-27 17:25:07,291 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-27 17:25:07,727 | INFO | Commands: ['players']
+2026-03-27 17:25:07,728 | INFO | Bot status's working
+2026-03-27 17:25:07,728 | INFO | Rotate status 30 sec each
+2026-03-27 17:25:07,728 | INFO | Activities actived
+2026-03-27 17:35:04,020 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-27 17:35:04,020 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-27 17:35:04,029 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-27 17:35:04,029 | INFO | logging in using static token
+2026-03-27 17:35:04,032 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-27 17:35:04,032 | WARNING | Passing
+2026-03-27 17:35:04,033 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-27 17:35:04,035 | INFO | Watching server_chat_log.txt...
+2026-03-27 17:35:05,934 | INFO | Shard ID None has connected to Gateway (Session ID: 30c0742fb3061b400c9866d31bda8d57).
+2026-03-27 17:35:08,022 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-27 17:35:08,415 | INFO | Commands: ['players']
+2026-03-27 17:35:08,416 | INFO | Bot status's working
+2026-03-27 17:35:08,416 | INFO | Rotate status 30 sec each
+2026-03-27 17:35:08,416 | INFO | Activities actived
+2026-03-27 17:38:10,783 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-27 17:38:10,783 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-27 17:38:10,790 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-27 17:38:10,790 | INFO | logging in using static token
+2026-03-27 17:38:10,792 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-27 17:38:10,792 | WARNING | Passing
+2026-03-27 17:38:10,794 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-27 17:38:10,797 | INFO | Watching server_chat_log.txt...
+2026-03-27 17:38:12,774 | INFO | Shard ID None has connected to Gateway (Session ID: 8203ff015e81927a4b36913036648a15).
+2026-03-27 17:38:14,821 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-27 17:38:15,259 | INFO | Commands: ['players']
+2026-03-27 17:38:15,260 | INFO | Bot status's working
+2026-03-27 17:38:15,260 | INFO | Rotate status 30 sec each
+2026-03-27 17:38:15,260 | INFO | Activities actived
+2026-03-27 17:38:42,774 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-27 17:38:42,774 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-27 17:38:42,781 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-27 17:38:42,781 | INFO | logging in using static token
+2026-03-27 17:38:42,783 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-27 17:38:42,783 | WARNING | Passing
+2026-03-27 17:38:42,785 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-27 17:38:42,788 | INFO | Watching server_chat_log.txt...
+2026-03-27 17:38:44,595 | INFO | Shard ID None has connected to Gateway (Session ID: 657f08b7659efe954a0891f03e21afbe).
+2026-03-27 17:38:46,639 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-27 17:38:46,996 | INFO | Commands: ['players']
+2026-03-27 17:38:46,996 | INFO | Bot status's working
+2026-03-27 17:38:46,996 | INFO | Rotate status 30 sec each
+2026-03-27 17:38:46,996 | INFO | Activities actived
+2026-03-27 17:40:02,009 | INFO | → To Game: bí ngâu: Biết nóng r
+2026-03-27 17:40:02,012 | INFO | ← From Discord: bí ngâu: Biết nóng r
+2026-03-27 17:40:02,017 | INFO | [RAW] [19:18:34]: [Announcement] [Discord] bí ngâu: Biết nóng r
+2026-03-27 17:40:02,017 | INFO | [RAW] [19:18:34]: [Announcement] [Discord] bí ngâu: Biết nóng r
+2026-03-27 17:41:08,820 | INFO | → To Game: MB: https://giphy.com/gifs/BlackRosesPlayingCards-cat-meme-surprise-GRk3GLfzduq1NtfGt5
+2026-03-27 17:41:08,823 | INFO | ← From Discord: MB: https://giphy.com/gifs/BlackRosesPlayingCards-cat-meme-surprise-GRk3GLfzduq1NtfGt5
+2026-03-27 17:41:08,840 | INFO | [RAW] [19:19:40]: [Announcement] [Discord] MB: https://giphy.com/gifs/BlackRosesPlayingCards-cat-meme-surprise-GRk3GLfzduq1NtfGt5
+2026-03-27 17:41:08,840 | INFO | [RAW] [19:19:40]: [Announcement] [Discord] MB: https://giphy.com/gifs/BlackRosesPlayingCards-cat-meme-surprise-GRk3GLfzduq1NtfGt5
+2026-03-27 20:00:07,869 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-27 20:00:07,870 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-27 20:00:07,881 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-27 20:00:07,882 | INFO | logging in using static token
+2026-03-27 20:00:07,885 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-27 20:00:07,885 | WARNING | Passing
+2026-03-27 20:00:07,886 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-27 20:00:07,888 | INFO | Watching server_chat_log.txt...
+2026-03-27 20:00:14,017 | INFO | Shard ID None has connected to Gateway (Session ID: 300f66b4c784fe1eadbd28a33b328bab).
+2026-03-27 20:00:16,101 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-27 20:00:16,496 | INFO | Commands: ['players']
+2026-03-27 20:00:16,496 | INFO | Bot status's working
+2026-03-27 20:00:16,496 | INFO | Rotate status 30 sec each
+2026-03-27 20:00:16,496 | INFO | Activities actived
+2026-03-27 20:02:16,923 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-27 20:02:16,923 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-27 20:02:16,930 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-27 20:02:16,930 | INFO | logging in using static token
+2026-03-27 20:02:16,933 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-27 20:02:16,933 | WARNING | Passing
+2026-03-27 20:02:16,935 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-27 20:02:16,937 | INFO | Watching server_chat_log.txt...
+2026-03-27 20:02:18,675 | INFO | Shard ID None has connected to Gateway (Session ID: cb6a384859a90a88da930df994bf7646).
+2026-03-27 20:02:20,745 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-27 20:02:21,160 | INFO | Commands: ['players']
+2026-03-27 20:02:21,160 | INFO | Bot status's working
+2026-03-27 20:02:21,160 | INFO | Rotate status 30 sec each
+2026-03-27 20:02:21,160 | INFO | Activities actived
+2026-03-27 20:13:20,993 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-27 20:13:20,993 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-27 20:13:21,000 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-27 20:13:21,000 | INFO | logging in using static token
+2026-03-27 20:13:21,002 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-27 20:13:21,003 | WARNING | Passing
+2026-03-27 20:13:21,004 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-27 20:13:21,007 | INFO | Watching server_chat_log.txt...
+2026-03-27 20:13:22,721 | INFO | Shard ID None has connected to Gateway (Session ID: a95af6ea05609242850fd374c43c70c6).
+2026-03-27 20:13:24,759 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-27 20:13:25,100 | INFO | Commands: ['players']
+2026-03-27 20:13:25,100 | INFO | Bot status's working
+2026-03-27 20:13:25,100 | INFO | Rotate status 30 sec each
+2026-03-27 20:13:25,100 | INFO | Activities actived
+2026-03-27 20:18:18,175 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-27 20:18:18,175 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-27 20:18:18,182 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-27 20:18:18,182 | INFO | logging in using static token
+2026-03-27 20:18:18,184 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-27 20:18:18,185 | WARNING | Passing
+2026-03-27 20:18:18,188 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-27 20:18:18,190 | INFO | Watching server_chat_log.txt...
+2026-03-27 20:18:19,835 | INFO | Shard ID None has connected to Gateway (Session ID: 7d24c779ba90649f0f33d95d836fa460).
+2026-03-27 20:18:21,911 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-27 20:18:22,356 | INFO | Commands: ['players']
+2026-03-27 20:18:22,357 | INFO | Bot status's working
+2026-03-27 20:18:22,357 | INFO | Rotate status 30 sec each
+2026-03-27 20:18:22,357 | INFO | Activities actived
+2026-03-27 20:19:45,295 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-27 20:19:45,295 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-27 20:19:45,302 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-27 20:19:45,302 | INFO | logging in using static token
+2026-03-27 20:19:45,304 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-27 20:19:45,304 | WARNING | Passing
+2026-03-27 20:19:45,306 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-27 20:19:45,309 | INFO | Watching server_chat_log.txt...
+2026-03-27 20:19:46,948 | INFO | Shard ID None has connected to Gateway (Session ID: 558190737e8f2ccc3a1e2b3adbb4f36d).
+2026-03-27 20:19:48,988 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-27 20:19:49,338 | INFO | Commands: ['players']
+2026-03-27 20:19:49,338 | INFO | Bot status's working
+2026-03-27 20:19:49,338 | INFO | Rotate status 30 sec each
+2026-03-27 20:19:49,339 | INFO | Activities actived
