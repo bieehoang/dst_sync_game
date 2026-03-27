@@ -11,16 +11,16 @@ class Bridge:
         self.day_season = None
 
     async def setup_status(self):
-        """Setup status MimU style"""
+        """Setup status style"""
         if not self.bot:
-            logger.warning("Bridge: Không có bot để set status")
+            logger.warning("Bridge: Where's bot?")
             return
 
         try:
-            await setup_status(self.bot)                    # Gọi hàm setup từ status_manager
-            logger.info("✅ Bridge: Đã setup Discord status MimU thành công")
+            await setup_status(self.bot)
+            logger.info(" Bridge: Setup done")
         except Exception as e:
-            logger.error(f"Bridge: Lỗi setup status - {e}")
+            logger.error(f"Bridge: Fail to setup - {e}")
 
     async def send_to_game(self, username: str, message: str):
         if self.dst:
@@ -33,3 +33,9 @@ class Bridge:
                 full_msg = f"**{username}**: {message}"
                 await channel.send(full_msg)
                 logger.info(f"→ Discord: {username}: {message}")
+            else:
+                logger.error("Do not see Discord channel")
+    def get_players(self):
+        if self.dst and hasattr(self.dst, "players"):
+            return list(self.dst.players)
+        return []

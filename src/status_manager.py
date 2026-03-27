@@ -27,15 +27,14 @@ class StatusManager:
                     name="Wyvern • Mesa-Linux Server"
                 )
             )
-            logger.info("✅ Đã set status MimU style: /help • discord.gg/wyvern • DST Dedicated Server")
+            logger.info("Bot status's working")
         except Exception as e:
-            logger.error(f"Lỗi set MimU status: {e}")
+            logger.error(f"status_manager.py: {e}")
 
     async def start_rotation(self, interval: int = 60):
-        """Luân phiên status (tùy chọn)"""
         async def rotate():
             activities = [
-                discord.Activity(type=discord.ActivityType.playing, name="Wyvern"),
+                discord.Activity(type=discord.ActivityType.playing, name="Wyvern - The dumbest bot"),
                 discord.Activity(type=discord.ActivityType.playing, name="Mesa-Linux"),
                 discord.Activity(type=discord.ActivityType.playing, name="Don't Starve Together"),
             ]
@@ -52,13 +51,12 @@ class StatusManager:
                 await asyncio.sleep(interval)
 
         asyncio.create_task(rotate())
-        logger.info(f"🔄 Đã bật rotate status mỗi {interval} giây")
+        logger.info(f"Rotate status {interval} sec each")
 
 
 # ==================== Hàm setup nhanh ====================
 async def setup_status(bot):
-    """Gọi hàm này để setup status"""
     manager = StatusManager(bot)
     await manager.set_mimu_style_status()
-    await manager.start_rotation(interval=50)   # bỏ comment nếu muốn luân phiên
+    await manager.start_rotation(interval=30)   # bỏ comment nếu muốn luân phiên
     return manager

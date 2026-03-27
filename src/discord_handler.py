@@ -1,7 +1,8 @@
 import discord
 from src.bridge import Bridge
 from src.logger import logger
-from src.status_manager import setup_status   # ← THÊM DÒNG NÀY
+from src.status_manager import setup_status   
+import commands.players as players_cmd
 
 class DiscordHandler(discord.Client):
     def __init__(self, bridge: Bridge, config):
@@ -12,10 +13,22 @@ class DiscordHandler(discord.Client):
         
         self.bridge = bridge
         self.config = config
-
+        self.tree = discord.app_commands.CommandTree(self) 
+    
     async def on_ready(self):
-        logger.info(f"✅ Discord bot logged in as {self.user} | ID: {self.user.id}")
+        logger.info(f" Discord bot logged in as {self.user} | ID: {self.user.id}")
         
+        GUILD_ID = 1369692222735257721
+        players_cmd.setup(self.tree, self.bridge)
+        guild = discord.Object(id=GUILD_ID)
+
+        self.tree.clear_commands(guild=guild)
+        self.tree.copy_global_to(guild=guild)
+
+        await self.tree.sync(guild=guild)
+
+        logger.info(f"Commands: {[cmd.name for cmd in self.tree.get_commands()]}") 
+
         # ==================== SETUP STATUS MIMU + DST ====================
         if self.bridge:
             # Gán bot (Client) vào bridge
@@ -29,35 +42,30 @@ class DiscordHandler(discord.Client):
             logger.warning("Bridge not built yet")
 
     async def on_message(self, message):
-        if message.channel.id != self.config.data["discord"]["channel_id"] or message.author.bot:
+        if message.author.bot:
             return
-        
+
+        if message.channel.id != int(self.config.data["discord"]["channel_id"]):
+            return
+
         content = message.content.strip()
-        if content:
-            await self.bridge.send_to_game(str(message.author.display_name), content)
-            logger.info(f"← From Discord: {message.author.display_name}: {content}")
-    
+        if not content:
+            return
 
         ALLOWED_ROLE_IDS = {
         1385632295498678312,
         1385907308235718656,
         1385632574470226081
         }
-        if message.author.bot:
-            return
 
-        if message.channel.id != self.config.data["discord"]["channel_id"]:
-            return
-
-        content = message.content.strip()
-
-        # 🔥 check role (multi role)
+        # 🔥 check role cho command
         has_permission = any(role.id in ALLOWED_ROLE_IDS for role in message.author.roles)
 
-        # ❌ block nếu không có quyền
-        if content.startswith("!rb") and not has_permission:
-            await message.channel.send("Find someone can be help")
-            return
-
-        # ✅ gửi vào game
+        if content.startswith("!rb"):
+            if not has_permission:
+                await message.channel.send("Maybe someone can help? <@&1385632574470226081>")
+                return
+            await message.channel.send("Roi nha")
         await self.bridge.send_to_game(str(message.author.display_name), content)
+
+        logger.info(f"← From Discord: {message.author.display_name}: {content}")

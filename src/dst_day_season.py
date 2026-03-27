@@ -64,7 +64,7 @@ class DSTDaySeasonHandler:
             day = "?"
             season = "?"
 
-        msg = f"**{now}** | **Day {day} ({season})** | {event}"
+        msg = f"**Day {day} ({season})** | {event}"
         await self.bridge.send_to_discord("Server", msg)
 
         await self.rename_channel(day, season)
@@ -73,7 +73,7 @@ class DSTDaySeasonHandler:
         try:
             channel = self.bridge.discord.get_channel(self.channel_id)
             if channel:
-                new_name = f"𖦹﹒wynern-{season.lower()}-{day}"
+                new_name = f"𖦹﹒wyvern-{season.lower()}-{day}"
                 await channel.edit(name=new_name)
                 logger.info(f"Channel renamed → {new_name}")
         except Exception as e:
