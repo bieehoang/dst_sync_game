@@ -11,7 +11,7 @@ class DSTChatHandler:
         self.log_path = "/home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt"
         self.screen_name = self.get_master_screen() 
         self.status_manager=None
-        self.players = set()
+        self.players = {} 
     def get_master_screen(self):
         try:
             result = subprocess.check_output(["screen", "-ls"]).decode()
@@ -57,8 +57,6 @@ class DSTChatHandler:
 
             line = line.decode("utf-8", errors="ignore").strip()
 
-            logger.info(f"[RAW] {line}")  # 🔥 debug
-
             if line:
                 await self.parse_line(line) 
     async def parse_line(self, line: str):
@@ -86,7 +84,6 @@ class DSTChatHandler:
             username = m.group(1).strip()
             self.bridge.day_season.request_event(f"**{username}** Joined")
             logger.info(f"Join detected: {username}")
-            self.players.add(username)
             return
 
         # Leave Announcement
@@ -94,7 +91,6 @@ class DSTChatHandler:
             username = m.group(1).strip()
             self.bridge.day_season.request_event(f"**{username}** Leave")
             logger.info(f"Leave detected: {username}")
-            self.players.discard(username)
             return
 
         # Death Announcement
@@ -103,37 +99,45 @@ class DSTChatHandler:
             self.bridge.day_season.request_event(f"{death_text}")
             logger.info(f"Death detected: {death_text}")
             return
-
-    # 🔥 COMMAND: rollback
-    def send_to_game(self, username, message):
+    
+    def send_to_game(self, username: str, message: str):
         import subprocess
 
         message = message.strip()
-
-
         screen_name = self.get_master_screen()
-        # 🔥 COMMAND: !rb <number>
-        if message.startswith("!rb"):
+
+        if any(cmd in message for cmd in ["TheNet:", "c_", "TheSim:", "c_rollback", "c_regenerate"]):
+            cmd = message + "\r"
+            logger.info(f"[CONSOLE] {username} → {message}")
+
+        elif message.startswith("!rb"):
             try:
                 parts = message.split()
                 days = int(parts[1]) if len(parts) > 1 else 1
-
                 cmd = f'c_rollback({days})\r'
                 logger.info(f"[ROLLBACK] {username} → {days} days")
-
             except Exception:
                 cmd = 'c_rollback(1)\r'
-                logger.warning(f"[ROLLBACK] {username} → invalid input, default 1")
+                logger.warning(f"[ROLLBACK] {username} → invalid, default 1")
 
         else:
             message = message.replace('"', '\\"')
-            cmd = f'c_announce("[Discord] {username}: {message}")\r' 
-            logger.info(f"→ To Game: {username}: {message}")
+            cmd = f'c_announce("[Discord] {username}: {message}")\r'
+            logger.info(f"→ To Game (Announce): {username}: {message}")
 
-        subprocess.run([
-            "screen",
-            "-S", screen_name,
-            "-p", "0",
-            "-X", "stuff",
-            cmd
-        ]) 
+        try:
+            subprocess.run([
+                "screen",
+                "-S", screen_name,
+                "-p", "0",
+                "-X", "stuff",
+                cmd
+            ], check=True, timeout=5)
+
+            return True
+        except subprocess.TimeoutExpired:
+            logger.error(f"[SEND] Timeout when sending command to screen {screen_name}")
+            return False
+        except Exception as e:
+            logger.error(f"[SEND] Failed to send to game: {e}")
+            return False

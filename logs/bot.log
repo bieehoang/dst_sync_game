@@ -1492,3 +1492,1841 @@ discord.errors.Forbidden: 403 Forbidden (error code: 50001): Missing Access
 2026-03-27 20:19:49,338 | INFO | Bot status's working
 2026-03-27 20:19:49,338 | INFO | Rotate status 30 sec each
 2026-03-27 20:19:49,339 | INFO | Activities actived
+2026-03-27 21:02:21,600 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-03-27 21:02:21,600 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-27 21:02:21,607 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-27 21:02:21,607 | INFO | logging in using static token
+2026-03-27 21:02:21,610 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-27 21:02:21,610 | WARNING | Passing
+2026-03-27 21:02:21,612 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-27 21:02:21,614 | INFO | Watching server_chat_log.txt...
+2026-03-27 21:02:27,513 | INFO | Shard ID None has connected to Gateway (Session ID: 58fbaf0ef2a0ce792d160ea19393df7e).
+2026-03-27 21:02:29,580 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-27 21:02:29,912 | INFO | Commands: ['players']
+2026-03-27 21:02:29,912 | INFO | Bot status's working
+2026-03-27 21:02:29,913 | INFO | Rotate status 30 sec each
+2026-03-27 21:02:29,913 | INFO | Activities actived
+2026-03-27 21:30:55,671 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-27 21:30:55,678 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-27 21:30:55,678 | INFO | logging in using static token
+2026-03-27 21:30:55,680 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-27 21:30:55,680 | WARNING | Passing
+2026-03-27 21:30:55,680 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-27 21:30:55,681 | INFO | Watching server_chat_log.txt...
+2026-03-27 21:30:57,430 | INFO | Shard ID None has connected to Gateway (Session ID: 61c7e3259073b1836bc005a560917e29).
+2026-03-27 21:30:59,523 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-27 21:30:59,879 | INFO | Commands: ['players']
+2026-03-27 21:30:59,879 | INFO | Bot status's working
+2026-03-27 21:30:59,879 | INFO | Rotate status 30 sec each
+2026-03-27 21:30:59,879 | INFO | Activities actived
+2026-03-27 21:33:25,914 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-27 21:33:25,921 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-27 21:33:25,921 | INFO | logging in using static token
+2026-03-27 21:33:25,922 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-27 21:33:25,923 | WARNING | Passing
+2026-03-27 21:33:25,924 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-27 21:33:25,925 | INFO | Watching server_chat_log.txt...
+2026-03-27 21:33:27,959 | INFO | Shard ID None has connected to Gateway (Session ID: e408d31b450f7d949699be15f9dc6510).
+2026-03-27 21:33:30,039 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-27 21:33:30,435 | INFO | Commands: ['players']
+2026-03-27 21:33:30,435 | INFO | Bot status's working
+2026-03-27 21:33:30,435 | INFO | Rotate status 30 sec each
+2026-03-27 21:33:30,435 | INFO | Activities actived
+2026-03-27 21:45:07,617 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-27 21:45:07,624 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-27 21:45:07,624 | INFO | logging in using static token
+2026-03-27 21:45:07,626 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-27 21:45:07,626 | WARNING | Passing
+2026-03-27 21:45:07,627 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-27 21:45:07,629 | INFO | Watching server_chat_log.txt...
+2026-03-27 21:45:09,815 | INFO | Shard ID None has connected to Gateway (Session ID: a7a217fa60057b4442e5558fe5266991).
+2026-03-27 21:45:11,861 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-27 21:45:12,219 | INFO | Commands: ['players']
+2026-03-27 21:45:12,219 | INFO | Bot status's working
+2026-03-27 21:45:12,219 | INFO | Rotate status 30 sec each
+2026-03-27 21:45:12,219 | INFO | Activities actived
+2026-03-27 22:15:27,074 | WARNING | Retrying (GithubRetry(total=9, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='api.github.com', port=443): Failed to resolve 'api.github.com' ([Errno -5] No address associated with hostname)")': /repos/bieehoang/bieehoang
+2026-03-27 22:15:29,655 | WARNING | Retrying (GithubRetry(total=8, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='api.github.com', port=443): Failed to resolve 'api.github.com' ([Errno -5] No address associated with hostname)")': /repos/bieehoang/bieehoang
+2026-03-27 22:15:32,152 | WARNING | Retrying (GithubRetry(total=7, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='api.github.com', port=443): Failed to resolve 'api.github.com' ([Errno -5] No address associated with hostname)")': /repos/bieehoang/bieehoang
+2026-03-27 22:15:34,814 | WARNING | Retrying (GithubRetry(total=6, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='api.github.com', port=443): Failed to resolve 'api.github.com' ([Errno -5] No address associated with hostname)")': /repos/bieehoang/bieehoang
+2026-03-27 22:15:41,739 | WARNING | Can't keep up, shard ID None websocket is 17.7s behind.
+2026-03-27 23:50:48,758 | INFO | Shard ID None has successfully RESUMED session a7a217fa60057b4442e5558fe5266991.
+2026-03-28 00:05:10,507 | INFO | → To Game: bí ngâu: <@843769367221108736>
+2026-03-28 00:05:10,509 | INFO | ← From Discord: bí ngâu: <@843769367221108736>
+2026-03-28 00:05:10,515 | INFO | [RAW] [01:43:42]: [Announcement] [Discord] bí ngâu: <@843769367221108736>
+2026-03-28 00:05:10,515 | INFO | [RAW] [01:43:42]: [Announcement] [Discord] bí ngâu: <@843769367221108736>
+2026-03-28 00:06:08,589 | INFO | [RAW] [01:44:40]: [Join Announcement] Nuis
+2026-03-28 00:06:08,589 | INFO | [RAW] [01:44:40]: [Join Announcement] Nuis
+2026-03-28 00:06:08,589 | INFO | Join detected: Nuis
+2026-03-28 00:06:08,605 | INFO | [SYNC] Day 1 | autumn
+2026-03-28 00:06:08,605 | INFO | [UPDATE] Day 1 | autumn
+2026-03-28 00:06:09,221 | INFO | → Discord: Server: **Day 1 (autumn)** | **Nuis** Joined
+2026-03-28 00:06:09,588 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-1
+2026-03-28 00:06:28,828 | INFO | [RAW] [01:45:00]: [Join Announcement] Yennhimew
+2026-03-28 00:06:28,828 | INFO | [RAW] [01:45:00]: [Join Announcement] Yennhimew
+2026-03-28 00:06:28,828 | INFO | Join detected: Yennhimew
+2026-03-28 00:06:28,845 | INFO | [SYNC] Day 1 | autumn
+2026-03-28 00:06:28,845 | INFO | [UPDATE] Day 1 | autumn
+2026-03-28 00:06:29,400 | INFO | → Discord: Server: **Day 1 (autumn)** | **Yennhimew** Joined
+2026-03-28 00:06:29,750 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-1
+2026-03-28 00:08:05,566 | INFO | [RAW] [01:46:37]: [Join Announcement] trung123fro09
+2026-03-28 00:08:05,566 | INFO | [RAW] [01:46:37]: [Join Announcement] trung123fro09
+2026-03-28 00:08:05,566 | INFO | Join detected: trung123fro09
+2026-03-28 00:08:05,582 | INFO | [SYNC] Day 1 | autumn
+2026-03-28 00:08:05,582 | INFO | [UPDATE] Day 1 | autumn
+2026-03-28 00:08:06,146 | INFO | → Discord: Server: **Day 1 (autumn)** | **trung123fro09** Joined
+2026-03-28 00:08:06,518 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-1
+2026-03-28 00:10:41,836 | INFO | [RAW] [01:49:13]: [Leave Announcement] trung123fro09
+2026-03-28 00:10:41,836 | INFO | [RAW] [01:49:13]: [Leave Announcement] trung123fro09
+2026-03-28 00:10:41,836 | INFO | Leave detected: trung123fro09
+2026-03-28 00:10:41,849 | INFO | [SYNC] Day 1 | autumn
+2026-03-28 00:10:41,850 | INFO | [UPDATE] Day 1 | autumn
+2026-03-28 00:10:42,018 | INFO | [RAW] [01:49:14]: [Leave Announcement] Nuis
+2026-03-28 00:10:42,018 | INFO | [RAW] [01:49:14]: [Leave Announcement] Nuis
+2026-03-28 00:10:42,018 | INFO | Leave detected: Nuis
+2026-03-28 00:10:42,022 | INFO | [RAW] [01:49:14]: [Leave Announcement] Yennhimew
+2026-03-28 00:10:42,022 | INFO | [RAW] [01:49:14]: [Leave Announcement] Yennhimew
+2026-03-28 00:10:42,023 | INFO | Leave detected: Yennhimew
+2026-03-28 00:10:42,034 | INFO | [SYNC] Day 1 | autumn
+2026-03-28 00:10:42,034 | INFO | [UPDATE] Day 1 | autumn
+2026-03-28 00:10:42,035 | INFO | [SYNC] Day 1 | autumn
+2026-03-28 00:10:42,035 | INFO | [UPDATE] Day 1 | autumn
+2026-03-28 00:10:42,886 | INFO | → Discord: Server: **Day 1 (autumn)** | **Yennhimew** Leave
+2026-03-28 00:10:42,907 | INFO | → Discord: Server: **Day 1 (autumn)** | **Nuis** Leave
+2026-03-28 00:10:42,928 | INFO | → Discord: Server: **Day 1 (autumn)** | **trung123fro09** Leave
+2026-03-28 00:10:43,235 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-1
+2026-03-28 00:10:43,287 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-1
+2026-03-28 00:10:43,294 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-1
+2026-03-28 00:10:59,045 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 00:10:59,052 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 00:10:59,053 | INFO | logging in using static token
+2026-03-28 00:10:59,054 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 00:10:59,054 | WARNING | Passing
+2026-03-28 00:10:59,055 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 00:10:59,057 | INFO | Watching server_chat_log.txt...
+2026-03-28 00:11:02,168 | INFO | Shard ID None has connected to Gateway (Session ID: b29d56b0f9e53c1f18d251317740131c).
+2026-03-28 00:11:04,202 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 00:11:04,602 | INFO | Commands: ['players']
+2026-03-28 00:11:04,602 | INFO | Bot status's working
+2026-03-28 00:11:04,602 | INFO | Rotate status 30 sec each
+2026-03-28 00:11:04,602 | INFO | Activities actived
+2026-03-28 00:13:04,618 | INFO | [RAW] [00:02:14]: [Join Announcement] Nuis
+2026-03-28 00:13:04,618 | INFO | [RAW] [00:02:14]: [Join Announcement] Nuis
+2026-03-28 00:13:04,619 | INFO | Join detected: Nuis
+2026-03-28 00:13:04,634 | INFO | [SYNC] Day 1 | autumn
+2026-03-28 00:13:04,634 | INFO | [UPDATE] Day 1 | autumn
+2026-03-28 00:13:05,670 | INFO | → Discord: Server: **Day 1 (autumn)** | **Nuis** Joined
+2026-03-28 00:13:06,006 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-1
+2026-03-28 00:13:13,145 | INFO | [RAW] [00:02:23]: [Join Announcement] trung123fro09
+2026-03-28 00:13:13,145 | INFO | [RAW] [00:02:23]: [Join Announcement] trung123fro09
+2026-03-28 00:13:13,145 | INFO | Join detected: trung123fro09
+2026-03-28 00:13:13,162 | INFO | [SYNC] Day 1 | autumn
+2026-03-28 00:13:13,162 | INFO | [UPDATE] Day 1 | autumn
+2026-03-28 00:13:13,578 | INFO | → Discord: Server: **Day 1 (autumn)** | **trung123fro09** Joined
+2026-03-28 00:13:13,988 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-1
+2026-03-28 00:13:41,474 | INFO | [RAW] [00:02:51]: [Join Announcement] Chee
+2026-03-28 00:13:41,474 | INFO | [RAW] [00:02:51]: [Join Announcement] Chee
+2026-03-28 00:13:41,475 | INFO | Join detected: Chee
+2026-03-28 00:13:41,490 | INFO | [SYNC] Day 1 | autumn
+2026-03-28 00:13:41,490 | INFO | [UPDATE] Day 1 | autumn
+2026-03-28 00:13:42,584 | INFO | → Discord: Server: **Day 1 (autumn)** | **Chee** Joined
+2026-03-28 00:13:42,968 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-1
+2026-03-28 00:15:50,597 | INFO | [RAW] [00:05:00]: [Vote Announcement] regenerate passed
+2026-03-28 00:15:50,597 | INFO | [RAW] [00:05:00]: [Vote Announcement] regenerate passed
+2026-03-28 00:22:07,008 | INFO | [RAW] [00:11:17]: [Join Announcement] Yennhimew
+2026-03-28 00:22:07,008 | INFO | [RAW] [00:11:17]: [Join Announcement] Yennhimew
+2026-03-28 00:22:07,008 | INFO | Join detected: Yennhimew
+2026-03-28 00:22:07,021 | INFO | [SYNC] Day 1 | autumn
+2026-03-28 00:22:07,021 | INFO | [UPDATE] Day 1 | autumn
+2026-03-28 00:22:08,049 | INFO | → Discord: Server: **Day 1 (autumn)** | **Yennhimew** Joined
+2026-03-28 00:22:08,385 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-1
+2026-03-28 00:40:36,609 | INFO | [RAW] [00:29:46]: [Join Announcement] Bánh Canh Cá Glock
+2026-03-28 00:40:36,609 | INFO | [RAW] [00:29:46]: [Join Announcement] Bánh Canh Cá Glock
+2026-03-28 00:40:36,609 | INFO | Join detected: Bánh Canh Cá Glock
+2026-03-28 00:40:36,621 | INFO | [SYNC] Day 3 | autumn
+2026-03-28 00:40:36,621 | INFO | [UPDATE] Day 3 | autumn
+2026-03-28 00:40:37,755 | INFO | → Discord: Server: **Day 3 (autumn)** | **Bánh Canh Cá Glock** Joined
+2026-03-28 00:40:38,087 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-3
+2026-03-28 00:41:03,904 | INFO | [RAW] [00:30:13]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: nà ná na na
+2026-03-28 00:41:03,904 | INFO | [RAW] [00:30:13]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: nà ná na na
+2026-03-28 00:41:04,931 | INFO | → Discord: Bánh Canh Cá Glock: nà ná na na
+2026-03-28 00:41:04,931 | INFO | Chat: Bánh Canh Cá Glock: nà ná na na
+2026-03-28 00:41:15,054 | INFO | [RAW] [00:30:20]: [Say] (KU_G3il1HZL) Chee: a do mixi
+2026-03-28 00:41:15,054 | INFO | [RAW] [00:30:20]: [Say] (KU_G3il1HZL) Chee: a do mixi
+2026-03-28 00:41:15,461 | INFO | → Discord: Chee: a do mixi
+2026-03-28 00:41:15,461 | INFO | Chat: Chee: a do mixi
+2026-03-28 00:41:20,832 | INFO | [RAW] [00:30:30]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: anh phùng thanks do
+2026-03-28 00:41:20,832 | INFO | [RAW] [00:30:30]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: anh phùng thanks do
+2026-03-28 00:41:21,307 | INFO | → Discord: Bánh Canh Cá Glock: anh phùng thanks do
+2026-03-28 00:41:21,307 | INFO | Chat: Bánh Canh Cá Glock: anh phùng thanks do
+2026-03-28 00:41:36,187 | INFO | [RAW] [00:30:46]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: hí ae nhé
+2026-03-28 00:41:36,187 | INFO | [RAW] [00:30:46]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: hí ae nhé
+2026-03-28 00:41:36,662 | INFO | → Discord: Bánh Canh Cá Glock: hí ae nhé
+2026-03-28 00:41:36,662 | INFO | Chat: Bánh Canh Cá Glock: hí ae nhé
+2026-03-28 00:41:45,114 | INFO | [RAW] [00:30:55]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: có dang can choi con j hok
+2026-03-28 00:41:45,114 | INFO | [RAW] [00:30:55]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: có dang can choi con j hok
+2026-03-28 00:41:45,470 | INFO | → Discord: Bánh Canh Cá Glock: có dang can choi con j hok
+2026-03-28 00:41:45,470 | INFO | Chat: Bánh Canh Cá Glock: có dang can choi con j hok
+2026-03-28 00:42:04,253 | INFO | [RAW] [00:31:14]: [Say] (KU_s-fa21GK) trung123fro09: con gi` thich' la` choi
+2026-03-28 00:42:04,253 | INFO | [RAW] [00:31:14]: [Say] (KU_s-fa21GK) trung123fro09: con gi` thich' la` choi
+2026-03-28 00:42:05,336 | INFO | → Discord: trung123fro09: con gi` thich' la` choi
+2026-03-28 00:42:05,336 | INFO | Chat: trung123fro09: con gi` thich' la` choi
+2026-03-28 00:42:22,808 | INFO | [RAW] [00:31:32]: [Say] (KU_LI3oFM9n) Yennhimew: =)))
+2026-03-28 00:42:22,808 | INFO | [RAW] [00:31:32]: [Say] (KU_LI3oFM9n) Yennhimew: =)))
+2026-03-28 00:42:23,814 | INFO | → Discord: Yennhimew: =)))
+2026-03-28 00:42:23,814 | INFO | Chat: Yennhimew: =)))
+2026-03-28 00:42:25,274 | INFO | [RAW] [00:31:35]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: con
+2026-03-28 00:42:25,274 | INFO | [RAW] [00:31:35]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: con
+2026-03-28 00:42:25,669 | INFO | → Discord: Bánh Canh Cá Glock: con
+2026-03-28 00:42:25,670 | INFO | Chat: Bánh Canh Cá Glock: con
+2026-03-28 00:42:30,627 | INFO | [RAW] [00:31:40]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: con gái :>
+2026-03-28 00:42:30,627 | INFO | [RAW] [00:31:40]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: con gái :>
+2026-03-28 00:42:31,057 | INFO | → Discord: Bánh Canh Cá Glock: con gái :>
+2026-03-28 00:42:31,057 | INFO | Chat: Bánh Canh Cá Glock: con gái :>
+2026-03-28 00:42:59,284 | INFO | [RAW] [00:32:09]: [Say] (KU_G3il1HZL) Chee: chao con gai'
+2026-03-28 00:42:59,284 | INFO | [RAW] [00:32:09]: [Say] (KU_G3il1HZL) Chee: chao con gai'
+2026-03-28 00:43:00,224 | INFO | → Discord: Chee: chao con gai'
+2026-03-28 00:43:00,224 | INFO | Chat: Chee: chao con gai'
+2026-03-28 00:43:11,785 | INFO | [RAW] [00:32:21]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: hello papi
+2026-03-28 00:43:11,785 | INFO | [RAW] [00:32:21]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: hello papi
+2026-03-28 00:43:12,200 | INFO | → Discord: Bánh Canh Cá Glock: hello papi
+2026-03-28 00:43:12,200 | INFO | Chat: Bánh Canh Cá Glock: hello papi
+2026-03-28 00:43:20,308 | INFO | [RAW] [00:32:30]: [Say] (KU_DfIX66W7) Nuis: hello
+2026-03-28 00:43:20,308 | INFO | [RAW] [00:32:30]: [Say] (KU_DfIX66W7) Nuis: hello
+2026-03-28 00:43:20,777 | INFO | → Discord: Nuis: hello
+2026-03-28 00:43:20,777 | INFO | Chat: Nuis: hello
+2026-03-28 00:44:08,313 | INFO | [RAW] [00:33:18]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: vl no mod lun ma
+2026-03-28 00:44:08,313 | INFO | [RAW] [00:33:18]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: vl no mod lun ma
+2026-03-28 00:44:09,296 | INFO | → Discord: Bánh Canh Cá Glock: vl no mod lun ma
+2026-03-28 00:44:09,296 | INFO | Chat: Bánh Canh Cá Glock: vl no mod lun ma
+2026-03-28 00:44:23,005 | INFO | [RAW] [00:33:33]: [Say] (KU_DfIX66W7) Nuis: co mod ma
+2026-03-28 00:44:23,005 | INFO | [RAW] [00:33:33]: [Say] (KU_DfIX66W7) Nuis: co mod ma
+2026-03-28 00:44:23,416 | INFO | → Discord: Nuis: co mod ma
+2026-03-28 00:44:23,416 | INFO | Chat: Nuis: co mod ma
+2026-03-28 00:44:30,456 | INFO | [RAW] [00:33:40]: [Join Announcement] Lullaby
+2026-03-28 00:44:30,456 | INFO | [RAW] [00:33:40]: [Join Announcement] Lullaby
+2026-03-28 00:44:30,456 | INFO | Join detected: Lullaby
+2026-03-28 00:44:30,471 | INFO | [SYNC] Day 4 | autumn
+2026-03-28 00:44:30,472 | INFO | [UPDATE] Day 4 | autumn
+2026-03-28 00:44:30,842 | INFO | → Discord: Server: **Day 4 (autumn)** | **Lullaby** Joined
+2026-03-28 00:44:31,218 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-4
+2026-03-28 00:46:08,894 | INFO | [RAW] [00:35:18]: [Say] (KU_G3il1HZL) Chee: ckat day'
+2026-03-28 00:46:08,895 | INFO | [RAW] [00:35:18]: [Say] (KU_G3il1HZL) Chee: ckat day'
+2026-03-28 00:46:09,903 | INFO | → Discord: Chee: ckat day'
+2026-03-28 00:46:09,903 | INFO | Chat: Chee: ckat day'
+2026-03-28 00:46:18,203 | INFO | [RAW] [00:35:28]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: xink hok
+2026-03-28 00:46:18,203 | INFO | [RAW] [00:35:28]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: xink hok
+2026-03-28 00:46:18,567 | INFO | → Discord: Bánh Canh Cá Glock: xink hok
+2026-03-28 00:46:18,568 | INFO | Chat: Bánh Canh Cá Glock: xink hok
+2026-03-28 00:46:21,781 | INFO | [RAW] [00:35:31]: [Say] (KU_G3il1HZL) Chee: vuyp
+2026-03-28 00:46:21,781 | INFO | [RAW] [00:35:31]: [Say] (KU_G3il1HZL) Chee: vuyp
+2026-03-28 00:46:22,114 | INFO | → Discord: Chee: vuyp
+2026-03-28 00:46:22,114 | INFO | Chat: Chee: vuyp
+2026-03-28 00:46:25,014 | INFO | [RAW] [00:35:35]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: qua tan thu ne
+2026-03-28 00:46:25,015 | INFO | [RAW] [00:35:35]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: qua tan thu ne
+2026-03-28 00:46:25,520 | INFO | → Discord: Bánh Canh Cá Glock: qua tan thu ne
+2026-03-28 00:46:25,520 | INFO | Chat: Bánh Canh Cá Glock: qua tan thu ne
+2026-03-28 00:46:28,575 | INFO | [RAW] [00:35:38]: [Say] (KU_DfIX66W7) Nuis: day la nut gi nhi
+2026-03-28 00:46:28,576 | INFO | [RAW] [00:35:38]: [Say] (KU_DfIX66W7) Nuis: day la nut gi nhi
+2026-03-28 00:46:28,972 | INFO | → Discord: Nuis: day la nut gi nhi
+2026-03-28 00:46:28,972 | INFO | Chat: Nuis: day la nut gi nhi
+2026-03-28 00:46:31,086 | INFO | [RAW] [00:35:41]: [Say] (KU_LI3oFM9n) Yennhimew: =)) clm
+2026-03-28 00:46:31,087 | INFO | [RAW] [00:35:41]: [Say] (KU_LI3oFM9n) Yennhimew: =)) clm
+2026-03-28 00:46:31,438 | INFO | → Discord: Yennhimew: =)) clm
+2026-03-28 00:46:31,438 | INFO | Chat: Yennhimew: =)) clm
+2026-03-28 00:46:42,126 | INFO | [RAW] [00:35:52]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: o kiaaa
+2026-03-28 00:46:42,126 | INFO | [RAW] [00:35:52]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: o kiaaa
+2026-03-28 00:46:42,464 | INFO | → Discord: Bánh Canh Cá Glock: o kiaaa
+2026-03-28 00:46:42,464 | INFO | Chat: Bánh Canh Cá Glock: o kiaaa
+2026-03-28 00:46:45,050 | INFO | [RAW] [00:35:55]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: :(
+2026-03-28 00:46:45,050 | INFO | [RAW] [00:35:55]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: :(
+2026-03-28 00:46:45,512 | INFO | → Discord: Bánh Canh Cá Glock: :(
+2026-03-28 00:46:45,512 | INFO | Chat: Bánh Canh Cá Glock: :(
+2026-03-28 00:46:46,253 | INFO | [RAW] [00:35:56]: [Say] (KU_LI3oFM9n) Yennhimew: host nay to6 the
+2026-03-28 00:46:46,253 | INFO | [RAW] [00:35:56]: [Say] (KU_LI3oFM9n) Yennhimew: host nay to6 the
+2026-03-28 00:46:46,688 | INFO | → Discord: Yennhimew: host nay to6 the
+2026-03-28 00:46:46,688 | INFO | Chat: Yennhimew: host nay to6 the
+2026-03-28 00:46:47,594 | INFO | [RAW] [00:35:57]: [Say] (KU_DfIX66W7) Nuis: bam lon
+2026-03-28 00:46:47,594 | INFO | [RAW] [00:35:57]: [Say] (KU_DfIX66W7) Nuis: bam lon
+2026-03-28 00:46:48,078 | INFO | → Discord: Nuis: bam lon
+2026-03-28 00:46:48,078 | INFO | Chat: Nuis: bam lon
+2026-03-28 00:46:50,916 | INFO | [RAW] [00:36:00]: [Say] (KU_G3il1HZL) Chee: dang cap
+2026-03-28 00:46:50,916 | INFO | [RAW] [00:36:00]: [Say] (KU_G3il1HZL) Chee: dang cap
+2026-03-28 00:46:51,294 | INFO | → Discord: Chee: dang cap
+2026-03-28 00:46:51,294 | INFO | Chat: Chee: dang cap
+2026-03-28 00:46:52,700 | INFO | [RAW] [00:36:02]: [Vote Announcement] kick Bánh Canh Cá Glock failed
+2026-03-28 00:46:52,700 | INFO | [RAW] [00:36:02]: [Vote Announcement] kick Bánh Canh Cá Glock failed
+2026-03-28 00:46:55,630 | INFO | [RAW] [00:36:05]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: doi vl :(
+2026-03-28 00:46:55,630 | INFO | [RAW] [00:36:05]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: doi vl :(
+2026-03-28 00:46:56,001 | INFO | → Discord: Bánh Canh Cá Glock: doi vl :(
+2026-03-28 00:46:56,001 | INFO | Chat: Bánh Canh Cá Glock: doi vl :(
+2026-03-28 00:46:56,787 | INFO | [RAW] [00:36:06]: [Say] (KU_iJIpbxVI) Lullaby: co y bam lon
+2026-03-28 00:46:56,787 | INFO | [RAW] [00:36:06]: [Say] (KU_iJIpbxVI) Lullaby: co y bam lon
+2026-03-28 00:46:57,386 | INFO | → Discord: Lullaby: co y bam lon
+2026-03-28 00:46:57,387 | INFO | Chat: Lullaby: co y bam lon
+2026-03-28 00:46:57,387 | INFO | [RAW] [00:36:07]: [Say] (KU_G3il1HZL) Chee: a thich em r day
+2026-03-28 00:46:57,387 | INFO | [RAW] [00:36:07]: [Say] (KU_G3il1HZL) Chee: a thich em r day
+2026-03-28 00:46:57,852 | INFO | → Discord: Chee: a thich em r day
+2026-03-28 00:46:57,852 | INFO | Chat: Chee: a thich em r day
+2026-03-28 00:47:12,039 | INFO | [RAW] [00:36:22]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: cho xin deu 2 cuc da lua :>
+2026-03-28 00:47:12,039 | INFO | [RAW] [00:36:22]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: cho xin deu 2 cuc da lua :>
+2026-03-28 00:47:12,452 | INFO | → Discord: Bánh Canh Cá Glock: cho xin deu 2 cuc da lua :>
+2026-03-28 00:47:12,452 | INFO | Chat: Bánh Canh Cá Glock: cho xin deu 2 cuc da lua :>
+2026-03-28 00:47:27,002 | INFO | [RAW] [00:36:37]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: cam on
+2026-03-28 00:47:27,002 | INFO | [RAW] [00:36:37]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: cam on
+2026-03-28 00:47:27,662 | INFO | → Discord: Bánh Canh Cá Glock: cam on
+2026-03-28 00:47:27,662 | INFO | Chat: Bánh Canh Cá Glock: cam on
+2026-03-28 00:47:31,160 | INFO | [RAW] [00:36:41]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: thanks do
+2026-03-28 00:47:31,160 | INFO | [RAW] [00:36:41]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: thanks do
+2026-03-28 00:47:31,497 | INFO | → Discord: Bánh Canh Cá Glock: thanks do
+2026-03-28 00:47:31,497 | INFO | Chat: Bánh Canh Cá Glock: thanks do
+2026-03-28 00:47:53,872 | INFO | [RAW] [00:37:03]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: ek
+2026-03-28 00:47:53,872 | INFO | [RAW] [00:37:03]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: ek
+2026-03-28 00:47:54,901 | INFO | → Discord: Bánh Canh Cá Glock: ek
+2026-03-28 00:47:54,901 | INFO | Chat: Bánh Canh Cá Glock: ek
+2026-03-28 00:47:57,114 | INFO | [RAW] [00:37:07]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: qua tan thu ne
+2026-03-28 00:47:57,115 | INFO | [RAW] [00:37:07]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: qua tan thu ne
+2026-03-28 00:47:58,066 | INFO | → Discord: Bánh Canh Cá Glock: qua tan thu ne
+2026-03-28 00:47:58,066 | INFO | Chat: Bánh Canh Cá Glock: qua tan thu ne
+2026-03-28 00:48:10,851 | INFO | [RAW] [00:37:20]: [Say] (KU_DfIX66W7) Nuis: o day co goi nap lan dau
+2026-03-28 00:48:10,851 | INFO | [RAW] [00:37:20]: [Say] (KU_DfIX66W7) Nuis: o day co goi nap lan dau
+2026-03-28 00:48:11,255 | INFO | → Discord: Nuis: o day co goi nap lan dau
+2026-03-28 00:48:11,255 | INFO | Chat: Nuis: o day co goi nap lan dau
+2026-03-28 00:48:21,179 | INFO | [RAW] [00:37:31]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  Chúng ta cần thêm  Đuốc.
+2026-03-28 00:48:21,180 | INFO | [RAW] [00:37:31]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  Chúng ta cần thêm  Đuốc.
+2026-03-28 00:48:21,589 | INFO | → Discord: Bánh Canh Cá Glock:  Chúng ta cần thêm  Đuốc.
+2026-03-28 00:48:21,589 | INFO | Chat: Bánh Canh Cá Glock:  Chúng ta cần thêm  Đuốc.
+2026-03-28 00:48:23,176 | INFO | [RAW] [00:37:33]: [Say] (KU_DfIX66W7) Nuis: de toi gui so tai khoan nhe
+2026-03-28 00:48:23,176 | INFO | [RAW] [00:37:33]: [Say] (KU_DfIX66W7) Nuis: de toi gui so tai khoan nhe
+2026-03-28 00:48:23,590 | INFO | → Discord: Nuis: de toi gui so tai khoan nhe
+2026-03-28 00:48:23,590 | INFO | Chat: Nuis: de toi gui so tai khoan nhe
+2026-03-28 00:48:45,547 | INFO | [RAW] [00:37:55]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: vip
+2026-03-28 00:48:45,547 | INFO | [RAW] [00:37:55]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: vip
+2026-03-28 00:48:46,479 | INFO | → Discord: Bánh Canh Cá Glock: vip
+2026-03-28 00:48:46,479 | INFO | Chat: Bánh Canh Cá Glock: vip
+2026-03-28 00:48:55,427 | INFO | [RAW] [00:38:05]: [Say] (KU_DfIX66W7) Nuis:  I have a volt goat horn.
+2026-03-28 00:48:55,427 | INFO | [RAW] [00:38:05]: [Say] (KU_DfIX66W7) Nuis:  I have a volt goat horn.
+2026-03-28 00:48:55,830 | INFO | → Discord: Nuis:  I have a volt goat horn.
+2026-03-28 00:48:55,830 | INFO | Chat: Nuis:  I have a volt goat horn.
+2026-03-28 00:50:41,518 | INFO | [RAW] [00:39:51]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  (Hunger: 10/75) Tôi đang đói! Tôi cần thức ăn...
+2026-03-28 00:50:41,518 | INFO | [RAW] [00:39:51]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  (Hunger: 10/75) Tôi đang đói! Tôi cần thức ăn...
+2026-03-28 00:50:42,479 | INFO | → Discord: Bánh Canh Cá Glock:  (Hunger: 10/75) Tôi đang đói! Tôi cần thức ăn...
+2026-03-28 00:50:42,479 | INFO | Chat: Bánh Canh Cá Glock:  (Hunger: 10/75) Tôi đang đói! Tôi cần thức ăn...
+2026-03-28 00:50:45,460 | INFO | [RAW] [00:39:55]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: oi cai dit
+2026-03-28 00:50:45,460 | INFO | [RAW] [00:39:55]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: oi cai dit
+2026-03-28 00:50:45,879 | INFO | → Discord: Bánh Canh Cá Glock: oi cai dit
+2026-03-28 00:50:45,879 | INFO | Chat: Bánh Canh Cá Glock: oi cai dit
+2026-03-28 00:51:00,084 | INFO | [RAW] [00:40:10]: [Say] (KU_G3il1HZL) Chee: xin dung noi tuc chui the
+2026-03-28 00:51:00,084 | INFO | [RAW] [00:40:10]: [Say] (KU_G3il1HZL) Chee: xin dung noi tuc chui the
+2026-03-28 00:51:00,461 | INFO | → Discord: Chee: xin dung noi tuc chui the
+2026-03-28 00:51:00,461 | INFO | Chat: Chee: xin dung noi tuc chui the
+2026-03-28 00:51:09,247 | INFO | [RAW] [00:40:19]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: oi cai ***
+2026-03-28 00:51:09,247 | INFO | [RAW] [00:40:19]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: oi cai ***
+2026-03-28 00:51:09,617 | INFO | → Discord: Bánh Canh Cá Glock: oi cai ***
+2026-03-28 00:51:09,617 | INFO | Chat: Bánh Canh Cá Glock: oi cai ***
+2026-03-28 00:52:19,430 | INFO | [RAW] [00:41:29]: [Say] (KU_s-fa21GK) trung123fro09:  Look at the map position! {237.431,-580.425} map 29BFE303A84718F8
+2026-03-28 00:52:19,430 | INFO | [RAW] [00:41:29]: [Say] (KU_s-fa21GK) trung123fro09:  Look at the map position! {237.431,-580.425} map 29BFE303A84718F8
+2026-03-28 00:52:20,479 | INFO | → Discord: trung123fro09:  Look at the map position! {237.431,-580.425} map 29BFE303A84718F8
+2026-03-28 00:52:20,479 | INFO | Chat: trung123fro09:  Look at the map position! {237.431,-580.425} map 29BFE303A84718F8
+2026-03-28 00:53:04,098 | INFO | [RAW] [00:42:14]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  (Hunger: 3/75) Tôi đang đói! Tôi cần thức ăn...
+2026-03-28 00:53:04,098 | INFO | [RAW] [00:42:14]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  (Hunger: 3/75) Tôi đang đói! Tôi cần thức ăn...
+2026-03-28 00:53:05,135 | INFO | → Discord: Bánh Canh Cá Glock:  (Hunger: 3/75) Tôi đang đói! Tôi cần thức ăn...
+2026-03-28 00:53:05,135 | INFO | Chat: Bánh Canh Cá Glock:  (Hunger: 3/75) Tôi đang đói! Tôi cần thức ăn...
+2026-03-28 00:53:38,009 | INFO | [RAW] [00:42:48]: [Death Announcement] Bánh Canh Cá Glock was killed by Merm. He became a spooky ghost!
+2026-03-28 00:53:38,009 | INFO | [RAW] [00:42:48]: [Death Announcement] Bánh Canh Cá Glock was killed by Merm. He became a spooky ghost!
+2026-03-28 00:53:38,009 | INFO | Death detected: Bánh Canh Cá Glock was killed by Merm. He became a spooky ghost!
+2026-03-28 00:53:38,018 | INFO | [SYNC] Day 5 | autumn
+2026-03-28 00:53:38,018 | INFO | [UPDATE] Day 5 | autumn
+2026-03-28 00:53:38,304 | INFO | [RAW] [00:42:48]: [Say] (KU_LI3oFM9n) Yennhimew: leo` loet
+2026-03-28 00:53:38,304 | INFO | [RAW] [00:42:48]: [Say] (KU_LI3oFM9n) Yennhimew: leo` loet
+2026-03-28 00:53:38,978 | INFO | → Discord: Yennhimew: leo` loet
+2026-03-28 00:53:38,978 | INFO | Chat: Yennhimew: leo` loet
+2026-03-28 00:53:39,003 | INFO | → Discord: Server: **Day 5 (autumn)** | Bánh Canh Cá Glock was killed by Merm. He became a spooky ghost!
+2026-03-28 00:53:39,376 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-5
+2026-03-28 00:54:37,926 | INFO | [RAW] [00:43:47]: [Say] (KU_s-fa21GK) trung123fro09:  Look here, it's a Crock Pot. {230.000,-598.000} structure 29BFE303A84718F8
+2026-03-28 00:54:37,926 | INFO | [RAW] [00:43:47]: [Say] (KU_s-fa21GK) trung123fro09:  Look here, it's a Crock Pot. {230.000,-598.000} structure 29BFE303A84718F8
+2026-03-28 00:54:38,985 | INFO | → Discord: trung123fro09:  Look here, it's a Crock Pot. {230.000,-598.000} structure 29BFE303A84718F8
+2026-03-28 00:54:38,986 | INFO | Chat: trung123fro09:  Look here, it's a Crock Pot. {230.000,-598.000} structure 29BFE303A84718F8
+2026-03-28 00:55:56,057 | INFO | [RAW] [00:45:06]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: doi troi sang hoi sinh :(
+2026-03-28 00:55:56,057 | INFO | [RAW] [00:45:06]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: doi troi sang hoi sinh :(
+2026-03-28 00:55:57,010 | INFO | → Discord: Bánh Canh Cá Glock: doi troi sang hoi sinh :(
+2026-03-28 00:55:57,010 | INFO | Chat: Bánh Canh Cá Glock: doi troi sang hoi sinh :(
+2026-03-28 00:56:04,422 | INFO | [RAW] [00:45:14]: [Skin Announcement] Nuis legs_pants_basic_tan_cream
+2026-03-28 00:56:04,422 | INFO | [RAW] [00:45:14]: [Skin Announcement] Nuis legs_pants_basic_tan_cream
+2026-03-28 00:56:05,428 | INFO | [RAW] [00:45:15]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: co gang chiu dau ti di
+2026-03-28 00:56:05,428 | INFO | [RAW] [00:45:15]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: co gang chiu dau ti di
+2026-03-28 00:56:05,843 | INFO | → Discord: Bánh Canh Cá Glock: co gang chiu dau ti di
+2026-03-28 00:56:05,843 | INFO | Chat: Bánh Canh Cá Glock: co gang chiu dau ti di
+2026-03-28 00:56:13,010 | INFO | [RAW] [00:45:23]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: ti u te cho
+2026-03-28 00:56:13,010 | INFO | [RAW] [00:45:23]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: ti u te cho
+2026-03-28 00:56:13,361 | INFO | → Discord: Bánh Canh Cá Glock: ti u te cho
+2026-03-28 00:56:13,361 | INFO | Chat: Bánh Canh Cá Glock: ti u te cho
+2026-03-28 00:58:03,478 | INFO | [RAW] [00:47:13]: [Say] (KU_s-fa21GK) trung123fro09:  Found an Alchemy Engine! {236.000,-592.000} structure 29BFE303A84718F8
+2026-03-28 00:58:03,478 | INFO | [RAW] [00:47:13]: [Say] (KU_s-fa21GK) trung123fro09:  Found an Alchemy Engine! {236.000,-592.000} structure 29BFE303A84718F8
+2026-03-28 00:58:04,382 | INFO | → Discord: trung123fro09:  Found an Alchemy Engine! {236.000,-592.000} structure 29BFE303A84718F8
+2026-03-28 00:58:04,382 | INFO | Chat: trung123fro09:  Found an Alchemy Engine! {236.000,-592.000} structure 29BFE303A84718F8
+2026-03-28 01:01:17,530 | INFO | [RAW] [00:50:27]: [Say] (KU_DfIX66W7) Nuis:  Look here! {-5.508,-220.978} ground 29BFE303A84718F8
+2026-03-28 01:01:17,530 | INFO | [RAW] [00:50:27]: [Say] (KU_DfIX66W7) Nuis:  Look here! {-5.508,-220.978} ground 29BFE303A84718F8
+2026-03-28 01:01:18,447 | INFO | → Discord: Nuis:  Look here! {-5.508,-220.978} ground 29BFE303A84718F8
+2026-03-28 01:01:18,447 | INFO | Chat: Nuis:  Look here! {-5.508,-220.978} ground 29BFE303A84718F8
+2026-03-28 01:01:31,696 | INFO | [RAW] [00:50:41]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:01:31,696 | INFO | [RAW] [00:50:41]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:01:32,119 | INFO | → Discord: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:01:32,119 | INFO | Chat: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:01:53,689 | INFO | [RAW] [00:51:03]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:01:53,689 | INFO | [RAW] [00:51:03]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:01:54,573 | INFO | → Discord: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:01:54,573 | INFO | Chat: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:02:18,691 | INFO | [RAW] [00:51:28]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:02:18,691 | INFO | [RAW] [00:51:28]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:02:19,535 | INFO | → Discord: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:02:19,535 | INFO | Chat: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:02:40,679 | INFO | [RAW] [00:51:50]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:02:40,680 | INFO | [RAW] [00:51:50]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:02:41,636 | INFO | → Discord: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:02:41,636 | INFO | Chat: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:03:01,682 | INFO | [RAW] [00:52:11]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:03:01,682 | INFO | [RAW] [00:52:11]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:03:02,618 | INFO | → Discord: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:03:02,618 | INFO | Chat: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:03:22,490 | INFO | [RAW] [00:52:32]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:03:22,490 | INFO | [RAW] [00:52:32]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:03:23,343 | INFO | → Discord: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:03:23,343 | INFO | Chat: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:04:16,435 | INFO | [RAW] [00:53:26]: [Leave Announcement] Nuis
+2026-03-28 01:04:16,435 | INFO | [RAW] [00:53:26]: [Leave Announcement] Nuis
+2026-03-28 01:04:16,435 | INFO | Leave detected: Nuis
+2026-03-28 01:04:16,445 | INFO | [SYNC] Day 6 | autumn
+2026-03-28 01:04:16,445 | INFO | [UPDATE] Day 6 | autumn
+2026-03-28 01:04:17,457 | INFO | → Discord: Server: **Day 6 (autumn)** | **Nuis** Leave
+2026-03-28 01:04:17,892 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-6
+2026-03-28 01:05:21,130 | INFO | [RAW] [00:54:31]: [Join Announcement] Nuis
+2026-03-28 01:05:21,130 | INFO | [RAW] [00:54:31]: [Join Announcement] Nuis
+2026-03-28 01:05:21,130 | INFO | Join detected: Nuis
+2026-03-28 01:05:21,145 | INFO | [SYNC] Day 7 | autumn
+2026-03-28 01:05:21,146 | INFO | [UPDATE] Day 7 | autumn
+2026-03-28 01:05:22,020 | INFO | → Discord: Server: **Day 7 (autumn)** | **Nuis** Joined
+2026-03-28 01:05:22,375 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-7
+2026-03-28 01:07:13,655 | INFO | [RAW] [00:56:23]: [Skin Announcement] trung123fro09 legs_swing_pants_red_higgsbury
+2026-03-28 01:07:13,655 | INFO | [RAW] [00:56:23]: [Skin Announcement] trung123fro09 legs_swing_pants_red_higgsbury
+2026-03-28 01:09:50,127 | INFO | [RAW] [00:59:00]: [Skin Announcement] Chee goldenpickaxe_invisible
+2026-03-28 01:09:50,127 | INFO | [RAW] [00:59:00]: [Skin Announcement] Chee goldenpickaxe_invisible
+2026-03-28 01:10:39,260 | INFO | Shard ID None has successfully RESUMED session b29d56b0f9e53c1f18d251317740131c.
+2026-03-28 01:11:36,476 | INFO | [RAW] [01:00:46]: [Skin Announcement] Yennhimew starstaff_relic
+2026-03-28 01:11:36,476 | INFO | [RAW] [01:00:46]: [Skin Announcement] Yennhimew starstaff_relic
+2026-03-28 01:17:16,297 | INFO | [RAW] [01:06:26]: [Say] (KU_LI3oFM9n) Yennhimew: ma'
+2026-03-28 01:17:16,298 | INFO | [RAW] [01:06:26]: [Say] (KU_LI3oFM9n) Yennhimew: ma'
+2026-03-28 01:17:16,952 | INFO | → Discord: Yennhimew: ma'
+2026-03-28 01:17:16,952 | INFO | Chat: Yennhimew: ma'
+2026-03-28 01:17:18,468 | INFO | [RAW] [01:06:28]: [Say] (KU_LI3oFM9n) Yennhimew: :))
+2026-03-28 01:17:18,468 | INFO | [RAW] [01:06:28]: [Say] (KU_LI3oFM9n) Yennhimew: :))
+2026-03-28 01:17:19,019 | INFO | → Discord: Yennhimew: :))
+2026-03-28 01:17:19,019 | INFO | Chat: Yennhimew: :))
+2026-03-28 01:17:47,285 | INFO | [RAW] [01:06:57]: [Say] (KU_LI3oFM9n) Yennhimew: 50
+2026-03-28 01:17:47,285 | INFO | [RAW] [01:06:57]: [Say] (KU_LI3oFM9n) Yennhimew: 50
+2026-03-28 01:17:48,006 | INFO | → Discord: Yennhimew: 50
+2026-03-28 01:17:48,006 | INFO | Chat: Yennhimew: 50
+2026-03-28 01:17:52,284 | INFO | [RAW] [01:07:02]: [Say] (KU_LI3oFM9n) Yennhimew: tui gui stk
+2026-03-28 01:17:52,284 | INFO | [RAW] [01:07:02]: [Say] (KU_LI3oFM9n) Yennhimew: tui gui stk
+2026-03-28 01:17:52,803 | INFO | → Discord: Yennhimew: tui gui stk
+2026-03-28 01:17:52,803 | INFO | Chat: Yennhimew: tui gui stk
+2026-03-28 01:18:53,924 | INFO | [RAW] [01:08:03]: [Resurrect Announcement] Bánh Canh Cá Glock was resurrected by Touch Stone.
+2026-03-28 01:18:53,924 | INFO | [RAW] [01:08:03]: [Resurrect Announcement] Bánh Canh Cá Glock was resurrected by Touch Stone.
+2026-03-28 01:20:12,232 | INFO | [RAW] [01:09:22]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  Tôi cần 1 thêm cành cây để làm  một cuốc chim.
+2026-03-28 01:20:12,232 | INFO | [RAW] [01:09:22]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  Tôi cần 1 thêm cành cây để làm  một cuốc chim.
+2026-03-28 01:20:12,820 | INFO | → Discord: Bánh Canh Cá Glock:  Tôi cần 1 thêm cành cây để làm  một cuốc chim.
+2026-03-28 01:20:12,820 | INFO | Chat: Bánh Canh Cá Glock:  Tôi cần 1 thêm cành cây để làm  một cuốc chim.
+2026-03-28 01:20:29,959 | INFO | [RAW] [01:09:39]: [Say] (KU_LI3oFM9n) Yennhimew: ???
+2026-03-28 01:20:29,959 | INFO | [RAW] [01:09:39]: [Say] (KU_LI3oFM9n) Yennhimew: ???
+2026-03-28 01:20:30,591 | INFO | → Discord: Yennhimew: ???
+2026-03-28 01:20:30,591 | INFO | Chat: Yennhimew: ???
+2026-03-28 01:21:06,289 | INFO | [RAW] [01:10:16]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  Chúng ta cần thêm  Đống bong bóng.
+2026-03-28 01:21:06,289 | INFO | [RAW] [01:10:16]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  Chúng ta cần thêm  Đống bong bóng.
+2026-03-28 01:21:06,729 | INFO | → Discord: Bánh Canh Cá Glock:  Chúng ta cần thêm  Đống bong bóng.
+2026-03-28 01:21:06,729 | INFO | Chat: Bánh Canh Cá Glock:  Chúng ta cần thêm  Đống bong bóng.
+2026-03-28 01:22:32,642 | INFO | [RAW] [01:11:42]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: doi qua choi wes ne Nhi
+2026-03-28 01:22:32,642 | INFO | [RAW] [01:11:42]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: doi qua choi wes ne Nhi
+2026-03-28 01:22:33,388 | INFO | → Discord: Bánh Canh Cá Glock: doi qua choi wes ne Nhi
+2026-03-28 01:22:33,388 | INFO | Chat: Bánh Canh Cá Glock: doi qua choi wes ne Nhi
+2026-03-28 01:22:54,132 | INFO | [RAW] [01:12:04]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: 6 con wes
+2026-03-28 01:22:54,132 | INFO | [RAW] [01:12:04]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: 6 con wes
+2026-03-28 01:22:54,748 | INFO | → Discord: Bánh Canh Cá Glock: 6 con wes
+2026-03-28 01:22:54,748 | INFO | Chat: Bánh Canh Cá Glock: 6 con wes
+2026-03-28 01:25:41,983 | INFO | [RAW] [01:14:51]: [Death Announcement] Bánh Canh Cá Glock was killed by Merm. He became a spooky ghost!
+2026-03-28 01:25:41,983 | INFO | [RAW] [01:14:51]: [Death Announcement] Bánh Canh Cá Glock was killed by Merm. He became a spooky ghost!
+2026-03-28 01:25:41,983 | INFO | Death detected: Bánh Canh Cá Glock was killed by Merm. He became a spooky ghost!
+2026-03-28 01:25:41,990 | INFO | [SYNC] Day 9 | autumn
+2026-03-28 01:25:41,990 | INFO | [UPDATE] Day 9 | autumn
+2026-03-28 01:25:42,577 | INFO | → Discord: Server: **Day 9 (autumn)** | Bánh Canh Cá Glock was killed by Merm. He became a spooky ghost!
+2026-03-28 01:25:42,991 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-9
+2026-03-28 01:27:22,122 | INFO | [RAW] [01:16:32]: [Skin Announcement] Lullaby feet_twotone_shoe_navy_midnight
+2026-03-28 01:27:22,122 | INFO | [RAW] [01:16:32]: [Skin Announcement] Lullaby feet_twotone_shoe_navy_midnight
+2026-03-28 01:27:35,659 | INFO | [RAW] [01:16:45]: [Say] (KU_LI3oFM9n) Yennhimew: =))
+2026-03-28 01:27:35,659 | INFO | [RAW] [01:16:45]: [Say] (KU_LI3oFM9n) Yennhimew: =))
+2026-03-28 01:27:36,164 | INFO | → Discord: Yennhimew: =))
+2026-03-28 01:27:36,164 | INFO | Chat: Yennhimew: =))
+2026-03-28 01:29:27,629 | INFO | [RAW] [01:18:37]: [Say] (KU_LI3oFM9n) Yennhimew: rua chen gi 2 ngay ??
+2026-03-28 01:29:27,629 | INFO | [RAW] [01:18:37]: [Say] (KU_LI3oFM9n) Yennhimew: rua chen gi 2 ngay ??
+2026-03-28 01:29:28,176 | INFO | → Discord: Yennhimew: rua chen gi 2 ngay ??
+2026-03-28 01:29:28,176 | INFO | Chat: Yennhimew: rua chen gi 2 ngay ??
+2026-03-28 01:30:07,601 | INFO | [RAW] [01:19:17]: [Whisper] (KU_LI3oFM9n) Yennhimew: t met qua
+2026-03-28 01:30:07,601 | INFO | [RAW] [01:19:17]: [Whisper] (KU_LI3oFM9n) Yennhimew: t met qua
+2026-03-28 01:30:29,126 | INFO | [RAW] [01:19:39]: [Resurrect Announcement] Bánh Canh Cá Glock was resurrected by Lullaby.
+2026-03-28 01:30:29,126 | INFO | [RAW] [01:19:39]: [Resurrect Announcement] Bánh Canh Cá Glock was resurrected by Lullaby.
+2026-03-28 01:30:36,858 | INFO | [RAW] [01:19:46]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: tr oi nguoi tot
+2026-03-28 01:30:36,858 | INFO | [RAW] [01:19:46]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: tr oi nguoi tot
+2026-03-28 01:30:39,093 | INFO | → Discord: Bánh Canh Cá Glock: tr oi nguoi tot
+2026-03-28 01:30:39,094 | INFO | Chat: Bánh Canh Cá Glock: tr oi nguoi tot
+2026-03-28 01:30:45,048 | INFO | [RAW] [01:19:55]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: toi se theo ban
+2026-03-28 01:30:45,048 | INFO | [RAW] [01:19:55]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: toi se theo ban
+2026-03-28 01:30:45,428 | INFO | → Discord: Bánh Canh Cá Glock: toi se theo ban
+2026-03-28 01:30:45,428 | INFO | Chat: Bánh Canh Cá Glock: toi se theo ban
+2026-03-28 01:31:14,847 | INFO | [RAW] [01:20:24]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: ban co muon di choi o dam lay khum ?
+2026-03-28 01:31:14,847 | INFO | [RAW] [01:20:24]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: ban co muon di choi o dam lay khum ?
+2026-03-28 01:31:15,323 | INFO | → Discord: Bánh Canh Cá Glock: ban co muon di choi o dam lay khum ?
+2026-03-28 01:31:15,323 | INFO | Chat: Bánh Canh Cá Glock: ban co muon di choi o dam lay khum ?
+2026-03-28 01:31:26,132 | INFO | [RAW] [01:20:36]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: minh lo tay roi vai mon do
+2026-03-28 01:31:26,132 | INFO | [RAW] [01:20:36]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: minh lo tay roi vai mon do
+2026-03-28 01:31:26,642 | INFO | → Discord: Bánh Canh Cá Glock: minh lo tay roi vai mon do
+2026-03-28 01:31:26,642 | INFO | Chat: Bánh Canh Cá Glock: minh lo tay roi vai mon do
+2026-03-28 01:31:36,834 | INFO | [RAW] [01:20:46]: [Say] (KU_iJIpbxVI) Lullaby: bo di
+2026-03-28 01:31:36,834 | INFO | [RAW] [01:20:46]: [Say] (KU_iJIpbxVI) Lullaby: bo di
+2026-03-28 01:31:37,243 | INFO | → Discord: Lullaby: bo di
+2026-03-28 01:31:37,243 | INFO | Chat: Lullaby: bo di
+2026-03-28 01:31:43,784 | INFO | [RAW] [01:20:53]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: :(
+2026-03-28 01:31:43,784 | INFO | [RAW] [01:20:53]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: :(
+2026-03-28 01:31:44,363 | INFO | → Discord: Bánh Canh Cá Glock: :(
+2026-03-28 01:31:44,364 | INFO | Chat: Bánh Canh Cá Glock: :(
+2026-03-28 01:31:53,456 | INFO | [RAW] [01:21:03]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: tiec :<
+2026-03-28 01:31:53,456 | INFO | [RAW] [01:21:03]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: tiec :<
+2026-03-28 01:31:54,079 | INFO | → Discord: Bánh Canh Cá Glock: tiec :<
+2026-03-28 01:31:54,079 | INFO | Chat: Bánh Canh Cá Glock: tiec :<
+2026-03-28 01:32:21,426 | INFO | [RAW] [01:21:31]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: dam lay vui lam a
+2026-03-28 01:32:21,426 | INFO | [RAW] [01:21:31]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: dam lay vui lam a
+2026-03-28 01:32:22,082 | INFO | → Discord: Bánh Canh Cá Glock: dam lay vui lam a
+2026-03-28 01:32:22,082 | INFO | Chat: Bánh Canh Cá Glock: dam lay vui lam a
+2026-03-28 01:32:47,581 | INFO | [RAW] [01:21:57]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: Nhi oi
+2026-03-28 01:32:47,581 | INFO | [RAW] [01:21:57]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: Nhi oi
+2026-03-28 01:32:48,114 | INFO | → Discord: Bánh Canh Cá Glock: Nhi oi
+2026-03-28 01:32:48,114 | INFO | Chat: Bánh Canh Cá Glock: Nhi oi
+2026-03-28 01:32:52,959 | INFO | [RAW] [01:22:02]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: di dam lay choi kh ?
+2026-03-28 01:32:52,959 | INFO | [RAW] [01:22:02]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: di dam lay choi kh ?
+2026-03-28 01:32:53,332 | INFO | → Discord: Bánh Canh Cá Glock: di dam lay choi kh ?
+2026-03-28 01:32:53,333 | INFO | Chat: Bánh Canh Cá Glock: di dam lay choi kh ?
+2026-03-28 01:33:18,791 | INFO | [RAW] [01:22:28]: [Say] (KU_DfIX66W7) Nuis:  I have a battle helm with  2% durability.
+2026-03-28 01:33:18,791 | INFO | [RAW] [01:22:28]: [Say] (KU_DfIX66W7) Nuis:  I have a battle helm with  2% durability.
+2026-03-28 01:33:19,313 | INFO | → Discord: Nuis:  I have a battle helm with  2% durability.
+2026-03-28 01:33:19,313 | INFO | Chat: Nuis:  I have a battle helm with  2% durability.
+2026-03-28 01:35:08,478 | INFO | [RAW] [01:24:18]: [Say] (KU_LI3oFM9n) Yennhimew: m gion v9oi t ha nuis
+2026-03-28 01:35:08,479 | INFO | [RAW] [01:24:18]: [Say] (KU_LI3oFM9n) Yennhimew: m gion v9oi t ha nuis
+2026-03-28 01:35:08,987 | INFO | → Discord: Yennhimew: m gion v9oi t ha nuis
+2026-03-28 01:35:08,988 | INFO | Chat: Yennhimew: m gion v9oi t ha nuis
+2026-03-28 01:35:10,112 | INFO | [RAW] [01:24:20]: [Say] (KU_LI3oFM9n) Yennhimew: :))
+2026-03-28 01:35:10,112 | INFO | [RAW] [01:24:20]: [Say] (KU_LI3oFM9n) Yennhimew: :))
+2026-03-28 01:35:10,531 | INFO | → Discord: Yennhimew: :))
+2026-03-28 01:35:10,531 | INFO | Chat: Yennhimew: :))
+2026-03-28 01:35:26,965 | INFO | [RAW] [01:24:36]: [Vote Announcement] regenerate failed
+2026-03-28 01:35:26,965 | INFO | [RAW] [01:24:36]: [Vote Announcement] regenerate failed
+2026-03-28 01:37:27,212 | INFO | [RAW] [01:26:37]: [Say] (KU_DfIX66W7) Nuis:  I see lumberjack Nuis. {225.526,-585.099} mob 29BFE303A84718F8
+2026-03-28 01:37:27,212 | INFO | [RAW] [01:26:37]: [Say] (KU_DfIX66W7) Nuis:  I see lumberjack Nuis. {225.526,-585.099} mob 29BFE303A84718F8
+2026-03-28 01:37:27,627 | INFO | → Discord: Nuis:  I see lumberjack Nuis. {225.526,-585.099} mob 29BFE303A84718F8
+2026-03-28 01:37:27,627 | INFO | Chat: Nuis:  I see lumberjack Nuis. {225.526,-585.099} mob 29BFE303A84718F8
+2026-03-28 01:39:06,985 | INFO | [RAW] [01:28:16]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: Chiiiiiiiiiiii
+2026-03-28 01:39:06,985 | INFO | [RAW] [01:28:16]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock: Chiiiiiiiiiiii
+2026-03-28 01:39:07,454 | INFO | → Discord: Bánh Canh Cá Glock: Chiiiiiiiiiiii
+2026-03-28 01:39:07,455 | INFO | Chat: Bánh Canh Cá Glock: Chiiiiiiiiiiii
+2026-03-28 01:40:13,789 | INFO | [RAW] [01:29:23]: [Say] (KU_DfIX66W7) Nuis:  Check your maps here! {236.294,-596.087} map 29BFE303A84718F8
+2026-03-28 01:40:13,789 | INFO | [RAW] [01:29:23]: [Say] (KU_DfIX66W7) Nuis:  Check your maps here! {236.294,-596.087} map 29BFE303A84718F8
+2026-03-28 01:40:14,381 | INFO | → Discord: Nuis:  Check your maps here! {236.294,-596.087} map 29BFE303A84718F8
+2026-03-28 01:40:14,381 | INFO | Chat: Nuis:  Check your maps here! {236.294,-596.087} map 29BFE303A84718F8
+2026-03-28 01:40:22,921 | INFO | [RAW] [01:29:32]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  Tôi có 2 bao tử muỗi.
+2026-03-28 01:40:22,921 | INFO | [RAW] [01:29:32]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  Tôi có 2 bao tử muỗi.
+2026-03-28 01:40:23,437 | INFO | → Discord: Bánh Canh Cá Glock:  Tôi có 2 bao tử muỗi.
+2026-03-28 01:40:23,437 | INFO | Chat: Bánh Canh Cá Glock:  Tôi có 2 bao tử muỗi.
+2026-03-28 01:41:47,303 | INFO | [RAW] [01:30:57]: [Death Announcement] Bánh Canh Cá Glock was killed by Tentacle. He became a spooky ghost!
+2026-03-28 01:41:47,303 | INFO | [RAW] [01:30:57]: [Death Announcement] Bánh Canh Cá Glock was killed by Tentacle. He became a spooky ghost!
+2026-03-28 01:41:47,303 | INFO | Death detected: Bánh Canh Cá Glock was killed by Tentacle. He became a spooky ghost!
+2026-03-28 01:41:47,311 | INFO | [SYNC] Day 11 | autumn
+2026-03-28 01:41:47,311 | INFO | [UPDATE] Day 11 | autumn
+2026-03-28 01:41:47,904 | INFO | → Discord: Server: **Day 11 (autumn)** | Bánh Canh Cá Glock was killed by Tentacle. He became a spooky ghost!
+2026-03-28 01:41:48,243 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-11
+2026-03-28 01:41:56,983 | INFO | [RAW] [01:31:06]: [Whisper] (KU_LI3oFM9n) Yennhimew: =))
+2026-03-28 01:41:56,983 | INFO | [RAW] [01:31:06]: [Whisper] (KU_LI3oFM9n) Yennhimew: =))
+2026-03-28 01:42:37,580 | INFO | [RAW] [01:31:47]: [Say] (KU_DfIX66W7) Nuis:  I spy with my eye a Nuis! {238.337,-598.125} mob 29BFE303A84718F8
+2026-03-28 01:42:37,580 | INFO | [RAW] [01:31:47]: [Say] (KU_DfIX66W7) Nuis:  I spy with my eye a Nuis! {238.337,-598.125} mob 29BFE303A84718F8
+2026-03-28 01:42:38,075 | INFO | → Discord: Nuis:  I spy with my eye a Nuis! {238.337,-598.125} mob 29BFE303A84718F8
+2026-03-28 01:42:38,075 | INFO | Chat: Nuis:  I spy with my eye a Nuis! {238.337,-598.125} mob 29BFE303A84718F8
+2026-03-28 01:49:20,415 | INFO | [RAW] [01:38:30]: [Resurrect Announcement] Bánh Canh Cá Glock was resurrected by Nuis.
+2026-03-28 01:49:20,415 | INFO | [RAW] [01:38:30]: [Resurrect Announcement] Bánh Canh Cá Glock was resurrected by Nuis.
+2026-03-28 01:49:26,862 | INFO | [RAW] [01:38:36]: [Death Announcement] Bánh Canh Cá Glock was killed by Tentacle. He became a spooky ghost!
+2026-03-28 01:49:26,862 | INFO | [RAW] [01:38:36]: [Death Announcement] Bánh Canh Cá Glock was killed by Tentacle. He became a spooky ghost!
+2026-03-28 01:49:26,862 | INFO | Death detected: Bánh Canh Cá Glock was killed by Tentacle. He became a spooky ghost!
+2026-03-28 01:49:26,870 | INFO | [SYNC] Day 12 | autumn
+2026-03-28 01:49:26,870 | INFO | [UPDATE] Day 12 | autumn
+2026-03-28 01:49:27,308 | INFO | → Discord: Server: **Day 12 (autumn)** | Bánh Canh Cá Glock was killed by Tentacle. He became a spooky ghost!
+2026-03-28 01:49:27,753 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-12
+2026-03-28 01:50:01,033 | INFO | → To Game: Thỏ Ი𐑼˖: Toang
+2026-03-28 01:50:01,044 | INFO | ← From Discord: Thỏ Ი𐑼˖: Toang
+2026-03-28 01:50:01,049 | INFO | [RAW] [01:39:11]: [Announcement] [Discord] Thỏ Ი𐑼˖: Toang
+2026-03-28 01:50:01,049 | INFO | [RAW] [01:39:11]: [Announcement] [Discord] Thỏ Ი𐑼˖: Toang
+2026-03-28 01:50:01,351 | INFO | [RAW] [01:39:11]: [Say] (KU_DfIX66W7) Nuis:  (󰀍 25/150) I'm mortally wounded!
+2026-03-28 01:50:01,351 | INFO | [RAW] [01:39:11]: [Say] (KU_DfIX66W7) Nuis:  (󰀍 25/150) I'm mortally wounded!
+2026-03-28 01:50:01,932 | INFO | → Discord: Nuis:  (󰀍 25/150) I'm mortally wounded!
+2026-03-28 01:50:01,932 | INFO | Chat: Nuis:  (󰀍 25/150) I'm mortally wounded!
+2026-03-28 01:50:02,026 | INFO | → To Game: Thỏ Ი𐑼˖: :))
+2026-03-28 01:50:02,029 | INFO | ← From Discord: Thỏ Ი𐑼˖: :))
+2026-03-28 01:50:02,039 | INFO | [RAW] [01:39:12]: [Announcement] [Discord] Thỏ Ი𐑼˖: :))
+2026-03-28 01:50:02,039 | INFO | [RAW] [01:39:12]: [Announcement] [Discord] Thỏ Ი𐑼˖: :))
+2026-03-28 01:50:10,133 | INFO | [RAW] [01:39:20]: [Say] (KU_DfIX66W7) Nuis:  Be careful of the Nuis here! {-150.663,168.523} mob 29BFE303A84718F8
+2026-03-28 01:50:10,133 | INFO | [RAW] [01:39:20]: [Say] (KU_DfIX66W7) Nuis:  Be careful of the Nuis here! {-150.663,168.523} mob 29BFE303A84718F8
+2026-03-28 01:50:10,535 | INFO | → Discord: Nuis:  Be careful of the Nuis here! {-150.663,168.523} mob 29BFE303A84718F8
+2026-03-28 01:50:10,535 | INFO | Chat: Nuis:  Be careful of the Nuis here! {-150.663,168.523} mob 29BFE303A84718F8
+2026-03-28 01:53:56,023 | INFO | [RAW] [01:43:06]: [Say] (KU_DfIX66W7) Nuis:  There is a Nuis here! {-151.767,166.271} mob 29BFE303A84718F8
+2026-03-28 01:53:56,023 | INFO | [RAW] [01:43:06]: [Say] (KU_DfIX66W7) Nuis:  There is a Nuis here! {-151.767,166.271} mob 29BFE303A84718F8
+2026-03-28 01:53:56,482 | INFO | → Discord: Nuis:  There is a Nuis here! {-151.767,166.271} mob 29BFE303A84718F8
+2026-03-28 01:53:56,482 | INFO | Chat: Nuis:  There is a Nuis here! {-151.767,166.271} mob 29BFE303A84718F8
+2026-03-28 01:54:08,875 | INFO | [RAW] [01:43:18]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:54:08,875 | INFO | [RAW] [01:43:18]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:54:09,275 | INFO | → Discord: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:54:09,275 | INFO | Chat: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:54:31,895 | INFO | [RAW] [01:43:41]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:54:31,895 | INFO | [RAW] [01:43:41]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:54:32,543 | INFO | → Discord: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:54:32,543 | INFO | Chat: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:54:37,803 | INFO | [RAW] [01:43:47]: [Resurrect Announcement] Bánh Canh Cá Glock was resurrected by trung123fro09.
+2026-03-28 01:54:37,803 | INFO | [RAW] [01:43:47]: [Resurrect Announcement] Bánh Canh Cá Glock was resurrected by trung123fro09.
+2026-03-28 01:54:40,827 | INFO | → To Game: MB: 123
+2026-03-28 01:54:40,831 | INFO | ← From Discord: MB: 123
+2026-03-28 01:54:40,835 | INFO | [RAW] [01:43:50]: [Announcement] [Discord] MB: 123
+2026-03-28 01:54:40,835 | INFO | [RAW] [01:43:50]: [Announcement] [Discord] MB: 123
+2026-03-28 01:54:43,157 | INFO | [RAW] [01:43:53]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  (Health: 19/75) Hết máu !!! Chạy thôi
+2026-03-28 01:54:43,157 | INFO | [RAW] [01:43:53]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  (Health: 19/75) Hết máu !!! Chạy thôi
+2026-03-28 01:54:43,559 | INFO | → Discord: Bánh Canh Cá Glock:  (Health: 19/75) Hết máu !!! Chạy thôi
+2026-03-28 01:54:43,559 | INFO | Chat: Bánh Canh Cá Glock:  (Health: 19/75) Hết máu !!! Chạy thôi
+2026-03-28 01:54:55,887 | INFO | [RAW] [01:44:05]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:54:55,887 | INFO | [RAW] [01:44:05]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:54:56,281 | INFO | → Discord: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:54:56,281 | INFO | Chat: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:55:15,892 | INFO | [RAW] [01:44:25]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:55:15,893 | INFO | [RAW] [01:44:25]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:55:16,517 | INFO | → Discord: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:55:16,517 | INFO | Chat: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:55:36,888 | INFO | [RAW] [01:44:46]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:55:36,888 | INFO | [RAW] [01:44:46]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:55:37,290 | INFO | → Discord: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:55:37,290 | INFO | Chat: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:55:58,088 | INFO | [RAW] [01:45:08]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:55:58,088 | INFO | [RAW] [01:45:08]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:55:58,494 | INFO | → Discord: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:55:58,494 | INFO | Chat: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 01:57:03,733 | INFO | [RAW] [01:46:13]: [Say] (KU_DfIX66W7) Nuis:  Hmm, there's a Hound here. {-189.113,141.372} mob 29BFE303A84718F8
+2026-03-28 01:57:03,733 | INFO | [RAW] [01:46:13]: [Say] (KU_DfIX66W7) Nuis:  Hmm, there's a Hound here. {-189.113,141.372} mob 29BFE303A84718F8
+2026-03-28 01:57:04,433 | INFO | → Discord: Nuis:  Hmm, there's a Hound here. {-189.113,141.372} mob 29BFE303A84718F8
+2026-03-28 01:57:04,433 | INFO | Chat: Nuis:  Hmm, there's a Hound here. {-189.113,141.372} mob 29BFE303A84718F8
+2026-03-28 01:57:06,953 | INFO | [RAW] [01:46:16]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  Tôi có 4 thịt quái vật, và cái này có 90% độ tươi.
+2026-03-28 01:57:06,953 | INFO | [RAW] [01:46:16]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  Tôi có 4 thịt quái vật, và cái này có 90% độ tươi.
+2026-03-28 01:57:07,291 | INFO | → Discord: Bánh Canh Cá Glock:  Tôi có 4 thịt quái vật, và cái này có 90% độ tươi.
+2026-03-28 01:57:07,291 | INFO | Chat: Bánh Canh Cá Glock:  Tôi có 4 thịt quái vật, và cái này có 90% độ tươi.
+2026-03-28 01:57:21,202 | INFO | [RAW] [01:46:31]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  (Health: 19/75) Hết máu !!! Chạy thôi
+2026-03-28 01:57:21,202 | INFO | [RAW] [01:46:31]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  (Health: 19/75) Hết máu !!! Chạy thôi
+2026-03-28 01:57:21,611 | INFO | → Discord: Bánh Canh Cá Glock:  (Health: 19/75) Hết máu !!! Chạy thôi
+2026-03-28 01:57:21,611 | INFO | Chat: Bánh Canh Cá Glock:  (Health: 19/75) Hết máu !!! Chạy thôi
+2026-03-28 01:57:58,298 | INFO | [RAW] [01:47:08]: [Death Announcement] Nuis was killed by Tallbird. He became a spooky ghost!
+2026-03-28 01:57:58,298 | INFO | [RAW] [01:47:08]: [Death Announcement] Nuis was killed by Tallbird. He became a spooky ghost!
+2026-03-28 01:57:58,298 | INFO | Death detected: Nuis was killed by Tallbird. He became a spooky ghost!
+2026-03-28 01:57:58,307 | INFO | [SYNC] Day 13 | autumn
+2026-03-28 01:57:58,307 | INFO | [UPDATE] Day 13 | autumn
+2026-03-28 01:57:59,064 | INFO | → Discord: Server: **Day 13 (autumn)** | Nuis was killed by Tallbird. He became a spooky ghost!
+2026-03-28 01:57:59,598 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-13
+2026-03-28 01:59:11,559 | INFO | [RAW] [01:48:21]: [Say] (KU_DfIX66W7) Nuis:  Here! {-9.457,-208.280} ground 29BFE303A84718F8
+2026-03-28 01:59:11,559 | INFO | [RAW] [01:48:21]: [Say] (KU_DfIX66W7) Nuis:  Here! {-9.457,-208.280} ground 29BFE303A84718F8
+2026-03-28 01:59:12,072 | INFO | → Discord: Nuis:  Here! {-9.457,-208.280} ground 29BFE303A84718F8
+2026-03-28 01:59:12,073 | INFO | Chat: Nuis:  Here! {-9.457,-208.280} ground 29BFE303A84718F8
+2026-03-28 01:59:37,598 | INFO | [RAW] [01:48:47]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  (Hunger: 9/75) Tôi đang đói! Tôi cần thức ăn...
+2026-03-28 01:59:37,599 | INFO | [RAW] [01:48:47]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  (Hunger: 9/75) Tôi đang đói! Tôi cần thức ăn...
+2026-03-28 01:59:38,140 | INFO | → Discord: Bánh Canh Cá Glock:  (Hunger: 9/75) Tôi đang đói! Tôi cần thức ăn...
+2026-03-28 01:59:38,141 | INFO | Chat: Bánh Canh Cá Glock:  (Hunger: 9/75) Tôi đang đói! Tôi cần thức ăn...
+2026-03-28 01:59:42,359 | INFO | [RAW] [01:48:52]: [Say] (KU_s-fa21GK) trung123fro09:  I have 5 juicy berries, and this one has 8% freshness.
+2026-03-28 01:59:42,359 | INFO | [RAW] [01:48:52]: [Say] (KU_s-fa21GK) trung123fro09:  I have 5 juicy berries, and this one has 8% freshness.
+2026-03-28 01:59:42,847 | INFO | → Discord: trung123fro09:  I have 5 juicy berries, and this one has 8% freshness.
+2026-03-28 01:59:42,847 | INFO | Chat: trung123fro09:  I have 5 juicy berries, and this one has 8% freshness.
+2026-03-28 01:59:49,379 | INFO | [RAW] [01:48:59]: [Say] (KU_DfIX66W7) Nuis:  Look at this spot! {240.193,105.401} ground 29BFE303A84718F8
+2026-03-28 01:59:49,379 | INFO | [RAW] [01:48:59]: [Say] (KU_DfIX66W7) Nuis:  Look at this spot! {240.193,105.401} ground 29BFE303A84718F8
+2026-03-28 01:59:49,794 | INFO | → Discord: Nuis:  Look at this spot! {240.193,105.401} ground 29BFE303A84718F8
+2026-03-28 01:59:49,795 | INFO | Chat: Nuis:  Look at this spot! {240.193,105.401} ground 29BFE303A84718F8
+2026-03-28 02:01:25,658 | INFO | [RAW] [01:50:35]: [Resurrect Announcement] Nuis was resurrected by Touch Stone.
+2026-03-28 02:01:25,658 | INFO | [RAW] [01:50:35]: [Resurrect Announcement] Nuis was resurrected by Touch Stone.
+2026-03-28 02:04:01,423 | INFO | [RAW] [01:53:11]: [Say] (KU_DfIX66W7) Nuis: dam no
+2026-03-28 02:04:01,423 | INFO | [RAW] [01:53:11]: [Say] (KU_DfIX66W7) Nuis: dam no
+2026-03-28 02:04:01,812 | INFO | → Discord: Nuis: dam no
+2026-03-28 02:04:01,813 | INFO | Chat: Nuis: dam no
+2026-03-28 02:04:05,263 | INFO | [RAW] [01:53:15]: [Say] (KU_DfIX66W7) Nuis:  Look here! {70.698,-5.152} ground 29BFE303A84718F8
+2026-03-28 02:04:05,263 | INFO | [RAW] [01:53:15]: [Say] (KU_DfIX66W7) Nuis:  Look here! {70.698,-5.152} ground 29BFE303A84718F8
+2026-03-28 02:04:05,750 | INFO | → Discord: Nuis:  Look here! {70.698,-5.152} ground 29BFE303A84718F8
+2026-03-28 02:04:05,750 | INFO | Chat: Nuis:  Look here! {70.698,-5.152} ground 29BFE303A84718F8
+2026-03-28 02:04:49,502 | INFO | [RAW] [01:53:59]: [Say] (KU_LI3oFM9n) Yennhimew: toi nong roi day
+2026-03-28 02:04:49,502 | INFO | [RAW] [01:53:59]: [Say] (KU_LI3oFM9n) Yennhimew: toi nong roi day
+2026-03-28 02:04:49,979 | INFO | → Discord: Yennhimew: toi nong roi day
+2026-03-28 02:04:49,979 | INFO | Chat: Yennhimew: toi nong roi day
+2026-03-28 02:05:00,020 | INFO | [RAW] [01:54:10]: [Say] (KU_LI3oFM9n) Yennhimew: vote kick thanh son di
+2026-03-28 02:05:00,021 | INFO | [RAW] [01:54:10]: [Say] (KU_LI3oFM9n) Yennhimew: vote kick thanh son di
+2026-03-28 02:05:00,574 | INFO | → Discord: Yennhimew: vote kick thanh son di
+2026-03-28 02:05:00,575 | INFO | Chat: Yennhimew: vote kick thanh son di
+2026-03-28 02:05:00,575 | INFO | [RAW] [01:54:10]: [Say] (KU_s-fa21GK) trung123fro09:  I have 57 beefalo wools.
+2026-03-28 02:05:00,575 | INFO | [RAW] [01:54:10]: [Say] (KU_s-fa21GK) trung123fro09:  I have 57 beefalo wools.
+2026-03-28 02:05:01,084 | INFO | → Discord: trung123fro09:  I have 57 beefalo wools.
+2026-03-28 02:05:01,085 | INFO | Chat: trung123fro09:  I have 57 beefalo wools.
+2026-03-28 02:05:50,973 | INFO | [RAW] [01:55:00]: [Say] (KU_LI3oFM9n) Yennhimew: =))
+2026-03-28 02:05:50,973 | INFO | [RAW] [01:55:00]: [Say] (KU_LI3oFM9n) Yennhimew: =))
+2026-03-28 02:05:51,636 | INFO | → Discord: Yennhimew: =))
+2026-03-28 02:05:51,636 | INFO | Chat: Yennhimew: =))
+2026-03-28 02:07:53,857 | INFO | [RAW] [01:57:03]: [Say] (KU_LI3oFM9n) Yennhimew: cam vu khi len
+2026-03-28 02:07:53,857 | INFO | [RAW] [01:57:03]: [Say] (KU_LI3oFM9n) Yennhimew: cam vu khi len
+2026-03-28 02:07:54,316 | INFO | → Discord: Yennhimew: cam vu khi len
+2026-03-28 02:07:54,316 | INFO | Chat: Yennhimew: cam vu khi len
+2026-03-28 02:07:57,118 | INFO | [RAW] [01:57:07]: [Announcement] You feel an evil presence watching you...
+2026-03-28 02:07:57,119 | INFO | [RAW] [01:57:07]: [Announcement] You feel an evil presence watching you...
+2026-03-28 02:08:07,112 | INFO | [RAW] [01:57:17]: [Announcement] The Eye of Terror turns its gaze toward Yennhimew
+2026-03-28 02:08:07,112 | INFO | [RAW] [01:57:17]: [Announcement] The Eye of Terror turns its gaze toward Yennhimew
+2026-03-28 02:08:58,278 | INFO | [RAW] [01:58:08]: [Leave Announcement] Nuis
+2026-03-28 02:08:58,278 | INFO | [RAW] [01:58:08]: [Leave Announcement] Nuis
+2026-03-28 02:08:58,278 | INFO | Leave detected: Nuis
+2026-03-28 02:08:58,293 | INFO | [SYNC] Day 14 | autumn
+2026-03-28 02:08:58,293 | INFO | [UPDATE] Day 14 | autumn
+2026-03-28 02:08:58,868 | INFO | → Discord: Server: **Day 14 (autumn)** | **Nuis** Leave
+2026-03-28 02:08:59,221 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-14
+2026-03-28 02:09:15,636 | INFO | [RAW] [01:58:25]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  (Health: 7/75) Cạn máu
+2026-03-28 02:09:15,636 | INFO | [RAW] [01:58:25]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  (Health: 7/75) Cạn máu
+2026-03-28 02:09:16,240 | INFO | → Discord: Bánh Canh Cá Glock:  (Health: 7/75) Cạn máu
+2026-03-28 02:09:16,240 | INFO | Chat: Bánh Canh Cá Glock:  (Health: 7/75) Cạn máu
+2026-03-28 02:09:37,701 | INFO | [RAW] [01:58:47]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  (Hunger: 0/75) Tôi đang đói! Tôi cần thức ăn...
+2026-03-28 02:09:37,701 | INFO | [RAW] [01:58:47]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  (Hunger: 0/75) Tôi đang đói! Tôi cần thức ăn...
+2026-03-28 02:09:38,143 | INFO | → Discord: Bánh Canh Cá Glock:  (Hunger: 0/75) Tôi đang đói! Tôi cần thức ăn...
+2026-03-28 02:09:38,143 | INFO | Chat: Bánh Canh Cá Glock:  (Hunger: 0/75) Tôi đang đói! Tôi cần thức ăn...
+2026-03-28 02:09:41,642 | INFO | [RAW] [01:58:51]: [Death Announcement] Bánh Canh Cá Glock was killed by Starvation. He became a spooky ghost!
+2026-03-28 02:09:41,642 | INFO | [RAW] [01:58:51]: [Death Announcement] Bánh Canh Cá Glock was killed by Starvation. He became a spooky ghost!
+2026-03-28 02:09:41,642 | INFO | Death detected: Bánh Canh Cá Glock was killed by Starvation. He became a spooky ghost!
+2026-03-28 02:09:41,653 | INFO | [SYNC] Day 15 | autumn
+2026-03-28 02:09:41,653 | INFO | [UPDATE] Day 15 | autumn
+2026-03-28 02:09:42,137 | INFO | → Discord: Server: **Day 15 (autumn)** | Bánh Canh Cá Glock was killed by Starvation. He became a spooky ghost!
+2026-03-28 02:09:42,500 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-15
+2026-03-28 02:09:50,937 | INFO | [RAW] [01:59:00]: [Skin Announcement] Chee hand_longgloves_yellow_straw
+2026-03-28 02:09:50,937 | INFO | [RAW] [01:59:00]: [Skin Announcement] Chee hand_longgloves_yellow_straw
+2026-03-28 02:10:10,645 | INFO | [RAW] [01:59:20]: [Join Announcement] Nuis
+2026-03-28 02:10:10,645 | INFO | [RAW] [01:59:20]: [Join Announcement] Nuis
+2026-03-28 02:10:10,645 | INFO | Join detected: Nuis
+2026-03-28 02:10:10,661 | INFO | [SYNC] Day 15 | autumn
+2026-03-28 02:10:10,662 | INFO | [UPDATE] Day 15 | autumn
+2026-03-28 02:10:11,107 | INFO | → Discord: Server: **Day 15 (autumn)** | **Nuis** Joined
+2026-03-28 02:10:11,310 | INFO | [RAW] [01:59:21]: [Resurrect Announcement] Bánh Canh Cá Glock was resurrected by Chee.
+2026-03-28 02:10:11,310 | INFO | [RAW] [01:59:21]: [Resurrect Announcement] Bánh Canh Cá Glock was resurrected by Chee.
+2026-03-28 02:10:11,464 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-15
+2026-03-28 02:10:56,831 | INFO | [RAW] [02:00:06]: [Say] (KU_LI3oFM9n) Yennhimew: =))))))
+2026-03-28 02:10:56,831 | INFO | [RAW] [02:00:06]: [Say] (KU_LI3oFM9n) Yennhimew: =))))))
+2026-03-28 02:10:57,272 | INFO | → Discord: Yennhimew: =))))))
+2026-03-28 02:10:57,272 | INFO | Chat: Yennhimew: =))))))
+2026-03-28 02:11:52,004 | INFO | [RAW] [02:01:02]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  (Sanity: 18/75) Não đang đi xa xa! Não ơi quay về đi #
+2026-03-28 02:11:52,004 | INFO | [RAW] [02:01:02]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  (Sanity: 18/75) Não đang đi xa xa! Não ơi quay về đi #
+2026-03-28 02:11:52,617 | INFO | → Discord: Bánh Canh Cá Glock:  (Sanity: 18/75) Não đang đi xa xa! Não ơi quay về đi #
+2026-03-28 02:11:52,617 | INFO | Chat: Bánh Canh Cá Glock:  (Sanity: 18/75) Não đang đi xa xa! Não ơi quay về đi #
+2026-03-28 02:12:55,233 | INFO | [RAW] [02:02:05]: [Say] (KU_LI3oFM9n) Yennhimew: ??
+2026-03-28 02:12:55,233 | INFO | [RAW] [02:02:05]: [Say] (KU_LI3oFM9n) Yennhimew: ??
+2026-03-28 02:12:55,612 | INFO | → Discord: Yennhimew: ??
+2026-03-28 02:12:55,612 | INFO | Chat: Yennhimew: ??
+2026-03-28 02:13:05,099 | INFO | [RAW] [02:02:15]: [Skin Announcement] trung123fro09 legs_waxwell_nature
+2026-03-28 02:13:05,099 | INFO | [RAW] [02:02:15]: [Skin Announcement] trung123fro09 legs_waxwell_nature
+2026-03-28 02:13:16,489 | INFO | [RAW] [02:02:26]: [Say] (KU_LI3oFM9n) Yennhimew: :))) chi cho
+2026-03-28 02:13:16,489 | INFO | [RAW] [02:02:26]: [Say] (KU_LI3oFM9n) Yennhimew: :))) chi cho
+2026-03-28 02:13:16,930 | INFO | → Discord: Yennhimew: :))) chi cho
+2026-03-28 02:13:16,930 | INFO | Chat: Yennhimew: :))) chi cho
+2026-03-28 02:13:16,930 | INFO | [RAW] [02:02:26]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  (Sanity: 12/75) Não đang đi xa xa! Não ơi quay về đi #
+2026-03-28 02:13:16,931 | INFO | [RAW] [02:02:26]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  (Sanity: 12/75) Não đang đi xa xa! Não ơi quay về đi #
+2026-03-28 02:13:17,601 | INFO | → Discord: Bánh Canh Cá Glock:  (Sanity: 12/75) Não đang đi xa xa! Não ơi quay về đi #
+2026-03-28 02:13:17,601 | INFO | Chat: Bánh Canh Cá Glock:  (Sanity: 12/75) Não đang đi xa xa! Não ơi quay về đi #
+2026-03-28 02:13:43,940 | INFO | [RAW] [02:02:53]: [Say] (KU_LI3oFM9n) Yennhimew: ko
+2026-03-28 02:13:43,940 | INFO | [RAW] [02:02:53]: [Say] (KU_LI3oFM9n) Yennhimew: ko
+2026-03-28 02:13:44,340 | INFO | → Discord: Yennhimew: ko
+2026-03-28 02:13:44,340 | INFO | Chat: Yennhimew: ko
+2026-03-28 02:13:44,816 | INFO | → To Game: MB: Lam viec cai
+2026-03-28 02:13:44,820 | INFO | ← From Discord: MB: Lam viec cai
+2026-03-28 02:13:44,829 | INFO | [RAW] [02:02:54]: [Announcement] [Discord] MB: Lam viec cai
+2026-03-28 02:13:44,829 | INFO | [RAW] [02:02:54]: [Announcement] [Discord] MB: Lam viec cai
+2026-03-28 02:13:47,297 | INFO | → To Game: MB: Bye ae
+2026-03-28 02:13:47,300 | INFO | ← From Discord: MB: Bye ae
+2026-03-28 02:13:47,312 | INFO | [RAW] [02:02:57]: [Announcement] [Discord] MB: Bye ae
+2026-03-28 02:13:47,312 | INFO | [RAW] [02:02:57]: [Announcement] [Discord] MB: Bye ae
+2026-03-28 02:13:49,666 | INFO | [RAW] [02:02:59]: [Say] (KU_LI3oFM9n) Yennhimew: dang vui ma
+2026-03-28 02:13:49,666 | INFO | [RAW] [02:02:59]: [Say] (KU_LI3oFM9n) Yennhimew: dang vui ma
+2026-03-28 02:13:50,119 | INFO | → Discord: Yennhimew: dang vui ma
+2026-03-28 02:13:50,119 | INFO | Chat: Yennhimew: dang vui ma
+2026-03-28 02:14:24,066 | INFO | [RAW] [02:03:34]: [Say] (KU_LI3oFM9n) Yennhimew: trung be bong
+2026-03-28 02:14:24,066 | INFO | [RAW] [02:03:34]: [Say] (KU_LI3oFM9n) Yennhimew: trung be bong
+2026-03-28 02:14:24,667 | INFO | → Discord: Yennhimew: trung be bong
+2026-03-28 02:14:24,667 | INFO | Chat: Yennhimew: trung be bong
+2026-03-28 02:14:33,702 | INFO | [RAW] [02:03:43]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  (Sanity: 15/75) Não đang đi xa xa! Não ơi quay về đi #
+2026-03-28 02:14:33,702 | INFO | [RAW] [02:03:43]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  (Sanity: 15/75) Não đang đi xa xa! Não ơi quay về đi #
+2026-03-28 02:14:34,244 | INFO | → Discord: Bánh Canh Cá Glock:  (Sanity: 15/75) Não đang đi xa xa! Não ơi quay về đi #
+2026-03-28 02:14:34,244 | INFO | Chat: Bánh Canh Cá Glock:  (Sanity: 15/75) Não đang đi xa xa! Não ơi quay về đi #
+2026-03-28 02:14:50,718 | INFO | [RAW] [02:04:00]: [Death Announcement] Bánh Canh Cá Glock was killed by Crawling Horror. He became a spooky ghost!
+2026-03-28 02:14:50,718 | INFO | [RAW] [02:04:00]: [Death Announcement] Bánh Canh Cá Glock was killed by Crawling Horror. He became a spooky ghost!
+2026-03-28 02:14:50,718 | INFO | Death detected: Bánh Canh Cá Glock was killed by Crawling Horror. He became a spooky ghost!
+2026-03-28 02:14:50,727 | INFO | [SYNC] Day 15 | autumn
+2026-03-28 02:14:50,727 | INFO | [UPDATE] Day 15 | autumn
+2026-03-28 02:14:51,153 | INFO | → Discord: Server: **Day 15 (autumn)** | Bánh Canh Cá Glock was killed by Crawling Horror. He became a spooky ghost!
+2026-03-28 02:14:51,466 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-15
+2026-03-28 02:15:57,703 | INFO | [RAW] [02:05:07]: [Announcement] You feel an evil presence watching you...
+2026-03-28 02:15:57,703 | INFO | [RAW] [02:05:07]: [Announcement] You feel an evil presence watching you...
+2026-03-28 02:16:07,701 | INFO | [RAW] [02:05:17]: [Announcement] The Eye of Terror turns its gaze toward Lullaby
+2026-03-28 02:16:07,701 | INFO | [RAW] [02:05:17]: [Announcement] The Eye of Terror turns its gaze toward Lullaby
+2026-03-28 02:16:37,647 | INFO | [RAW] [02:05:47]: [Resurrect Announcement] Bánh Canh Cá Glock was resurrected by Nuis.
+2026-03-28 02:16:37,647 | INFO | [RAW] [02:05:47]: [Resurrect Announcement] Bánh Canh Cá Glock was resurrected by Nuis.
+2026-03-28 02:16:52,934 | INFO | [RAW] [02:06:02]: [Say] (KU_LI3oFM9n) Yennhimew: t xau do h ma
+2026-03-28 02:16:52,934 | INFO | [RAW] [02:06:02]: [Say] (KU_LI3oFM9n) Yennhimew: t xau do h ma
+2026-03-28 02:16:53,665 | INFO | → Discord: Yennhimew: t xau do h ma
+2026-03-28 02:16:53,667 | INFO | Chat: Yennhimew: t xau do h ma
+2026-03-28 02:16:58,730 | INFO | [RAW] [02:06:08]: [Say] (KU_LI3oFM9n) Yennhimew: tam t ac'
+2026-03-28 02:16:58,730 | INFO | [RAW] [02:06:08]: [Say] (KU_LI3oFM9n) Yennhimew: tam t ac'
+2026-03-28 02:16:59,117 | INFO | → Discord: Yennhimew: tam t ac'
+2026-03-28 02:16:59,117 | INFO | Chat: Yennhimew: tam t ac'
+2026-03-28 02:17:00,054 | INFO | [RAW] [02:06:10]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  (Sanity: 32/75) Não đang đi xa...
+2026-03-28 02:17:00,054 | INFO | [RAW] [02:06:10]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  (Sanity: 32/75) Não đang đi xa...
+2026-03-28 02:17:00,459 | INFO | → Discord: Bánh Canh Cá Glock:  (Sanity: 32/75) Não đang đi xa...
+2026-03-28 02:17:00,460 | INFO | Chat: Bánh Canh Cá Glock:  (Sanity: 32/75) Não đang đi xa...
+2026-03-28 02:17:52,291 | INFO | [RAW] [02:07:02]: [Say] (KU_iJIpbxVI) Lullaby: qq jz
+2026-03-28 02:17:52,291 | INFO | [RAW] [02:07:02]: [Say] (KU_iJIpbxVI) Lullaby: qq jz
+2026-03-28 02:17:52,726 | INFO | → Discord: Lullaby: qq jz
+2026-03-28 02:17:52,726 | INFO | Chat: Lullaby: qq jz
+2026-03-28 02:18:05,544 | INFO | [RAW] [02:07:15]: [Death Announcement] Bánh Canh Cá Glock was killed by Crawling Horror. He became a spooky ghost!
+2026-03-28 02:18:05,544 | INFO | [RAW] [02:07:15]: [Death Announcement] Bánh Canh Cá Glock was killed by Crawling Horror. He became a spooky ghost!
+2026-03-28 02:18:05,544 | INFO | Death detected: Bánh Canh Cá Glock was killed by Crawling Horror. He became a spooky ghost!
+2026-03-28 02:18:05,553 | INFO | [SYNC] Day 16 | autumn
+2026-03-28 02:18:05,553 | INFO | [UPDATE] Day 16 | autumn
+2026-03-28 02:18:05,898 | INFO | → Discord: Server: **Day 16 (autumn)** | Bánh Canh Cá Glock was killed by Crawling Horror. He became a spooky ghost!
+2026-03-28 02:18:09,621 | WARNING | We are being rate limited. PATCH https://discord.com/api/v10/channels/1486644419242364979 responded with 429. Retrying in 49.62 seconds.
+2026-03-28 02:18:13,911 | INFO | [RAW] [02:07:23]: [Resurrect Announcement] Bánh Canh Cá Glock was resurrected by Lullaby.
+2026-03-28 02:18:13,912 | INFO | [RAW] [02:07:23]: [Resurrect Announcement] Bánh Canh Cá Glock was resurrected by Lullaby.
+2026-03-28 02:18:59,621 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-16
+2026-03-28 02:19:28,499 | INFO | [RAW] [02:08:38]: [Death Announcement] Bánh Canh Cá Glock was killed by Party Balloon. He became a spooky ghost!
+2026-03-28 02:19:28,499 | INFO | [RAW] [02:08:38]: [Death Announcement] Bánh Canh Cá Glock was killed by Party Balloon. He became a spooky ghost!
+2026-03-28 02:19:28,499 | INFO | Death detected: Bánh Canh Cá Glock was killed by Party Balloon. He became a spooky ghost!
+2026-03-28 02:19:28,508 | INFO | [SYNC] Day 16 | autumn
+2026-03-28 02:19:28,509 | INFO | [UPDATE] Day 16 | autumn
+2026-03-28 02:19:29,033 | INFO | → Discord: Server: **Day 16 (autumn)** | Bánh Canh Cá Glock was killed by Party Balloon. He became a spooky ghost!
+2026-03-28 02:19:29,345 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-16
+2026-03-28 02:19:32,184 | INFO | [RAW] [02:08:42]: [Say] (KU_iJIpbxVI) Lullaby: ngu nguoi
+2026-03-28 02:19:32,184 | INFO | [RAW] [02:08:42]: [Say] (KU_iJIpbxVI) Lullaby: ngu nguoi
+2026-03-28 02:19:32,588 | INFO | → Discord: Lullaby: ngu nguoi
+2026-03-28 02:19:32,588 | INFO | Chat: Lullaby: ngu nguoi
+2026-03-28 02:20:28,470 | INFO | [RAW] [02:09:38]: [Resurrect Announcement] Bánh Canh Cá Glock was resurrected by Nuis.
+2026-03-28 02:20:28,470 | INFO | [RAW] [02:09:38]: [Resurrect Announcement] Bánh Canh Cá Glock was resurrected by Nuis.
+2026-03-28 02:23:58,324 | INFO | [RAW] [02:13:08]: [Announcement] You feel an evil presence watching you...
+2026-03-28 02:23:58,324 | INFO | [RAW] [02:13:08]: [Announcement] You feel an evil presence watching you...
+2026-03-28 02:24:08,218 | INFO | [RAW] [02:13:18]: [Skin Announcement] Bánh Canh Cá Glock legs_skirt_plaid_green_pistachio
+2026-03-28 02:24:08,219 | INFO | [RAW] [02:13:18]: [Skin Announcement] Bánh Canh Cá Glock legs_skirt_plaid_green_pistachio
+2026-03-28 02:24:08,329 | INFO | [RAW] [02:13:18]: [Announcement] The Eye of Terror turns its gaze toward Nuis
+2026-03-28 02:24:08,329 | INFO | [RAW] [02:13:18]: [Announcement] The Eye of Terror turns its gaze toward Nuis
+2026-03-28 02:28:30,781 | INFO | Shard ID None has successfully RESUMED session b29d56b0f9e53c1f18d251317740131c.
+2026-03-28 02:29:45,583 | INFO | [RAW] [02:18:55]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  Tôi cần 1 thêm gai ong để làm  một Đạn tăng lực.
+2026-03-28 02:29:45,583 | INFO | [RAW] [02:18:55]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  Tôi cần 1 thêm gai ong để làm  một Đạn tăng lực.
+2026-03-28 02:29:46,072 | INFO | → Discord: Bánh Canh Cá Glock:  Tôi cần 1 thêm gai ong để làm  một Đạn tăng lực.
+2026-03-28 02:29:46,072 | INFO | Chat: Bánh Canh Cá Glock:  Tôi cần 1 thêm gai ong để làm  một Đạn tăng lực.
+2026-03-28 02:30:19,754 | INFO | [RAW] [02:19:29]: [Leave Announcement] Nuis
+2026-03-28 02:30:19,755 | INFO | [RAW] [02:19:29]: [Leave Announcement] Nuis
+2026-03-28 02:30:19,755 | INFO | Leave detected: Nuis
+2026-03-28 02:30:19,761 | INFO | [SYNC] Day 17 | autumn
+2026-03-28 02:30:19,761 | INFO | [UPDATE] Day 17 | autumn
+2026-03-28 02:30:21,264 | INFO | → Discord: Server: **Day 17 (autumn)** | **Nuis** Leave
+2026-03-28 02:30:21,716 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-17
+2026-03-28 02:31:44,265 | INFO | [RAW] [02:20:54]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  Tôi có 6 gai ong.
+2026-03-28 02:31:44,266 | INFO | [RAW] [02:20:54]: [Say] (KU_45sIjSrG) Bánh Canh Cá Glock:  Tôi có 6 gai ong.
+2026-03-28 02:31:44,716 | INFO | → Discord: Bánh Canh Cá Glock:  Tôi có 6 gai ong.
+2026-03-28 02:31:44,716 | INFO | Chat: Bánh Canh Cá Glock:  Tôi có 6 gai ong.
+2026-03-28 02:32:35,681 | INFO | [RAW] [02:21:45]: [Join Announcement] Nuis
+2026-03-28 02:32:35,681 | INFO | [RAW] [02:21:45]: [Join Announcement] Nuis
+2026-03-28 02:32:35,681 | INFO | Join detected: Nuis
+2026-03-28 02:32:35,697 | INFO | [SYNC] Day 17 | autumn
+2026-03-28 02:32:35,697 | INFO | [UPDATE] Day 17 | autumn
+2026-03-28 02:32:36,181 | INFO | → Discord: Server: **Day 17 (autumn)** | **Nuis** Joined
+2026-03-28 02:32:36,493 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-17
+2026-03-28 02:34:59,932 | INFO | [RAW] [02:24:09]: [Skin Announcement] Lullaby legs_wurt_yule
+2026-03-28 02:34:59,932 | INFO | [RAW] [02:24:09]: [Skin Announcement] Lullaby legs_wurt_yule
+2026-03-28 02:35:37,036 | INFO | [RAW] [02:24:47]: [Skin Announcement] Yennhimew legs_winona_wrestler
+2026-03-28 02:35:37,036 | INFO | [RAW] [02:24:47]: [Skin Announcement] Yennhimew legs_winona_wrestler
+2026-03-28 02:35:57,936 | INFO | [RAW] [02:25:07]: [Death Announcement] Lullaby was killed by Ewecus. She became a spooky ghost!
+2026-03-28 02:35:57,936 | INFO | [RAW] [02:25:07]: [Death Announcement] Lullaby was killed by Ewecus. She became a spooky ghost!
+2026-03-28 02:35:57,936 | INFO | Death detected: Lullaby was killed by Ewecus. She became a spooky ghost!
+2026-03-28 02:35:57,946 | INFO | [SYNC] Day 18 | autumn
+2026-03-28 02:35:57,946 | INFO | [UPDATE] Day 18 | autumn
+2026-03-28 02:35:58,598 | INFO | → Discord: Server: **Day 18 (autumn)** | Lullaby was killed by Ewecus. She became a spooky ghost!
+2026-03-28 02:35:58,922 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-18
+2026-03-28 02:36:11,059 | INFO | [RAW] [02:25:21]: [Leave Announcement] Bánh Canh Cá Glock
+2026-03-28 02:36:11,059 | INFO | [RAW] [02:25:21]: [Leave Announcement] Bánh Canh Cá Glock
+2026-03-28 02:36:11,059 | INFO | Leave detected: Bánh Canh Cá Glock
+2026-03-28 02:36:11,070 | INFO | [SYNC] Day 18 | autumn
+2026-03-28 02:36:11,070 | INFO | [UPDATE] Day 18 | autumn
+2026-03-28 02:36:11,596 | INFO | → Discord: Server: **Day 18 (autumn)** | **Bánh Canh Cá Glock** Leave
+2026-03-28 02:36:12,014 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-18
+2026-03-28 02:37:10,184 | INFO | [RAW] [02:26:20]: [Say] (KU_iJIpbxVI) Lullaby: lát đi tắm nhe bây
+2026-03-28 02:37:10,185 | INFO | [RAW] [02:26:20]: [Say] (KU_iJIpbxVI) Lullaby: lát đi tắm nhe bây
+2026-03-28 02:37:10,590 | INFO | → Discord: Lullaby: lát đi tắm nhe bây
+2026-03-28 02:37:10,590 | INFO | Chat: Lullaby: lát đi tắm nhe bây
+2026-03-28 02:37:15,434 | INFO | [RAW] [02:26:25]: [Resurrect Announcement] Lullaby was resurrected by Nuis.
+2026-03-28 02:37:15,434 | INFO | [RAW] [02:26:25]: [Resurrect Announcement] Lullaby was resurrected by Nuis.
+2026-03-28 02:37:18,456 | INFO | [RAW] [02:26:28]: [Say] (KU_iJIpbxVI) Lullaby: ghê vl =))
+2026-03-28 02:37:18,456 | INFO | [RAW] [02:26:28]: [Say] (KU_iJIpbxVI) Lullaby: ghê vl =))
+2026-03-28 02:37:19,022 | INFO | → Discord: Lullaby: ghê vl =))
+2026-03-28 02:37:19,022 | INFO | Chat: Lullaby: ghê vl =))
+2026-03-28 02:38:02,788 | INFO | [RAW] [02:27:12]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 02:38:02,788 | INFO | [RAW] [02:27:12]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 02:38:03,338 | INFO | → Discord: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 02:38:03,338 | INFO | Chat: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 02:38:23,756 | INFO | [RAW] [02:27:33]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 02:38:23,757 | INFO | [RAW] [02:27:33]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 02:38:24,280 | INFO | → Discord: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 02:38:24,280 | INFO | Chat: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 02:38:44,469 | INFO | [RAW] [02:27:54]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 02:38:44,469 | INFO | [RAW] [02:27:54]: [Say] (KU_iJIpbxVI) Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 02:38:44,994 | INFO | → Discord: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 02:38:44,995 | INFO | Chat: Lullaby:  Hound is about to attack! Please pay attention to defense!
+2026-03-28 02:43:05,562 | INFO | [RAW] [02:32:15]: [Join Announcement] Bánh Canh Cá Glock
+2026-03-28 02:43:05,562 | INFO | [RAW] [02:32:15]: [Join Announcement] Bánh Canh Cá Glock
+2026-03-28 02:43:05,562 | INFO | Join detected: Bánh Canh Cá Glock
+2026-03-28 02:43:05,578 | INFO | [SYNC] Day 19 | autumn
+2026-03-28 02:43:05,578 | INFO | [UPDATE] Day 19 | autumn
+2026-03-28 02:43:06,312 | INFO | → Discord: Server: **Day 19 (autumn)** | **Bánh Canh Cá Glock** Joined
+2026-03-28 02:43:06,625 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-19
+2026-03-28 02:45:03,595 | INFO | [RAW] [02:34:13]: [Skin Announcement] Nuis emote_impatient
+2026-03-28 02:45:03,595 | INFO | [RAW] [02:34:13]: [Skin Announcement] Nuis emote_impatient
+2026-03-28 02:45:21,449 | INFO | [RAW] [02:34:31]: [Say] (KU_DfIX66W7) Nuis:  I spy with my eye a Yennhimew! {253.428,-616.833} mob 29BFE303A84718F8
+2026-03-28 02:45:21,449 | INFO | [RAW] [02:34:31]: [Say] (KU_DfIX66W7) Nuis:  I spy with my eye a Yennhimew! {253.428,-616.833} mob 29BFE303A84718F8
+2026-03-28 02:45:22,081 | INFO | → Discord: Nuis:  I spy with my eye a Yennhimew! {253.428,-616.833} mob 29BFE303A84718F8
+2026-03-28 02:45:22,081 | INFO | Chat: Nuis:  I spy with my eye a Yennhimew! {253.428,-616.833} mob 29BFE303A84718F8
+2026-03-28 02:45:24,290 | INFO | [RAW] [02:34:34]: [Say] (KU_DfIX66W7) Nuis:  There is a Yennhimew here! {253.467,-617.128} mob 29BFE303A84718F8
+2026-03-28 02:45:24,290 | INFO | [RAW] [02:34:34]: [Say] (KU_DfIX66W7) Nuis:  There is a Yennhimew here! {253.467,-617.128} mob 29BFE303A84718F8
+2026-03-28 02:45:24,792 | INFO | → Discord: Nuis:  There is a Yennhimew here! {253.467,-617.128} mob 29BFE303A84718F8
+2026-03-28 02:45:24,792 | INFO | Chat: Nuis:  There is a Yennhimew here! {253.467,-617.128} mob 29BFE303A84718F8
+2026-03-28 02:45:26,882 | INFO | [RAW] [02:34:36]: [Say] (KU_DfIX66W7) Nuis:  Watch out for the Yennhimew! {248.971,-615.869} mob 29BFE303A84718F8
+2026-03-28 02:45:26,882 | INFO | [RAW] [02:34:36]: [Say] (KU_DfIX66W7) Nuis:  Watch out for the Yennhimew! {248.971,-615.869} mob 29BFE303A84718F8
+2026-03-28 02:45:27,321 | INFO | → Discord: Nuis:  Watch out for the Yennhimew! {248.971,-615.869} mob 29BFE303A84718F8
+2026-03-28 02:45:27,321 | INFO | Chat: Nuis:  Watch out for the Yennhimew! {248.971,-615.869} mob 29BFE303A84718F8
+2026-03-28 02:45:28,023 | INFO | [RAW] [02:34:38]: [Say] (KU_DfIX66W7) Nuis:  There is a Yennhimew here! {248.971,-615.869} mob 29BFE303A84718F8
+2026-03-28 02:45:28,023 | INFO | [RAW] [02:34:38]: [Say] (KU_DfIX66W7) Nuis:  There is a Yennhimew here! {248.971,-615.869} mob 29BFE303A84718F8
+2026-03-28 02:45:28,382 | INFO | → Discord: Nuis:  There is a Yennhimew here! {248.971,-615.869} mob 29BFE303A84718F8
+2026-03-28 02:45:28,382 | INFO | Chat: Nuis:  There is a Yennhimew here! {248.971,-615.869} mob 29BFE303A84718F8
+2026-03-28 02:50:28,439 | INFO | [RAW] [02:39:38]: [Join Announcement] Andreas Obst
+2026-03-28 02:50:28,439 | INFO | [RAW] [02:39:38]: [Join Announcement] Andreas Obst
+2026-03-28 02:50:28,439 | INFO | Join detected: Andreas Obst
+2026-03-28 02:50:28,447 | INFO | [SYNC] Day 20 | autumn
+2026-03-28 02:50:28,447 | INFO | [UPDATE] Day 20 | autumn
+2026-03-28 02:50:28,896 | INFO | → Discord: Server: **Day 20 (autumn)** | **Andreas Obst** Joined
+2026-03-28 02:50:29,231 | INFO | Channel renamed → 𖦹﹒wyvern-autumn-20
+2026-03-28 02:59:05,368 | INFO | → To Game: nguyễn văn núi: !kick KU_45sIjSrG
+2026-03-28 02:59:05,372 | INFO | ← From Discord: nguyễn văn núi: !kick KU_45sIjSrG
+2026-03-28 02:59:05,373 | INFO | [RAW] [02:48:15]: [Announcement] [Discord] nguyễn văn núi: !kick KU_45sIjSrG
+2026-03-28 02:59:05,373 | INFO | [RAW] [02:48:15]: [Announcement] [Discord] nguyễn văn núi: !kick KU_45sIjSrG
+2026-03-28 03:01:04,452 | INFO | [RAW] [02:50:14]: [Say] (KU_LI3oFM9n) Yennhimew: di binh duong choi
+2026-03-28 03:01:04,452 | INFO | [RAW] [02:50:14]: [Say] (KU_LI3oFM9n) Yennhimew: di binh duong choi
+2026-03-28 03:01:05,133 | INFO | → Discord: Yennhimew: di binh duong choi
+2026-03-28 03:01:05,134 | INFO | Chat: Yennhimew: di binh duong choi
+2026-03-28 03:03:52,062 | INFO | [RAW] [02:53:02]: [Leave Announcement] Andreas Obst
+2026-03-28 03:03:52,063 | INFO | [RAW] [02:53:02]: [Leave Announcement] Andreas Obst
+2026-03-28 03:03:52,063 | INFO | Leave detected: Andreas Obst
+2026-03-28 03:03:52,081 | INFO | [SYNC] Day 21 | winter
+2026-03-28 03:03:52,081 | INFO | [UPDATE] Day 21 | winter
+2026-03-28 03:03:52,769 | INFO | → Discord: Server: **Day 21 (winter)** | **Andreas Obst** Leave
+2026-03-28 03:03:53,153 | INFO | Channel renamed → 𖦹﹒wyvern-winter-21
+2026-03-28 03:03:59,617 | INFO | [RAW] [02:53:09]: [Leave Announcement] Chee
+2026-03-28 03:03:59,617 | INFO | [RAW] [02:53:09]: [Leave Announcement] Chee
+2026-03-28 03:03:59,617 | INFO | Leave detected: Chee
+2026-03-28 03:03:59,626 | INFO | [SYNC] Day 21 | winter
+2026-03-28 03:03:59,627 | INFO | [UPDATE] Day 21 | winter
+2026-03-28 03:04:00,091 | INFO | → Discord: Server: **Day 21 (winter)** | **Chee** Leave
+2026-03-28 03:04:00,445 | INFO | Channel renamed → 𖦹﹒wyvern-winter-21
+2026-03-28 03:04:12,484 | INFO | [RAW] [02:53:22]: [Say] (KU_iJIpbxVI) Lullaby: mas 3h sang r
+2026-03-28 03:04:12,484 | INFO | [RAW] [02:53:22]: [Say] (KU_iJIpbxVI) Lullaby: mas 3h sang r
+2026-03-28 03:04:13,011 | INFO | → Discord: Lullaby: mas 3h sang r
+2026-03-28 03:04:13,011 | INFO | Chat: Lullaby: mas 3h sang r
+2026-03-28 03:04:24,046 | INFO | [RAW] [02:53:34]: [Leave Announcement] Lullaby
+2026-03-28 03:04:24,046 | INFO | [RAW] [02:53:34]: [Leave Announcement] Lullaby
+2026-03-28 03:04:24,046 | INFO | Leave detected: Lullaby
+2026-03-28 03:04:24,060 | INFO | [SYNC] Day 21 | winter
+2026-03-28 03:04:24,060 | INFO | [UPDATE] Day 21 | winter
+2026-03-28 03:04:24,610 | INFO | → Discord: Server: **Day 21 (winter)** | **Lullaby** Leave
+2026-03-28 03:04:24,981 | INFO | Channel renamed → 𖦹﹒wyvern-winter-21
+2026-03-28 03:05:22,038 | INFO | [RAW] [02:54:32]: [Leave Announcement] Bánh Canh Cá Glock
+2026-03-28 03:05:22,038 | INFO | [RAW] [02:54:32]: [Leave Announcement] Bánh Canh Cá Glock
+2026-03-28 03:05:22,038 | INFO | Leave detected: Bánh Canh Cá Glock
+2026-03-28 03:05:22,052 | INFO | [SYNC] Day 21 | winter
+2026-03-28 03:05:22,052 | INFO | [UPDATE] Day 21 | winter
+2026-03-28 03:05:22,506 | INFO | → Discord: Server: **Day 21 (winter)** | **Bánh Canh Cá Glock** Leave
+2026-03-28 03:05:22,882 | INFO | Channel renamed → 𖦹﹒wyvern-winter-21
+2026-03-28 03:05:43,156 | INFO | [RAW] [02:54:53]: [Leave Announcement] Yennhimew
+2026-03-28 03:05:43,157 | INFO | [RAW] [02:54:53]: [Leave Announcement] Yennhimew
+2026-03-28 03:05:43,157 | INFO | Leave detected: Yennhimew
+2026-03-28 03:05:43,171 | INFO | [SYNC] Day 22 | winter
+2026-03-28 03:05:43,171 | INFO | [UPDATE] Day 22 | winter
+2026-03-28 03:05:43,735 | INFO | → Discord: Server: **Day 22 (winter)** | **Yennhimew** Leave
+2026-03-28 03:05:44,198 | INFO | Channel renamed → 𖦹﹒wyvern-winter-22
+2026-03-28 03:05:48,317 | INFO | [RAW] [02:54:58]: [Leave Announcement] Nuis
+2026-03-28 03:05:48,317 | INFO | [RAW] [02:54:58]: [Leave Announcement] Nuis
+2026-03-28 03:05:48,317 | INFO | Leave detected: Nuis
+2026-03-28 03:05:48,328 | INFO | [SYNC] Day 22 | winter
+2026-03-28 03:05:48,329 | INFO | [UPDATE] Day 22 | winter
+2026-03-28 03:05:48,719 | INFO | → Discord: Server: **Day 22 (winter)** | **Nuis** Leave
+2026-03-28 03:05:49,061 | INFO | Channel renamed → 𖦹﹒wyvern-winter-22
+2026-03-28 03:05:55,816 | INFO | [RAW] [02:55:05]: [Leave Announcement] trung123fro09
+2026-03-28 03:05:55,816 | INFO | [RAW] [02:55:05]: [Leave Announcement] trung123fro09
+2026-03-28 03:05:55,816 | INFO | Leave detected: trung123fro09
+2026-03-28 03:05:55,830 | INFO | [SYNC] Day 22 | winter
+2026-03-28 03:05:55,831 | INFO | [UPDATE] Day 22 | winter
+2026-03-28 03:05:56,410 | INFO | → Discord: Server: **Day 22 (winter)** | **trung123fro09** Leave
+2026-03-28 03:05:56,752 | INFO | Channel renamed → 𖦹﹒wyvern-winter-22
+2026-03-28 03:53:31,585 | INFO | Shard ID None has successfully RESUMED session b29d56b0f9e53c1f18d251317740131c.
+2026-03-28 04:41:22,926 | INFO | Shard ID None has successfully RESUMED session b29d56b0f9e53c1f18d251317740131c.
+2026-03-28 04:46:26,412 | INFO | → To Game: MB: `click`
+2026-03-28 04:46:26,415 | INFO | ← From Discord: MB: `click`
+2026-03-28 04:46:26,421 | INFO | [RAW] [04:35:36]: [Announcement] [Discord] MB: `click`
+2026-03-28 04:46:26,421 | INFO | [RAW] [04:35:36]: [Announcement] [Discord] MB: `click`
+2026-03-28 05:02:46,457 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 05:02:46,466 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 05:02:46,467 | INFO | logging in using static token
+2026-03-28 05:02:46,469 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 05:02:46,469 | WARNING | Passing
+2026-03-28 05:02:46,470 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 05:02:46,471 | INFO | Watching server_chat_log.txt...
+2026-03-28 05:02:49,130 | INFO | Shard ID None has connected to Gateway (Session ID: 6e57617eac5980d681af7eb5cfe422d7).
+2026-03-28 05:02:51,147 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 05:02:51,147 | ERROR | Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/steam/dst-discord-chat-sync/src/discord_handler.py", line 24, in on_ready
+    setup_weather(self.tree, self)
+    ^^^^^^^^^^^^^
+NameError: name 'setup_weather' is not defined
+2026-03-28 05:05:42,553 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 05:05:42,563 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 05:05:42,564 | INFO | logging in using static token
+2026-03-28 05:05:42,566 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 05:05:42,566 | WARNING | Passing
+2026-03-28 05:05:42,567 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 05:05:42,569 | INFO | Watching server_chat_log.txt...
+2026-03-28 05:05:44,995 | INFO | Shard ID None has connected to Gateway (Session ID: 53291bc2084d0b4e784f30fa132e2549).
+2026-03-28 05:05:47,044 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 05:05:47,428 | INFO | Commands: ['players', 'weather']
+2026-03-28 05:05:47,428 | INFO | Bot status's working
+2026-03-28 05:05:47,428 | INFO | Rotate status 30 sec each
+2026-03-28 05:05:47,428 | INFO | Activities actived
+2026-03-28 05:10:09,857 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 05:10:09,871 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 05:10:09,872 | INFO | logging in using static token
+2026-03-28 05:10:09,874 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 05:10:09,874 | WARNING | Passing
+2026-03-28 05:10:09,875 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 05:10:09,877 | INFO | Watching server_chat_log.txt...
+2026-03-28 05:10:12,463 | INFO | Shard ID None has connected to Gateway (Session ID: 33acb559284b8825eeea061a9abc5d80).
+2026-03-28 05:10:14,499 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 05:10:14,819 | INFO | Commands: ['players', 'weather']
+2026-03-28 05:10:14,819 | INFO | Bot status's working
+2026-03-28 05:10:14,819 | INFO | Rotate status 30 sec each
+2026-03-28 05:10:14,819 | INFO | Activities actived
+2026-03-28 05:32:09,262 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 05:32:09,272 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 05:32:09,273 | INFO | logging in using static token
+2026-03-28 05:32:09,275 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 05:32:09,276 | WARNING | Passing
+2026-03-28 05:32:09,277 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 05:32:09,278 | INFO | Watching server_chat_log.txt...
+2026-03-28 05:32:12,030 | INFO | Shard ID None has connected to Gateway (Session ID: 97e37b6db508d0d92860c6c19d4f578c).
+2026-03-28 05:32:14,079 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 05:32:14,082 | ERROR | Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/steam/dst-discord-chat-sync/src/discord_handler.py", line 26, in on_ready
+    setup_kick(self.tree, self,bridge)
+                               ^^^^^^
+NameError: name 'bridge' is not defined. Did you mean: 'self.bridge'?
+2026-03-28 05:32:35,606 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 05:32:35,615 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 05:32:35,615 | INFO | logging in using static token
+2026-03-28 05:32:35,618 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 05:32:35,618 | WARNING | Passing
+2026-03-28 05:32:35,619 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 05:32:35,621 | INFO | Watching server_chat_log.txt...
+2026-03-28 05:32:38,116 | INFO | Shard ID None has connected to Gateway (Session ID: 4641ba2be4e487673eda494177901275).
+2026-03-28 05:32:40,243 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 05:32:40,595 | INFO | Commands: ['players', 'weather', 'kick']
+2026-03-28 05:32:40,596 | INFO | Bot status's working
+2026-03-28 05:32:40,596 | INFO | Rotate status 30 sec each
+2026-03-28 05:32:40,596 | INFO | Activities actived
+2026-03-28 05:49:09,408 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 05:49:09,418 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 05:49:09,418 | INFO | logging in using static token
+2026-03-28 05:49:09,420 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 05:49:09,421 | WARNING | Passing
+2026-03-28 05:49:09,422 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 05:49:09,423 | INFO | Watching server_chat_log.txt...
+2026-03-28 05:49:11,888 | INFO | Shard ID None has connected to Gateway (Session ID: aa015be63f51315867f181391e8b1f7d).
+2026-03-28 05:49:13,925 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 05:49:14,235 | INFO | Commands: ['players', 'weather', 'kick']
+2026-03-28 05:49:14,235 | INFO | Bot status's working
+2026-03-28 05:49:14,235 | INFO | Rotate status 30 sec each
+2026-03-28 05:49:14,235 | INFO | Activities actived
+2026-03-28 05:52:11,547 | INFO | [RAW] [05:41:21]: [Join Announcement] M B
+2026-03-28 06:08:34,705 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 06:08:34,727 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 06:08:34,727 | INFO | logging in using static token
+2026-03-28 06:08:34,730 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 06:08:34,731 | WARNING | Passing
+2026-03-28 06:08:34,733 | INFO | [LOG] Listening /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 06:08:34,737 | INFO | Watching server_chat_log.txt...
+2026-03-28 06:08:37,377 | INFO | Shard ID None has connected to Gateway (Session ID: 995a906287bc1bdba23cb7fccac2fb09).
+2026-03-28 06:08:39,421 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 06:08:39,756 | INFO | Commands: ['players', 'weather', 'kick']
+2026-03-28 06:08:39,756 | INFO | Bot status's working
+2026-03-28 06:08:39,756 | INFO | Rotate status 30 sec each
+2026-03-28 06:08:39,756 | INFO | Activities actived
+2026-03-28 06:08:48,083 | INFO | [RAW] [05:57:58]: [Say] (KU_yvw0rWCD) M B: 123
+2026-03-28 06:08:48,528 | INFO | → Discord: M B: 123
+2026-03-28 06:08:48,528 | INFO | Chat: M B: 123
+2026-03-28 06:14:50,328 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 06:14:50,347 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 06:14:50,348 | INFO | logging in using static token
+2026-03-28 06:14:50,350 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 06:14:50,350 | WARNING | Passing
+2026-03-28 06:14:50,351 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 06:14:50,353 | INFO | Watching server_chat_log.txt...
+2026-03-28 06:14:52,790 | INFO | Shard ID None has connected to Gateway (Session ID: 36bca4e289fa4c15012ed950af92727a).
+2026-03-28 06:14:54,896 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 06:14:55,309 | INFO | Commands: ['players', 'weather', 'kick']
+2026-03-28 06:14:55,310 | INFO | Bot status's working
+2026-03-28 06:14:55,310 | INFO | Rotate status 30 sec each
+2026-03-28 06:14:55,310 | INFO | Activities actived
+2026-03-28 06:15:38,824 | INFO | [RAW] [06:04:48]: [Leave Announcement] M B
+2026-03-28 06:15:38,825 | INFO | Leave detected: M B
+2026-03-28 06:15:38,840 | INFO | [SYNC] Day 22 | Season: winter
+2026-03-28 06:15:38,840 | INFO | [UPDATE] Day 22 | winter
+2026-03-28 06:15:39,914 | INFO | → Discord: Server: **Day 22 (winter)** | **M B** Leave
+2026-03-28 06:15:40,228 | INFO | Channel renamed → 𖦹﹒wyvern-winter-22
+2026-03-28 06:16:02,873 | ERROR | [LOG] Error in DSTLogHandler: 'set' object does not support item assignment
+2026-03-28 06:16:30,423 | INFO | [RAW] [06:05:40]: [Join Announcement] M B
+2026-03-28 06:16:30,423 | INFO | Join detected: M B
+2026-03-28 06:16:33,429 | ERROR | SYNC timeout
+2026-03-28 06:16:34,411 | INFO | → Discord: Server: **Day ? (?)** | **M B** Joined
+2026-03-28 06:16:34,753 | INFO | Channel renamed → 𖦹﹒wyvern-?-?
+2026-03-28 06:17:10,310 | INFO | [RAW] [06:06:20]: [Leave Announcement] M B
+2026-03-28 06:17:10,311 | INFO | Leave detected: M B
+2026-03-28 06:17:13,317 | ERROR | SYNC timeout
+2026-03-28 06:17:14,227 | INFO | → Discord: Server: **Day ? (?)** | **M B** Leave
+2026-03-28 06:17:14,601 | INFO | Channel renamed → 𖦹﹒wyvern-?-?
+2026-03-28 06:23:33,690 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 06:23:33,703 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 06:23:33,704 | INFO | logging in using static token
+2026-03-28 06:23:33,705 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 06:23:33,706 | WARNING | Passing
+2026-03-28 06:23:33,708 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 06:23:33,710 | INFO | Watching server_chat_log.txt...
+2026-03-28 06:23:36,415 | INFO | Shard ID None has connected to Gateway (Session ID: d62a3e5cf42e503c2e53f74646de7ad9).
+2026-03-28 06:23:38,448 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 06:23:38,749 | INFO | Commands: ['players', 'weather', 'kick']
+2026-03-28 06:23:38,749 | INFO | Bot status's working
+2026-03-28 06:23:38,749 | INFO | Rotate status 30 sec each
+2026-03-28 06:23:38,749 | INFO | Activities actived
+2026-03-28 06:23:54,033 | INFO | [AUTH] M B authenticated | KU_ID: KU_yvw0rWCD
+2026-03-28 06:24:21,255 | INFO | [RAW] [06:13:31]: [Join Announcement] M B
+2026-03-28 06:24:21,256 | INFO | Join detected: M B
+2026-03-28 06:24:21,271 | INFO | [SYNC] Day 22 | Season: Winter
+2026-03-28 06:24:21,271 | INFO | [UPDATE] Day 22 | Winter
+2026-03-28 06:24:22,168 | INFO | → Discord: Server: **Day 22 (Winter)** | **M B** Joined
+2026-03-28 06:24:22,540 | INFO | Channel renamed → 𖦹﹒wyvern-winter-22
+2026-03-28 06:24:46,677 | INFO | [PLAYERS] gnaoheeib.19 requested player list - 1 players
+2026-03-28 06:24:58,369 | INFO | → To Game: Console: KU_yvw0rWCD
+2026-03-28 06:24:58,375 | WARNING | [BRIDGE] Excute fail: KU_yvw0rWCD
+2026-03-28 06:24:58,379 | INFO | [RAW] [06:14:08]: [Announcement] [Discord] Console: KU_yvw0rWCD
+2026-03-28 06:25:21,872 | INFO | [RAW] [06:14:31]: [Leave Announcement] M B
+2026-03-28 06:25:21,872 | INFO | Leave detected: M B
+2026-03-28 06:25:21,884 | INFO | [SYNC] Day 22 | Season: Winter
+2026-03-28 06:25:21,885 | INFO | [UPDATE] Day 22 | Winter
+2026-03-28 06:25:22,888 | INFO | → Discord: Server: **Day 22 (Winter)** | **M B** Leave
+2026-03-28 06:25:23,246 | INFO | Channel renamed → 𖦹﹒wyvern-winter-22
+2026-03-28 06:30:32,833 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 06:30:32,842 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 06:30:32,842 | INFO | logging in using static token
+2026-03-28 06:30:32,844 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 06:30:32,844 | WARNING | Passing
+2026-03-28 06:30:32,845 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 06:30:32,848 | INFO | Watching server_chat_log.txt...
+2026-03-28 06:30:35,534 | INFO | Shard ID None has connected to Gateway (Session ID: 461e825aec1e8a4c349a36929ffe4a59).
+2026-03-28 06:30:37,559 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 06:30:37,928 | INFO | Commands: ['players', 'weather', 'kick']
+2026-03-28 06:30:37,928 | INFO | Bot status's working
+2026-03-28 06:30:37,928 | INFO | Rotate status 30 sec each
+2026-03-28 06:30:37,928 | INFO | Activities actived
+2026-03-28 06:32:10,721 | INFO | [AUTH] M B authenticated | KU_ID: KU_yvw0rWCD
+2026-03-28 06:32:39,904 | INFO | [RAW] [06:21:49]: [Join Announcement] M B
+2026-03-28 06:32:39,905 | INFO | Join detected: M B
+2026-03-28 06:32:39,920 | INFO | [SYNC] Day 22 | Season: Winter
+2026-03-28 06:32:39,921 | INFO | [UPDATE] Day 22 | Winter
+2026-03-28 06:32:40,931 | INFO | → Discord: Server: **Day 22 (Winter)** | **M B** Joined
+2026-03-28 06:32:41,259 | INFO | Channel renamed → 𖦹﹒wyvern-winter-22
+2026-03-28 06:33:07,874 | INFO | [PLAYERS] gnaoheeib.19 requested player list - 1 players
+2026-03-28 06:33:15,949 | INFO | → To Game (Announce): Console: KU_yvw0rWCD
+2026-03-28 06:33:15,953 | INFO | [BRIDGE] Sent console: KU_yvw0rWCD
+2026-03-28 06:33:15,955 | INFO | [RAW] [06:22:25]: [Announcement] [Discord] Console: KU_yvw0rWCD
+2026-03-28 06:33:16,629 | INFO | [KICK] gnaoheeib.19 kicked player: KU_yvw0rWCD
+2026-03-28 06:33:36,478 | INFO | [RAW] [06:22:46]: [Leave Announcement] M B
+2026-03-28 06:33:36,478 | INFO | Leave detected: M B
+2026-03-28 06:33:36,493 | INFO | [SYNC] Day 22 | Season: Winter
+2026-03-28 06:33:36,493 | INFO | [UPDATE] Day 22 | Winter
+2026-03-28 06:33:37,532 | INFO | → Discord: Server: **Day 22 (Winter)** | **M B** Leave
+2026-03-28 06:33:37,908 | INFO | Channel renamed → 𖦹﹒wyvern-winter-22
+2026-03-28 06:41:58,748 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 06:41:58,758 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 06:41:58,758 | INFO | logging in using static token
+2026-03-28 06:41:58,761 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 06:41:58,762 | WARNING | Passing
+2026-03-28 06:41:58,763 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 06:41:58,764 | INFO | Watching server_chat_log.txt...
+2026-03-28 06:42:01,391 | INFO | Shard ID None has connected to Gateway (Session ID: 5c69e0c379dea8f91f8fe368415fa89c).
+2026-03-28 06:42:03,411 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 06:42:03,797 | INFO | Commands: ['players', 'weather', 'kick']
+2026-03-28 06:42:03,797 | INFO | Bot status's working
+2026-03-28 06:42:03,798 | INFO | Rotate status 30 sec each
+2026-03-28 06:42:03,798 | INFO | Activities actived
+2026-03-28 06:42:13,769 | INFO | [AUTH] M B authenticated | KU_ID: KU_yvw0rWCD
+2026-03-28 06:42:40,391 | INFO | [RAW] [06:31:50]: [Join Announcement] M B
+2026-03-28 06:42:40,391 | INFO | Join detected: M B
+2026-03-28 06:42:40,406 | INFO | [SYNC] Day 22 | Season: Winter
+2026-03-28 06:42:40,407 | INFO | [UPDATE] Day 22 | Winter
+2026-03-28 06:42:41,356 | INFO | → Discord: Server: **Day 22 (Winter)** | **M B** Joined
+2026-03-28 06:42:41,711 | INFO | Channel renamed → 𖦹﹒wyvern-winter-22
+2026-03-28 06:42:50,683 | INFO | → To Game (Announce): Console: KU_yvw0rWCD
+2026-03-28 06:42:50,691 | INFO | [BRIDGE] Sent console: KU_yvw0rWCD
+2026-03-28 06:42:50,697 | INFO | [RAW] [06:32:00]: [Announcement] [Discord] Console: KU_yvw0rWCD
+2026-03-28 06:42:51,214 | INFO | [KICK] gnaoheeib.19 kicked player: KU_yvw0rWCD
+2026-03-28 06:43:16,035 | INFO | [RAW] [06:32:26]: [Leave Announcement] M B
+2026-03-28 06:43:16,035 | INFO | Leave detected: M B
+2026-03-28 06:43:16,051 | INFO | [SYNC] Day 22 | Season: Winter
+2026-03-28 06:43:16,051 | INFO | [UPDATE] Day 22 | Winter
+2026-03-28 06:43:17,114 | INFO | → Discord: Server: **Day 22 (Winter)** | **M B** Leave
+2026-03-28 06:43:17,511 | INFO | Channel renamed → 𖦹﹒wyvern-winter-22
+2026-03-28 06:59:11,928 | INFO | Shard ID None has successfully RESUMED session 5c69e0c379dea8f91f8fe368415fa89c.
+2026-03-28 07:13:42,295 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 07:13:42,304 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 07:13:42,305 | INFO | logging in using static token
+2026-03-28 07:13:42,311 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 07:13:42,311 | WARNING | Passing
+2026-03-28 07:13:42,312 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 07:13:42,313 | INFO | Watching server_chat_log.txt...
+2026-03-28 07:13:45,255 | INFO | Shard ID None has connected to Gateway (Session ID: 127b91c55977ff637ed7f3944906edf4).
+2026-03-28 07:13:47,272 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 07:13:47,273 | ERROR | Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/steam/dst-discord-chat-sync/src/discord_handler.py", line 27, in on_ready
+    await self.lavalink.connect()
+  File "/home/steam/dst-discord-chat-sync/src/music/lavalink_client.py", line 9, in connect
+    await wavelink.NodePool.create_node(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: module 'wavelink' has no attribute 'NodePool'
+2026-03-28 07:17:02,613 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 07:17:02,623 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 07:17:02,623 | INFO | logging in using static token
+2026-03-28 07:17:02,629 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 07:17:02,629 | WARNING | Passing
+2026-03-28 07:17:02,630 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 07:17:02,631 | INFO | Watching server_chat_log.txt...
+2026-03-28 07:17:05,148 | INFO | Shard ID None has connected to Gateway (Session ID: 69953d4691164fe3891a0183679c382b).
+2026-03-28 07:17:07,185 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 07:17:07,307 | INFO | Lavalink connected 
+2026-03-28 07:17:07,615 | INFO | Commands: ['players', 'weather', 'kick']
+2026-03-28 07:17:07,615 | INFO | Bot status's working
+2026-03-28 07:17:07,615 | INFO | Rotate status 30 sec each
+2026-03-28 07:17:07,615 | INFO | Activities actived
+2026-03-28 07:19:50,538 | ERROR | Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 736, in connect
+    await self._connection_event.wait()
+  File "/usr/lib/python3.12/asyncio/locks.py", line 212, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 735, in connect
+    async with async_timeout.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/steam/dst-discord-chat-sync/src/discord_handler.py", line 68, in on_message
+    await play_music(self, message, search)
+  File "/home/steam/dst-discord-chat-sync/src/music/player.py", line 10, in play_music
+    vc = await message.author.voice.channel.connect(cls=wavelink.Player)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/abc.py", line 2152, in connect
+    await voice.connect(timeout=timeout, reconnect=reconnect, self_deaf=self_deaf, self_mute=self_mute)
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 739, in connect
+    raise ChannelTimeoutException(msg)
+wavelink.exceptions.ChannelTimeoutException: Unable to connect to caffeine & dopamine as it exceeded the timeout of 30.0 seconds.
+2026-03-28 07:19:56,856 | ERROR | Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 736, in connect
+    await self._connection_event.wait()
+  File "/usr/lib/python3.12/asyncio/locks.py", line 212, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 735, in connect
+    async with async_timeout.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/steam/dst-discord-chat-sync/src/discord_handler.py", line 68, in on_message
+    await play_music(self, message, search)
+  File "/home/steam/dst-discord-chat-sync/src/music/player.py", line 10, in play_music
+    vc = await message.author.voice.channel.connect(cls=wavelink.Player)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/abc.py", line 2152, in connect
+    await voice.connect(timeout=timeout, reconnect=reconnect, self_deaf=self_deaf, self_mute=self_mute)
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 739, in connect
+    raise ChannelTimeoutException(msg)
+wavelink.exceptions.ChannelTimeoutException: Unable to connect to caffeine & dopamine as it exceeded the timeout of 30.0 seconds.
+2026-03-28 07:24:29,025 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 07:24:29,035 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 07:24:29,035 | INFO | logging in using static token
+2026-03-28 07:24:29,041 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 07:24:29,041 | WARNING | Passing
+2026-03-28 07:24:29,042 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 07:24:29,043 | INFO | Watching server_chat_log.txt...
+2026-03-28 07:24:32,013 | INFO | Shard ID None has connected to Gateway (Session ID: eb81e0b8aad7ced29a3fe96ae64b1f73).
+2026-03-28 07:24:34,058 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 07:24:34,063 | INFO | Lavalink connected 
+2026-03-28 07:24:34,379 | INFO | Commands: ['players', 'weather', 'kick']
+2026-03-28 07:24:34,380 | INFO | Bot status's working
+2026-03-28 07:24:34,380 | INFO | Rotate status 30 sec each
+2026-03-28 07:24:34,380 | INFO | Activities actived
+2026-03-28 07:25:17,114 | ERROR | [MUSIC] Error playing music: Unable to connect to caffeine & dopamine as it exceeded the timeout of 30.0 seconds.
+2026-03-28 07:25:42,361 | ERROR | [MUSIC] Error playing music: Unable to connect to caffeine & dopamine as it exceeded the timeout of 30.0 seconds.
+2026-03-28 07:28:36,307 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 07:28:36,316 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 07:28:36,317 | INFO | logging in using static token
+2026-03-28 07:28:36,323 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 07:28:36,323 | WARNING | Passing
+2026-03-28 07:28:36,324 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 07:28:36,325 | INFO | Watching server_chat_log.txt...
+2026-03-28 07:28:38,936 | INFO | Shard ID None has connected to Gateway (Session ID: c6535db79a8e2712b9868b415cde3daf).
+2026-03-28 07:28:40,962 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 07:28:41,082 | INFO | Lavalink connected 
+2026-03-28 07:28:41,412 | INFO | Commands: ['players', 'weather', 'kick']
+2026-03-28 07:28:41,413 | INFO | Bot status's working
+2026-03-28 07:28:41,413 | INFO | Rotate status 30 sec each
+2026-03-28 07:28:41,413 | INFO | Activities actived
+2026-03-28 07:29:26,447 | ERROR | [MUSIC] Error while playing: Unable to connect to caffeine & dopamine as it exceeded the timeout of 30.0 seconds.
+2026-03-28 07:35:55,961 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 07:35:55,971 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 07:35:55,972 | INFO | logging in using static token
+2026-03-28 07:35:55,978 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 07:35:55,978 | WARNING | Passing
+2026-03-28 07:35:55,979 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 07:35:55,980 | INFO | Watching server_chat_log.txt...
+2026-03-28 07:35:58,668 | INFO | Shard ID None has connected to Gateway (Session ID: 63e9b27710b50639006d4c224f87896c).
+2026-03-28 07:36:00,682 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 07:36:00,792 | INFO | Lavalink connected 
+2026-03-28 07:36:01,169 | INFO | Commands: ['players', 'weather', 'kick']
+2026-03-28 07:36:01,169 | INFO | Bot status's working
+2026-03-28 07:36:01,169 | INFO | Rotate status 30 sec each
+2026-03-28 07:36:01,169 | INFO | Activities actived
+2026-03-28 07:36:43,702 | ERROR | Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 736, in connect
+    await self._connection_event.wait()
+  File "/usr/lib/python3.12/asyncio/locks.py", line 212, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 735, in connect
+    async with async_timeout.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/steam/dst-discord-chat-sync/src/discord_handler.py", line 69, in on_message
+    await play_music(self, message, search)
+  File "/home/steam/dst-discord-chat-sync/src/music/player.py", line 13, in play_music
+    vc = await voice_channel.connect(cls=wavelink.Player, self_deaf=True)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/abc.py", line 2152, in connect
+    await voice.connect(timeout=timeout, reconnect=reconnect, self_deaf=self_deaf, self_mute=self_mute)
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 739, in connect
+    raise ChannelTimeoutException(msg)
+wavelink.exceptions.ChannelTimeoutException: Unable to connect to caffeine & dopamine as it exceeded the timeout of 30.0 seconds.
+2026-03-28 07:37:52,016 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 07:37:52,026 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 07:37:52,026 | INFO | logging in using static token
+2026-03-28 07:37:52,032 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 07:37:52,033 | WARNING | Passing
+2026-03-28 07:37:52,034 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 07:37:52,035 | INFO | Watching server_chat_log.txt...
+2026-03-28 07:37:54,845 | INFO | Shard ID None has connected to Gateway (Session ID: dc5b6e38d67d91423dd9431bed80f75f).
+2026-03-28 07:37:56,880 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 07:37:56,885 | INFO | Lavalink connected 
+2026-03-28 07:37:57,271 | INFO | Commands: ['players', 'weather', 'kick']
+2026-03-28 07:37:57,271 | INFO | Bot status's working
+2026-03-28 07:37:57,272 | INFO | Rotate status 30 sec each
+2026-03-28 07:37:57,272 | INFO | Activities actived
+2026-03-28 07:38:34,967 | ERROR | Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 736, in connect
+    await self._connection_event.wait()
+  File "/usr/lib/python3.12/asyncio/locks.py", line 212, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 735, in connect
+    async with async_timeout.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/steam/dst-discord-chat-sync/src/discord_handler.py", line 69, in on_message
+    await play_music(self, message, search)
+  File "/home/steam/dst-discord-chat-sync/src/music/player.py", line 13, in play_music
+    vc = await voice_channel.connect(cls=wavelink.Player, self_deaf=True)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/abc.py", line 2152, in connect
+    await voice.connect(timeout=timeout, reconnect=reconnect, self_deaf=self_deaf, self_mute=self_mute)
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 739, in connect
+    raise ChannelTimeoutException(msg)
+wavelink.exceptions.ChannelTimeoutException: Unable to connect to caffeine & dopamine as it exceeded the timeout of 30.0 seconds.
+2026-03-28 07:45:34,368 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 07:45:34,378 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 07:45:34,379 | INFO | logging in using static token
+2026-03-28 07:45:34,381 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 07:45:34,381 | WARNING | Passing
+2026-03-28 07:45:34,382 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 07:45:34,384 | INFO | Watching server_chat_log.txt...
+2026-03-28 07:45:37,039 | INFO | Shard ID None has connected to Gateway (Session ID: 65fe8ee3a955bb217965120025edc658).
+2026-03-28 07:45:39,073 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 07:45:39,079 | INFO | Lavalink connected 
+2026-03-28 07:45:39,480 | INFO | Commands: ['players', 'weather', 'kick']
+2026-03-28 07:45:39,480 | INFO | Bot status's working
+2026-03-28 07:45:39,480 | INFO | Rotate status 30 sec each
+2026-03-28 07:45:39,480 | INFO | Activities actived
+2026-03-28 07:46:26,424 | ERROR | Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/steam/dst-discord-chat-sync/src/discord_handler.py", line 71, in on_voice_state_update
+    await player.update_voice_state(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Player' object has no attribute 'update_voice_state'
+2026-03-28 07:46:56,186 | ERROR | Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 736, in connect
+    await self._connection_event.wait()
+  File "/usr/lib/python3.12/asyncio/locks.py", line 212, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 735, in connect
+    async with async_timeout.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/steam/dst-discord-chat-sync/src/discord_handler.py", line 89, in on_message
+    await play_music(self, message, search)
+  File "/home/steam/dst-discord-chat-sync/src/music/player.py", line 13, in play_music
+    vc = await voice_channel.connect(cls=wavelink.Player, self_deaf=True)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/abc.py", line 2152, in connect
+    await voice.connect(timeout=timeout, reconnect=reconnect, self_deaf=self_deaf, self_mute=self_mute)
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 739, in connect
+    raise ChannelTimeoutException(msg)
+wavelink.exceptions.ChannelTimeoutException: Unable to connect to caffeine & dopamine as it exceeded the timeout of 30.0 seconds.
+2026-03-28 07:50:31,141 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 07:50:31,151 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 07:50:31,151 | INFO | logging in using static token
+2026-03-28 07:50:31,156 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 07:50:31,156 | WARNING | Passing
+2026-03-28 07:50:31,157 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 07:50:31,158 | INFO | Watching server_chat_log.txt...
+2026-03-28 07:50:33,619 | INFO | Shard ID None has connected to Gateway (Session ID: 7ecf2e3b0b86812c5a3ad38a79edf263).
+2026-03-28 07:50:35,652 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 07:50:35,786 | INFO | Lavalink connected 
+2026-03-28 07:50:36,181 | INFO | Commands: ['players', 'weather', 'kick']
+2026-03-28 07:50:36,181 | INFO | Bot status's working
+2026-03-28 07:50:36,181 | INFO | Rotate status 30 sec each
+2026-03-28 07:50:36,181 | INFO | Activities actived
+2026-03-28 07:51:14,880 | ERROR | Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 736, in connect
+    await self._connection_event.wait()
+  File "/usr/lib/python3.12/asyncio/locks.py", line 212, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 735, in connect
+    async with async_timeout.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/steam/dst-discord-chat-sync/src/discord_handler.py", line 73, in on_message
+    await play_music(self, message, search)
+  File "/home/steam/dst-discord-chat-sync/src/music/player.py", line 13, in play_music
+    vc = await voice_channel.connect(cls=wavelink.Player, self_deaf=True)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/abc.py", line 2152, in connect
+    await voice.connect(timeout=timeout, reconnect=reconnect, self_deaf=self_deaf, self_mute=self_mute)
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 739, in connect
+    raise ChannelTimeoutException(msg)
+wavelink.exceptions.ChannelTimeoutException: Unable to connect to caffeine & dopamine as it exceeded the timeout of 30.0 seconds.
+2026-03-28 07:56:34,393 | INFO | Shard ID None has successfully RESUMED session 7ecf2e3b0b86812c5a3ad38a79edf263.
+2026-03-28 08:00:14,256 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 08:00:14,270 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 08:00:14,270 | INFO | logging in using static token
+2026-03-28 08:00:14,275 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 08:00:14,275 | WARNING | Passing
+2026-03-28 08:00:14,276 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 08:00:14,277 | INFO | Watching server_chat_log.txt...
+2026-03-28 08:00:18,394 | INFO | Shard ID None has connected to Gateway (Session ID: c0d96487fd8edd3241a882ccaa1dcf3f).
+2026-03-28 08:00:20,430 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 08:00:20,541 | INFO | Lavalink connected 
+2026-03-28 08:00:20,855 | INFO | Commands: ['players', 'weather', 'kick']
+2026-03-28 08:00:20,856 | INFO | Bot status's working
+2026-03-28 08:00:20,856 | INFO | Rotate status 30 sec each
+2026-03-28 08:00:20,856 | INFO | Activities actived
+2026-03-28 08:01:24,639 | ERROR | Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 736, in connect
+    await self._connection_event.wait()
+  File "/usr/lib/python3.12/asyncio/locks.py", line 212, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 735, in connect
+    async with async_timeout.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/steam/dst-discord-chat-sync/src/discord_handler.py", line 71, in on_message
+    if await handle_music(self, message):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/src/music/commands.py", line 8, in handle_music
+    await play_music(bot, message, search)
+  File "/home/steam/dst-discord-chat-sync/src/music/player.py", line 13, in play_music
+    vc = await voice_channel.connect(cls=wavelink.Player, self_deaf=True)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/abc.py", line 2152, in connect
+    await voice.connect(timeout=timeout, reconnect=reconnect, self_deaf=self_deaf, self_mute=self_mute)
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 739, in connect
+    raise ChannelTimeoutException(msg)
+wavelink.exceptions.ChannelTimeoutException: Unable to connect to caffeine & dopamine as it exceeded the timeout of 30.0 seconds.
+2026-03-28 08:12:40,312 | INFO | Shard ID None has successfully RESUMED session c0d96487fd8edd3241a882ccaa1dcf3f.
+2026-03-28 08:18:55,059 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 08:18:55,069 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 08:18:55,069 | INFO | logging in using static token
+2026-03-28 08:18:55,072 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 08:18:55,072 | WARNING | Passing
+2026-03-28 08:18:55,073 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 08:18:55,075 | INFO | Watching server_chat_log.txt...
+2026-03-28 08:18:57,795 | INFO | Shard ID None has connected to Gateway (Session ID: b239aca40ea5c3e090c1e5c446833910).
+2026-03-28 08:18:59,854 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 08:18:59,859 | INFO | Lavalink connected 
+2026-03-28 08:19:00,226 | INFO | Commands: ['players', 'weather', 'kick']
+2026-03-28 08:19:00,226 | INFO | Bot status's working
+2026-03-28 08:19:00,226 | INFO | Rotate status 30 sec each
+2026-03-28 08:19:00,226 | INFO | Activities actived
+2026-03-28 08:19:53,719 | ERROR | Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 736, in connect
+    await self._connection_event.wait()
+  File "/usr/lib/python3.12/asyncio/locks.py", line 212, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 735, in connect
+    async with async_timeout.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/steam/dst-discord-chat-sync/src/discord_handler.py", line 76, in on_message
+    if await handle_music(self, message):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/src/music/commands.py", line 8, in handle_music
+    await play_music(bot, message, search)
+  File "/home/steam/dst-discord-chat-sync/src/music/player.py", line 13, in play_music
+    vc = await voice_channel.connect(cls=wavelink.Player, self_deaf=True)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/abc.py", line 2152, in connect
+    await voice.connect(timeout=timeout, reconnect=reconnect, self_deaf=self_deaf, self_mute=self_mute)
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 739, in connect
+    raise ChannelTimeoutException(msg)
+wavelink.exceptions.ChannelTimeoutException: Unable to connect to caffeine & dopamine as it exceeded the timeout of 30.0 seconds.
+2026-03-28 08:25:30,582 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 08:25:30,594 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 08:25:30,594 | INFO | logging in using static token
+2026-03-28 08:25:30,596 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 08:25:30,596 | WARNING | Passing
+2026-03-28 08:25:30,598 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 08:25:30,599 | INFO | Watching server_chat_log.txt...
+2026-03-28 08:25:33,089 | INFO | Shard ID None has connected to Gateway (Session ID: 6ccbb3daf73c358ac63c39d2650b1e8d).
+2026-03-28 08:25:35,116 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 08:25:35,231 | INFO | Lavalink connected 
+2026-03-28 08:25:35,588 | INFO | Commands: ['players', 'weather', 'kick']
+2026-03-28 08:25:35,588 | INFO | Bot status's working
+2026-03-28 08:25:35,588 | INFO | Rotate status 30 sec each
+2026-03-28 08:25:35,588 | INFO | Activities actived
+2026-03-28 08:26:21,159 | ERROR | Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 736, in connect
+    await self._connection_event.wait()
+  File "/usr/lib/python3.12/asyncio/locks.py", line 212, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 735, in connect
+    async with async_timeout.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/steam/dst-discord-chat-sync/src/discord_handler.py", line 78, in on_message
+    if await handle_music(self, message):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/src/music/commands.py", line 8, in handle_music
+    await play_music(bot, message, search)
+  File "/home/steam/dst-discord-chat-sync/src/music/player.py", line 13, in play_music
+    vc = await voice_channel.connect(cls=wavelink.Player, self_deaf=True)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/abc.py", line 2152, in connect
+    await voice.connect(timeout=timeout, reconnect=reconnect, self_deaf=self_deaf, self_mute=self_mute)
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 739, in connect
+    raise ChannelTimeoutException(msg)
+wavelink.exceptions.ChannelTimeoutException: Unable to connect to caffeine & dopamine as it exceeded the timeout of 30.0 seconds.
+2026-03-28 08:37:04,781 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 08:37:04,794 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 08:37:04,795 | INFO | logging in using static token
+2026-03-28 08:37:04,796 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 08:37:04,796 | WARNING | Passing
+2026-03-28 08:37:04,797 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 08:37:04,798 | INFO | Watching server_chat_log.txt...
+2026-03-28 08:37:07,348 | INFO | Shard ID None has connected to Gateway (Session ID: f51d39ebb591f7c990d7e8c11dac065a).
+2026-03-28 08:37:09,366 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 08:37:09,373 | INFO | Lavalink connected 
+2026-03-28 08:37:09,677 | INFO | Commands: ['players', 'weather', 'kick']
+2026-03-28 08:37:09,677 | INFO | Bot status's working
+2026-03-28 08:37:09,677 | INFO | Rotate status 30 sec each
+2026-03-28 08:37:09,677 | INFO | Activities actived
+2026-03-28 08:37:51,757 | ERROR | Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 736, in connect
+    await self._connection_event.wait()
+  File "/usr/lib/python3.12/asyncio/locks.py", line 212, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 735, in connect
+    async with async_timeout.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/steam/dst-discord-chat-sync/src/discord_handler.py", line 73, in on_message
+    if await handle_music(self, message):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/src/music/commands.py", line 8, in handle_music
+    await play_music(bot, message, search)
+  File "/home/steam/dst-discord-chat-sync/src/music/player.py", line 13, in play_music
+    vc = await voice_channel.connect(cls=wavelink.Player, self_deaf=True)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/abc.py", line 2152, in connect
+    await voice.connect(timeout=timeout, reconnect=reconnect, self_deaf=self_deaf, self_mute=self_mute)
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/wavelink/player.py", line 739, in connect
+    raise ChannelTimeoutException(msg)
+wavelink.exceptions.ChannelTimeoutException: Unable to connect to caffeine & dopamine as it exceeded the timeout of 30.0 seconds.
+2026-03-28 09:01:20,406 | INFO | Shard ID None has successfully RESUMED session f51d39ebb591f7c990d7e8c11dac065a.
+2026-03-28 09:23:02,203 | INFO | Shard ID None has successfully RESUMED session f51d39ebb591f7c990d7e8c11dac065a.
+2026-03-28 11:36:49,709 | INFO | [AUTH] Chee authenticated | KU_ID: KU_G3il1HZL
+2026-03-28 11:37:05,904 | INFO | [RAW] [11:26:15]: [Join Announcement] Chee
+2026-03-28 11:37:05,905 | INFO | Join detected: Chee
+2026-03-28 11:37:05,921 | INFO | [SYNC] Day 22 | Season: Winter
+2026-03-28 11:37:05,921 | INFO | [UPDATE] Day 22 | Winter
+2026-03-28 11:37:06,896 | INFO | → Discord: Server: **Day 22 (Winter)** | **Chee** Joined
+2026-03-28 11:37:07,241 | INFO | Channel renamed → 𖦹﹒wyvern-winter-22
+2026-03-28 11:42:20,462 | INFO | Shard ID None has successfully RESUMED session f51d39ebb591f7c990d7e8c11dac065a.
+2026-03-28 11:49:24,577 | INFO | [RAW] [11:38:34]: [Skin Announcement] Chee legs_pants_basic_tan_cream
+2026-03-28 11:52:18,759 | INFO | [RAW] [11:41:28]: [Leave Announcement] Chee
+2026-03-28 11:52:18,759 | INFO | Leave detected: Chee
+2026-03-28 11:52:18,765 | INFO | [SYNC] Day 24 | Season: Winter
+2026-03-28 11:52:18,765 | INFO | [UPDATE] Day 24 | Winter
+2026-03-28 11:52:19,686 | INFO | → Discord: Server: **Day 24 (Winter)** | **Chee** Leave
+2026-03-28 11:52:20,102 | INFO | Channel renamed → 𖦹﹒wyvern-winter-24
+2026-03-28 15:25:47,506 | INFO | Shard ID None has successfully RESUMED session f51d39ebb591f7c990d7e8c11dac065a.
+2026-03-28 16:01:55,701 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 16:01:55,712 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 16:01:55,712 | INFO | logging in using static token
+2026-03-28 16:01:55,715 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 16:01:55,716 | WARNING | Passing
+2026-03-28 16:01:55,717 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 16:01:55,718 | INFO | Watching server_chat_log.txt...
+2026-03-28 16:01:58,491 | INFO | Shard ID None has connected to Gateway (Session ID: c56530cf1d7834f4395c676eb5997892).
+2026-03-28 16:02:00,509 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 16:02:00,510 | WARNING | An unexpected error occurred while connecting Node(identifier=Pc84479axB2-A5KX, uri=http://127.0.0.1:2333, status=NodeStatus.CONNECTING, players=0) to Lavalink: "Cannot connect to host 127.0.0.1:2333 ssl:default [Connect call failed ('127.0.0.1', 2333)]"
+If this error persists or wavelink is unable to reconnect, please see: https://github.com/PythonistaGuild/Wavelink/issues
+2026-03-28 16:02:00,510 | INFO | Node(identifier=Pc84479axB2-A5KX, uri=http://127.0.0.1:2333, status=NodeStatus.CONNECTING, players=0) retrying websocket connection in "0.4845845059197267" seconds.
+2026-03-28 16:02:00,996 | WARNING | An unexpected error occurred while connecting Node(identifier=Pc84479axB2-A5KX, uri=http://127.0.0.1:2333, status=NodeStatus.CONNECTING, players=0) to Lavalink: "Cannot connect to host 127.0.0.1:2333 ssl:default [Connect call failed ('127.0.0.1', 2333)]"
+If this error persists or wavelink is unable to reconnect, please see: https://github.com/PythonistaGuild/Wavelink/issues
+2026-03-28 16:02:00,997 | INFO | Node(identifier=Pc84479axB2-A5KX, uri=http://127.0.0.1:2333, status=NodeStatus.CONNECTING, players=0) retrying websocket connection in "4.773162720636075" seconds.
+2026-03-28 16:02:05,776 | WARNING | An unexpected error occurred while connecting Node(identifier=Pc84479axB2-A5KX, uri=http://127.0.0.1:2333, status=NodeStatus.CONNECTING, players=0) to Lavalink: "Cannot connect to host 127.0.0.1:2333 ssl:default [Connect call failed ('127.0.0.1', 2333)]"
+If this error persists or wavelink is unable to reconnect, please see: https://github.com/PythonistaGuild/Wavelink/issues
+2026-03-28 16:02:05,776 | INFO | Node(identifier=Pc84479axB2-A5KX, uri=http://127.0.0.1:2333, status=NodeStatus.CONNECTING, players=0) retrying websocket connection in "15.061756475728867" seconds.
+2026-03-28 16:02:20,847 | WARNING | An unexpected error occurred while connecting Node(identifier=Pc84479axB2-A5KX, uri=http://127.0.0.1:2333, status=NodeStatus.CONNECTING, players=0) to Lavalink: "Cannot connect to host 127.0.0.1:2333 ssl:default [Connect call failed ('127.0.0.1', 2333)]"
+If this error persists or wavelink is unable to reconnect, please see: https://github.com/PythonistaGuild/Wavelink/issues
+2026-03-28 16:02:20,847 | INFO | Node(identifier=Pc84479axB2-A5KX, uri=http://127.0.0.1:2333, status=NodeStatus.CONNECTING, players=0) retrying websocket connection in "30.0" seconds.
+2026-03-28 16:02:50,853 | WARNING | An unexpected error occurred while connecting Node(identifier=Pc84479axB2-A5KX, uri=http://127.0.0.1:2333, status=NodeStatus.CONNECTING, players=0) to Lavalink: "Cannot connect to host 127.0.0.1:2333 ssl:default [Connect call failed ('127.0.0.1', 2333)]"
+If this error persists or wavelink is unable to reconnect, please see: https://github.com/PythonistaGuild/Wavelink/issues
+2026-03-28 16:02:50,853 | INFO | Node(identifier=Pc84479axB2-A5KX, uri=http://127.0.0.1:2333, status=NodeStatus.CONNECTING, players=0) retrying websocket connection in "1.0499666021635048" seconds.
+2026-03-28 16:02:51,904 | WARNING | An unexpected error occurred while connecting Node(identifier=Pc84479axB2-A5KX, uri=http://127.0.0.1:2333, status=NodeStatus.CONNECTING, players=0) to Lavalink: "Cannot connect to host 127.0.0.1:2333 ssl:default [Connect call failed ('127.0.0.1', 2333)]"
+If this error persists or wavelink is unable to reconnect, please see: https://github.com/PythonistaGuild/Wavelink/issues
+2026-03-28 16:02:51,904 | INFO | Node(identifier=Pc84479axB2-A5KX, uri=http://127.0.0.1:2333, status=NodeStatus.CONNECTING, players=0) retrying websocket connection in "4.5205456322983935" seconds.
+2026-03-28 16:02:56,427 | WARNING | An unexpected error occurred while connecting Node(identifier=Pc84479axB2-A5KX, uri=http://127.0.0.1:2333, status=NodeStatus.CONNECTING, players=0) to Lavalink: "Cannot connect to host 127.0.0.1:2333 ssl:default [Connect call failed ('127.0.0.1', 2333)]"
+If this error persists or wavelink is unable to reconnect, please see: https://github.com/PythonistaGuild/Wavelink/issues
+2026-03-28 16:02:56,427 | INFO | Node(identifier=Pc84479axB2-A5KX, uri=http://127.0.0.1:2333, status=NodeStatus.CONNECTING, players=0) retrying websocket connection in "9.768678315950996" seconds.
+2026-03-28 16:03:06,311 | INFO | ✅ Lavalink node connected successfully!
+2026-03-28 16:03:07,159 | INFO | Commands: ['players', 'weather', 'kick']
+2026-03-28 16:03:07,159 | INFO | Bot status's working
+2026-03-28 16:03:07,159 | INFO | Rotate status 30 sec each
+2026-03-28 16:03:07,159 | INFO | Activities actived
+2026-03-28 16:04:28,270 | ERROR | ❌ Music crash: Unable to connect to caffeine & dopamine as it exceeded the timeout of 30.0 seconds.
+2026-03-28 16:06:54,298 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 16:06:54,309 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 16:06:54,309 | INFO | logging in using static token
+2026-03-28 16:06:54,311 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 16:06:54,312 | WARNING | Passing
+2026-03-28 16:06:54,313 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 16:06:54,315 | INFO | Watching server_chat_log.txt...
+2026-03-28 16:06:56,853 | INFO | Shard ID None has connected to Gateway (Session ID: f52f9e700313fe11c823a817c5b68b84).
+2026-03-28 16:06:58,875 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 16:06:58,879 | INFO | ✅ Lavalink node connected successfully!
+2026-03-28 16:06:59,247 | INFO | Commands: ['players', 'weather', 'kick']
+2026-03-28 16:06:59,247 | INFO | Bot status's working
+2026-03-28 16:06:59,247 | INFO | Rotate status 30 sec each
+2026-03-28 16:06:59,247 | INFO | Activities actived
+2026-03-28 16:07:07,594 | ERROR | Music crash: Player.connect() got an unexpected keyword argument 'channel'
+2026-03-28 16:13:38,397 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 16:13:38,407 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 16:13:38,408 | INFO | logging in using static token
+2026-03-28 16:13:38,410 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 16:13:38,410 | WARNING | Passing
+2026-03-28 16:13:38,411 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 16:13:38,412 | INFO | Watching server_chat_log.txt...
+2026-03-28 16:13:41,003 | INFO | Shard ID None has connected to Gateway (Session ID: 2bc0b7c942bf05c9e1f3d359d7effd5e).
+2026-03-28 16:13:43,049 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 16:13:43,054 | INFO | ✅ Lavalink node connected successfully!
+2026-03-28 16:13:43,404 | INFO | Commands: ['players', 'weather', 'kick']
+2026-03-28 16:13:43,404 | INFO | Bot status's working
+2026-03-28 16:13:43,404 | INFO | Rotate status 30 sec each
+2026-03-28 16:13:43,404 | INFO | Activities actived
+2026-03-28 16:14:00,321 | ERROR | Music crash: Player.connect() got an unexpected keyword argument 'channel'
+2026-03-28 16:15:02,008 | WARNING | davey is not installed, voice will NOT be supported
+2026-03-28 16:15:02,018 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-03-28 16:15:02,019 | INFO | logging in using static token
+2026-03-28 16:15:02,021 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-03-28 16:15:02,021 | WARNING | Passing
+2026-03-28 16:15:02,022 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-03-28 16:15:02,024 | INFO | Watching server_chat_log.txt...
+2026-03-28 16:15:04,843 | INFO | Shard ID None has connected to Gateway (Session ID: 6e3e1212821b866e65a8960bd632a9e4).
+2026-03-28 16:15:06,859 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-03-28 16:15:06,973 | INFO | ✅ Lavalink node connected successfully!
+2026-03-28 16:15:07,377 | INFO | Commands: ['players', 'weather', 'kick']
+2026-03-28 16:15:07,378 | INFO | Bot status's working
+2026-03-28 16:15:07,378 | INFO | Rotate status 30 sec each
+2026-03-28 16:15:07,378 | INFO | Activities actived
+2026-03-28 16:15:20,354 | ERROR | Music crash: Player.connect() got an unexpected keyword argument 'channel'
+2026-03-28 19:51:28,830 | INFO | Shard ID None has successfully RESUMED session 6e3e1212821b866e65a8960bd632a9e4.

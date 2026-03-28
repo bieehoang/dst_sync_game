@@ -1,17 +1,35 @@
 from discord import app_commands
+from src.bridge import Bridge
+from src.logger import logger
 
-def setup(tree, bridge):
 
-    @app_commands.command(name="players", description="Get list players ingame")
+def setup(tree, bridge: Bridge):
+    """
+    Setup the /players slash command.
+    """
+
+    @app_commands.command(
+        name="players",
+        description="Get list of players currently"
+    )
     async def players(interaction):
-        players = bridge.get_players()
+        """
+        Handler for the /players command.
+        """
+        players_dict = bridge.get_players()
 
-        if not players:
+        if not players_dict:
             await interaction.response.send_message("No one here 4 sure!")
             return
 
-        msg = f" Players ({len(players)}):\n" + "\n".join(f"• {p}" for p in players)
+        lines = []
+        for name, user_id in players_dict.items():
+            lines.append(f"• {name} - `{user_id}`")
+
+        msg = f"**Players Online ({len(players_dict)})**:\n" + "\n".join(lines)
 
         await interaction.response.send_message(msg)
+        logger.info(f"[PLAYERS] {interaction.user} requested player list - {len(players_dict)} players")
 
     tree.add_command(players)
+    print("[COMMAND] /players command has been loaded successfully")

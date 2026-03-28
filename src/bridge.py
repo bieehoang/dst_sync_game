@@ -36,6 +36,27 @@ class Bridge:
             else:
                 logger.error("Do not see Discord channel")
     def get_players(self):
-        if self.dst and hasattr(self.dst, "players"):
-            return list(self.dst.players)
-        return []
+        if hasattr(self.dst, "players"):
+            if isinstance(self.dst.players, dict):
+                return dict(self.dst.players)      # copy
+            elif isinstance(self.dst.players, set):
+                return {name: "Unknown" for name in self.dst.players}
+        return {} 
+    def kick_command(self, command: str) -> bool:
+        if not self.dst:
+            logger.error("[BRIDGE] Dst didnt ready")
+            return False
+
+        try:
+            success = self.dst.send_to_game("Console", command)
+
+            if success:
+                logger.info(f"[BRIDGE] Sent console: {command}")
+                return True
+            else:
+                logger.warning(f"[BRIDGE] Excute fail: {command}")
+                return False
+
+        except Exception as e:
+            logger.error(f"[BRIDGE] Error console command '{command}': {e}")
+            return False
