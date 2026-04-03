@@ -82,8 +82,10 @@ class WeatherStatus:
         if any(x in desc for x in ["storm", "thunder"]): return "⛈️"
         return "🌡️"
 
-    # ================== UPDATE CHỈ 1 DÒNG TRONG README ==================
-    async def update_readme(self, weather_lines):
+    async def update_readme(self, weather_data):
+        """
+        Update README.md với chỉ 1 thành phố mới nhất (thay thế hoàn toàn dòng cũ)
+        """
         if not self.github_token or not self.repo_name:
             return
 
@@ -93,15 +95,19 @@ class WeatherStatus:
             contents = repo.get_contents(self.readme_path)
             old_content = contents.decoded_content.decode("utf-8")
 
-            # Tạo dòng weather mới
-            line_new = "# 🌤️ Weather:"
-            for w in weather_lines:
-                line_new += f" {w['name']} {w['temp']:.1f}°C | {w['pop_now']}%→{w['pop_next']}% | {w['time']}"
+            w = weather_data[0]  # Chỉ lấy 1 thành phố vừa update
 
-            line_new += f" | Last update: {datetime.now(timezone(timedelta(hours=7))).strftime('%H:%M %d/%m/%Y')}"
+            # Tạo dòng mới gọn gàng
+            line_new = (
+                f"# 🌤️ Weather: {w['name']} {w['temp']:.1f}°C | "
+                f"{w['pop_now']}%→{w['pop_next']}% | {w['time']} "
+                f"| Last update: {datetime.now(timezone(timedelta(hours=7))).strftime('%H:%M')}"
+            )
 
+            # Tìm và thay thế dòng cũ
             lines = old_content.splitlines()
             updated = False
+
             for i, line in enumerate(lines):
                 if line.strip().startswith("# 🌤️ Weather:"):
                     lines[i] = line_new
@@ -116,29 +122,26 @@ class WeatherStatus:
 
             repo.update_file(
                 path=self.readme_path,
-                message=f"♻️ Update weather - {datetime.now().strftime('%H:%M')}",
+                message=f"♻️ Weather update - {w['name']}",
                 content=new_content,
                 sha=contents.sha
             )
-            print("[GITHUB] Update README.md")
+            print(f"[GITHUB] README updated with {w['name']}")
 
         except Exception as e:
             print(f"[GITHUB ERROR] {e}")
+
     async def get_all_weather_data(self):
         results = []
         api_key = self.config.get("openweather", {}).get("api_key")
-
         for loc in self.locations:
             try:
                 temp, desc, offset, pop_now, pop_next, rain_now = await self.fetch_weather(loc["lat"], loc["lon"])
-
                 local_time = (datetime.now(timezone.utc) + timedelta(seconds=offset)).strftime("%H:%M")
                 emoji = self.get_weather_emoji(desc)
                 temp_f = temp * 9/5 + 32
-
                 rain_percent_now = int(pop_now * 100)
                 rain_percent_next = int(pop_next * 100)
-
                 results.append({
                     "name": loc["name"],
                     "emoji": emoji,
@@ -153,15 +156,14 @@ class WeatherStatus:
             except Exception as e:
                 print(f"[WEATHER FETCH ERROR] {loc['name']}: {e}")
                 results.append({
-                    "name": loc["name"],
-                    "emoji": "❌",
-                    "temp": None,
-                    "pop_now": None,
-                    "pop_next": None,
-                    "local_time": "Error",
-                    "desc": "Fetch error"
+                "name": loc["name"],
+                "emoji": "❌",
+                "temp": None,
+                "pop_now": None,
+                "pop_next": None,
+                "local_time": "Error",
+                "desc": "Fetch error"
                 })
-
         return results
     # ================== MAIN LOOP ==================
     async def update_status_loop(self):
@@ -188,7 +190,7 @@ class WeatherStatus:
                     if channel:
                         await channel.send(
                             f" **{location_name}**\n"
-                            f"> **{rain_percent_next}%**Seems willbe raining outside, keep dry mate!\n"
+                            f"> Rain POP: **{rain_percent_next}%**\n Seems willbe raining outside, keep dry mate!\n"
                             f"> {local_time} | {temp:.1f}°C"
                         )
                     self.last_warning[location_name] = True

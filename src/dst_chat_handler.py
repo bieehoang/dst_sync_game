@@ -60,7 +60,6 @@ class DSTChatHandler:
             if line:
                 await self.parse_line(line) 
     async def parse_line(self, line: str):
-        logger.info(f"[RAW] {line}")
 
         if m := re.search(r'\[Say\].*?\)\s*(.*?):\s*(.*)', line):
             username = m.group(1).strip()

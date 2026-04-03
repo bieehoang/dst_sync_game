@@ -6,10 +6,8 @@ import commands.players as players_cmd
 from src.weather_status import WeatherStatus
 from commands.weather import setup as setup_weather
 from commands.kick import setup as setup_kick
-from src.music.lavalink_client import LavalinkClient
-from src.music.player import play_music
+from commands.update import setup as setup_update
 from src.music.commands import handle_music 
-from src.music.events import handle_socket
 from discord.ext import commands
 
 class DiscordHandler(commands.Bot):
@@ -30,18 +28,15 @@ class DiscordHandler(commands.Bot):
     async def on_ready(self):
         logger.info(f" Discord bot logged in as {self.user} | ID: {self.user.id}")
         
-        self.lavalink = LavalinkClient(self)
-        await self.lavalink.connect()        
-        print("Lavalink connect command finished - waiting for node")     
         GUILD_ID = 1369692222735257721
-        
         players_cmd.setup(self.tree, self.bridge)
         setup_weather(self.tree, self) 
         setup_kick(self.tree, self.bridge)
+        await setup_update(self.tree, self.bridge) 
         guild = discord.Object(id=GUILD_ID)
         self.tree.clear_commands(guild=guild)
         self.tree.copy_global_to(guild=guild)
-
+        
         await self.tree.sync(guild=guild)
 
         logger.info(f"Commands: {[cmd.name for cmd in self.tree.get_commands()]}") 
@@ -50,7 +45,6 @@ class DiscordHandler(commands.Bot):
             # Gán bot (Client) vào bridge
             self.bridge.bot = self
             
-            # Set status MimU style
             await setup_status(self)
             
             logger.info("Activities actived")
@@ -58,12 +52,7 @@ class DiscordHandler(commands.Bot):
             logger.warning("Bridge not built yet")
         weather = WeatherStatus(self)
         self.loop.create_task(weather.update_status_loop())
-    async def on_socket_response(self, payload):
-        await handle_socket(payload)   # ← this was the missing link!
-        async def on_voice_state_update(self, member, before, after):
-                # wavelink needs this for voice moves / disconnects
-            pass  # wavelink handles it automatically once socket is forwarded
-
+    
     async def on_message(self, message):
         if message.author.bot:
             return
@@ -92,5 +81,6 @@ class DiscordHandler(commands.Bot):
                 return
             await message.channel.send("Roi nha")
         await self.bridge.send_to_game(str(message.author.display_name), content)
-
+        if await handle_music(self, message):
+            return
         logger.info(f"← From Discord: {message.author.display_name}: {content}")

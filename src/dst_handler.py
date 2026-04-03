@@ -52,7 +52,6 @@ class DSTHandler:
             event = m.group(1).strip()
 
         if event:
-            # Tạm thời gửi không có ngày (sẽ thêm sau)
             await self.bridge.send_to_discord("Server", f"**{now}** | {event}")
             logger.info(f"Event sent: {event}")
 
