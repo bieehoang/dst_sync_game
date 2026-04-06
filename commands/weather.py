@@ -43,4 +43,3 @@ def setup(tree, bot):
             await interaction.followup.send(f"Fetch data fail: {e}")
 
     tree.add_command(weather_command)
-    print("Loaded /weather")

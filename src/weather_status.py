@@ -83,12 +83,8 @@ class WeatherStatus:
         return "🌡️"
 
     async def update_readme(self, weather_data):
-        """
-        Update README.md với chỉ 1 thành phố mới nhất (thay thế hoàn toàn dòng cũ)
-        """
         if not self.github_token or not self.repo_name:
             return
-
         try:
             g = Github(self.github_token)
             repo = g.get_repo(self.repo_name)
@@ -97,14 +93,12 @@ class WeatherStatus:
 
             w = weather_data[0]  # Chỉ lấy 1 thành phố vừa update
 
-            # Tạo dòng mới gọn gàng
             line_new = (
                 f"# 🌤️ Weather: {w['name']} {w['temp']:.1f}°C | "
-                f"{w['pop_now']}%→{w['pop_next']}% | {w['time']} "
+                f"{w['pop_now']}%→{w['pop_next']}% | {w['local_time']} "
                 f"| Last update: {datetime.now(timezone(timedelta(hours=7))).strftime('%H:%M')}"
             )
 
-            # Tìm và thay thế dòng cũ
             lines = old_content.splitlines()
             updated = False
 
@@ -165,61 +159,49 @@ class WeatherStatus:
                 "desc": "Fetch error"
                 })
         return results
-    # ================== MAIN LOOP ==================
+    # ================== MAIN LOOP =================
     async def update_status_loop(self):
         await self.bot.wait_until_ready()
-        weather_data = []
-
         while not self.bot.is_closed():
-            loc = self.locations[self.index]
-            location_name = loc["name"]
-
             try:
-                temp, desc, offset, pop_now, pop_next, rain_now = await self.fetch_weather(loc["lat"], loc["lon"])
-
-                local_time = (datetime.now(timezone.utc) + timedelta(seconds=offset)).strftime("%H:%M")
-                emoji = self.get_weather_emoji(desc)
-                temp_f = temp * 9/5 + 32
-
-                rain_percent_now = int(pop_now * 100)
-                rain_percent_next = int(pop_next * 100)
-
-                # Cảnh báo sắp mưa
-                if rain_percent_next >= 60 and not self.last_warning.get(location_name, False):
-                    channel = self.bot.get_channel(self.discord_channel_id)
-                    if channel:
-                        await channel.send(
-                            f" **{location_name}**\n"
-                            f"> Rain POP: **{rain_percent_next}%**\n Seems willbe raining outside, keep dry mate!\n"
-                            f"> {local_time} | {temp:.1f}°C"
-                        )
-                    self.last_warning[location_name] = True
-                elif rain_percent_next < 40:
-                    self.last_warning[location_name] = False
-
-                # Update Discord status
-                status_text = f"> {local_time} | {emoji} {location_name} {temp:.1f}°C/ {temp_f:.1f}°F\n> Rain POP: {rain_percent_now}% → 1hr next: {rain_percent_next}%"
-                await self.bot.change_presence(
-                    activity=discord.Activity(type=discord.ActivityType.custom, name="Weather", state=status_text[:128])
-                )
-
+                weather_data = await self.get_all_weather_data()
                 channel = self.bot.get_channel(self.discord_channel_id)
-                if channel:
-                    await channel.send(f"**Weather Update**:\n{status_text}")
+                if channel and weather_data:
+                    msg = "**Wyvern Weather Updates**\n"
+                    for w in weather_data:
+                        msg += (
+                            f"\n**{w['name']}**\n"
+                            f"> {w['local_time']} | {w['temp']:.1f}°C\n"
+                            f"> Rain: {w['pop_now']}% → {w['pop_next']}%"
+                        )
+                    await channel.send(msg[:2000])
 
-                weather_data.append({
-                    'name': location_name,
-                    'time': local_time,
-                    'temp': temp,
-                    'pop_now': rain_percent_now,
-                    'pop_next': rain_percent_next
-                })
-                await self.update_readme(weather_data)
-                print(f"[WEATHER] {location_name} | {local_time} | {temp:.1f}°C | {rain_percent_now}% → {rain_percent_next}%")
-
+                for w in weather_data:
+                    location_name = w["name"]
+                    rain_percent_next = w["pop_next"]
+                    if rain_percent_next >= 60 and not self.last_warning.get(location_name, False):
+                        if channel:
+                            await channel.send(
+                                f"🌧️ **{location_name}**\n"
+                                f"> Rain POP: **{rain_percent_next}%**\n"
+                                f"> Seems will be raining, Wyvern notice you should keep dry!\n"
+                                f"> {w['local_time']} | {w['temp']:.1f}°C"
+                            )
+                        self.last_warning[location_name] = True
+                    elif rain_percent_next < 40:
+                        self.last_warning[location_name] = False
             except Exception as e:
-                print(f"[WEATHER ERROR] {location_name}: {e}")
-             
+                print(f"[DISCORD LOOP ERROR] {e}")
+            await asyncio.sleep(21600)  # 6 tiếng 
+    
+    async def update_readme_loop(self):
+        await self.bot.wait_until_ready()
+        while not self.bot.is_closed():
+            try:
+                weather_data = await self.get_all_weather_data()
+                if weather_data:
+                    await self.update_readme(weather_data)
+            except Exception as e:
+                print(f"[README LOOP ERROR] {e}")
 
-            self.index = (self.index + 1) % len(self.locations)
             await asyncio.sleep(1800)  # 30 phút

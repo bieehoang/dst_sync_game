@@ -32,4 +32,3 @@ def setup(tree, bridge: Bridge):
         logger.info(f"[PLAYERS] {interaction.user} requested player list - {len(players_dict)} players")
 
     tree.add_command(players)
-    print("[COMMAND] /players command has been loaded successfully")

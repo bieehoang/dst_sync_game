@@ -1,5 +1,5 @@
 import discord
-from src.music.ytdl import get_audio_url, get_related
+from src.music.ytdl import get_audio_url, get_related, get_spotify_track
 from src.music.queue import MusicQueue
 import asyncio
 from src.logger import logger
@@ -27,14 +27,16 @@ async def ensure_voice(message):
 
 async def play_next(bot, vc, message):
     q = get_queue(message.guild.id)
-    track = q.next()                     # Lấy bài tiếp theo trong queue
+    track = q.next()                     
 
-    # Nếu queue hết nhưng autoplay đang bật → tự tìm bài related
     if not track and q.autoplay:
         if q.history:
             last_track = q.history[-1]
-            related = get_related(last_track["title"])
-            
+            related = get_related(
+                    last_track["title", ""],
+                    last_track.get("url", None)
+                    )
+                        
             if related:
                 # Tránh lặp lại bài vừa phát
                 if related["title"] not in [t["title"] for t in q.history[-5:]]:
@@ -49,7 +51,7 @@ async def play_next(bot, vc, message):
             logger.info("[AUTOPLAY] No history to get related song")
 
     if not track:
-        await message.channel.send("404 not found")
+        await message.channel.send("404")
         await set_voice_status(bot, vc.channel.id, "")
         return
 
@@ -87,9 +89,14 @@ async def play_music(bot, message, query: str):
     else:
         vc = message.guild.voice_client
 
+    original_query = query
     if "spotify.com" in query:
-        query = get_spotify_track(query)
-
+        spotify_result = get_spotify_track(query)
+        if spotify_result:
+            query = spotify_result   # Có thể là dict hoặc list
+        else:
+            await message.channel.send("Wyvern - 404 Spotify")
+            return 
     data = await asyncio.to_thread(get_audio_url, query)
     if not data:
         await message.channel.send("404")
@@ -110,7 +117,6 @@ async def play_music(bot, message, query: str):
         )
         await message.channel.send(embed=embed)
 
-    # ================== QUAN TRỌNG: BẮT ĐẦU PHÁT NHẠC ==================
     if not vc.is_playing() and not vc.is_paused():
         await play_next(bot, vc, message)
 

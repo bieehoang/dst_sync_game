@@ -1,6 +1,6 @@
 import asyncio
 from src.logger import logger
-from src.status_manager import setup_status   # Dùng setup_status thay vì StatusManager trực tiếp
+from src.status_manager import setup_status   
 
 class Bridge:
     def __init__(self, discord_client=None, dst_handler=None, bot=None):
@@ -11,7 +11,6 @@ class Bridge:
         self.day_season = None
 
     async def setup_status(self):
-        """Setup status style"""
         if not self.bot:
             logger.warning("Bridge: Where's bot?")
             return

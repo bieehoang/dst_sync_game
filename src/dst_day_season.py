@@ -23,7 +23,6 @@ class DSTDaySeasonHandler:
             if ".dst_master" in line:
                 return line.strip().split()[0]
         return "dst_master" 
-    # 🔥 Được gọi từ dst_log_handler khi parse SYNC
     async def update(self, day, season):
         self.current_day = day
         self.current_season = season
@@ -32,7 +31,6 @@ class DSTDaySeasonHandler:
 
         self._event.set()  # báo đã nhận data
 
-    # 🔥 Gửi lệnh vào DST và chờ phản hồi
     async def request_day_season(self):
         self._event.clear()
 
@@ -54,7 +52,6 @@ class DSTDaySeasonHandler:
             logger.error("SYNC timeout")
             return None, None
 
-    # 🔥 Gọi khi có Join / Leave / Death
     async def handle_event(self, event: str):
         now = datetime.now().strftime("%H:%M")
 
@@ -79,6 +76,5 @@ class DSTDaySeasonHandler:
         except Exception as e:
             logger.error(f"Rename failed: {e}")
 
-    # 🔥 gọi từ chat handler
     def request_event(self, event: str):
         asyncio.create_task(self.handle_event(event))

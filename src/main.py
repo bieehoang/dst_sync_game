@@ -11,13 +11,11 @@ async def main():
     config = Config()
     bridge = Bridge()
 
-    # Handlers
     discord_bot = DiscordHandler(bridge, config)
     chat_handler = DSTChatHandler(bridge, config)
     day_season_handler = DSTDaySeasonHandler(bridge, config)
     log_handler = DSTLogHandler(bridge, config)
 
-    # 🔥 Connect bridge
     bridge.discord = discord_bot
     bridge.day_season = day_season_handler
     bridge.dst = chat_handler   

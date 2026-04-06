@@ -60,4 +60,3 @@ def setup(tree, bridge: Bridge):
             )
 
     tree.add_command(kick_command)
-    print("[COMMAND] /kick command has been loaded successfully")

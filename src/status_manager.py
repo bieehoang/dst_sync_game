@@ -5,16 +5,10 @@ from src.logger import logger
 
 
 class StatusManager:
-    """
-    Quản lý trạng thái Discord bot (giống MimU + DST)
-    Hỗ trợ cả discord.Client và commands.Bot
-    """
-
     def __init__(self, bot):
-        self.bot = bot   # có thể là Client hoặc Bot
+        self.bot = bot   
 
     async def set_mimu_style_status(self):
-        """Set trạng thái chính giống MimU"""
         if not self.bot or not self.bot.is_ready():
             logger.warning("Bot chưa ready để set status")
             return
@@ -27,7 +21,7 @@ class StatusManager:
                     name="Wyvern • Mesa-Linux Server"
                 )
             )
-            logger.info("Bot status's working")
+            logger.info("Setup Wyvern's status sucessfully")
         except Exception as e:
             logger.error(f"status_manager.py: {e}")
 
@@ -51,12 +45,11 @@ class StatusManager:
                 await asyncio.sleep(interval)
 
         asyncio.create_task(rotate())
-        logger.info(f"Rotate status {interval} sec each")
 
 
 # ==================== Hàm setup nhanh ====================
 async def setup_status(bot):
     manager = StatusManager(bot)
     await manager.set_mimu_style_status()
-    await manager.start_rotation(interval=30)   # bỏ comment nếu muốn luân phiên
+    await manager.start_rotation(interval=30)   
     return manager
