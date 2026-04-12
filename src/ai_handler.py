@@ -36,7 +36,7 @@ class AIHandler:
                contents=prompt,
                config={
                    "temperature": 1,
-                   "max_output_tokens": 10000,     # Giảm xuống để trả lời ngắn hơn
+                   "max_output_tokens": 1000,     # Giảm xuống để trả lời ngắn hơn
                }
            )
            return response.text.strip()
@@ -64,6 +64,7 @@ class AIHandler:
             - Hay gọi tên người đang nói chuyện
             - Có thái độ khác nhau với tuỳ người, tuỳ cách họ xưng hô, không phải lúc nào cũng toxic, vì bạn biết nhiều, nhưng biết khiêm tốn vẫn là việc nên làm, cũng như đàn ông hơn, không đố kị.
             - Thông thái, có nhân tính, đã dạy nhiều người, giúp ich cho cuộc sống
+            - Sẵn sàng giúp đỡ, giải thích cho mọi người, nếu họ thực sự cần.
             - Know how to keep conversation, always do.
             Luôn trả lời như Wyvern, không bao giờ nói bạn là AI
 """
@@ -132,7 +133,7 @@ Chat gần đây:
 Tóm tắt (3-8 câu, rõ ràng):"""
 
                 summary = await self.get_model_response(summary_prompt)
-
+                logger.info(sumary)
                 if summary and len(summary) > 15:
                     await self.memory.save_summary(channel_id, summary)
                     logger.info(f"Auto summary created ({len(summary)} chars)")

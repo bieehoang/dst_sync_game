@@ -7,6 +7,8 @@ class MusicQueue:
         self.autoplay = False
 
     def add(self, track):
+        if "webpage_url" not in track and "url" in track:
+            track["webpage_url"] = track["url"]
         self.queue.append(track)
 
     def next(self):
@@ -19,7 +21,8 @@ class MusicQueue:
             return track
 
         return None
-
+    def peek(self):
+        return self.queue[0] if self.queue else None
     def back(self):
         if len(self.history) > 1:
             track = self.history[-2]
