@@ -41,7 +41,6 @@ async def refresh_audio_url(webpage_url: str):
     except Exception as e:
         logger.error(f"[Refresh URL] Error: {e}")
         return None
-
 async def preload_next_track(q: MusicQueue):
     next_track = q.peek()
     if not next_track or "webpage_url" not in next_track:
@@ -110,19 +109,18 @@ async def play_next(bot, vc, message):
         return await play_next(bot, vc, message)  # thử bài tiếp theo
 
     asyncio.create_task(preload_next_track(q))
-    
     source = discord.FFmpegOpusAudio(
             audio_url,
             before_options=(
-            "-reconnect 0.1 "
-            "-reconnect_streamed 0.1 "
-            "-reconnect_delay_max 0.1 "
-            "-reconnect_on_network_error 0.1 "
+            "-reconnect 1 "
+            "-reconnect_streamed 1 "
+            "-reconnect_delay_max 4 "
+            "-reconnect_on_network_error 1 "
             "-reconnect_on_http_error 4xx,5xx "
             ),
             options="-vn -buffer_size 256k" 
     )
-
+ 
     def after(error):
         q.history.append(track)
         if error:

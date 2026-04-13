@@ -91,12 +91,12 @@ class AIHandler:
                 return random.choice(fallbacks)
 
             reply = reply.strip()
-            if len(reply) > 9000:
+            if len(reply) > 1000:
                 last_punct = max(reply.rfind('.'), reply.rfind('!'), reply.rfind('?'), 0)
-                if last_punct > 3000:
+                if last_punct > 700:
                     reply = reply[:last_punct + 1]
                 else:
-                    reply = reply[:7700] + "..."
+                    reply = reply[:300] + "..."
 
             return reply
 

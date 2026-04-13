@@ -46919,3 +46919,632 @@ Loop thread traceback (most recent call last):
 2026-04-12 10:04:28,951 | INFO | Global Commands: ['players', 'weather', 'kick', 'update']
 2026-04-12 10:04:28,951 | INFO | Setup Wyvern's status sucessfully
 2026-04-12 10:04:28,951 | INFO | Wyvern's Status Actived
+2026-04-12 10:05:58,958 | INFO | 🧠 AIHandler: Auto summarize loop started (every 30 minutes)
+2026-04-12 10:06:38,785 | INFO | Connecting to voice...
+2026-04-12 10:06:38,786 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-12 10:06:39,738 | INFO | Voice handshake complete. Endpoint found: c-hkg08-52fd09e4.discord.media:2083
+2026-04-12 10:06:40,202 | INFO | Voice connection complete.
+2026-04-12 10:07:03,460 | INFO | ffmpeg process 1559329 successfully terminated with return code of 234.
+2026-04-12 10:07:39,082 | INFO | Gemini 2.5 Flash initialized successfully (new package)
+2026-04-12 10:07:39,089 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-04-12 10:07:39,093 | INFO | logging in using static token
+2026-04-12 10:07:39,095 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-04-12 10:07:39,095 | WARNING | Passing
+2026-04-12 10:07:39,095 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-04-12 10:07:39,096 | INFO | Watching server_chat_log.txt...
+2026-04-12 10:07:41,980 | INFO | Shard ID None has connected to Gateway (Session ID: 35ab7bca368202b9d43d73156b00401a).
+2026-04-12 10:07:44,028 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-04-12 10:07:44,933 | INFO | Global Commands: ['players', 'weather', 'kick', 'update']
+2026-04-12 10:07:44,933 | INFO | Setup Wyvern's status sucessfully
+2026-04-12 10:07:44,933 | INFO | Wyvern's Status Actived
+2026-04-12 10:08:01,863 | INFO | Connecting to voice...
+2026-04-12 10:08:01,863 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-12 10:08:02,710 | INFO | Voice handshake complete. Endpoint found: c-hkg08-52fd09e4.discord.media:2083
+2026-04-12 10:08:03,151 | INFO | Voice connection complete.
+2026-04-12 10:08:30,319 | INFO | ffmpeg process 1560039 successfully terminated with return code of 8.
+2026-04-12 10:09:14,939 | INFO | 🧠 AIHandler: Auto summarize loop started (every 30 minutes)
+2026-04-12 10:11:21,532 | INFO | ffmpeg process 1561473 successfully terminated with return code of 8.
+2026-04-12 10:15:57,305 | WARNING | child process pid 1559605 exit status already read:  will report returncode 255
+2026-04-12 10:15:59,802 | INFO | Gemini 2.5 Flash initialized successfully (new package)
+2026-04-12 10:15:59,810 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-04-12 10:15:59,816 | INFO | logging in using static token
+2026-04-12 10:15:59,818 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-04-12 10:15:59,818 | WARNING | Passing
+2026-04-12 10:15:59,819 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-04-12 10:15:59,820 | INFO | Watching server_chat_log.txt...
+2026-04-12 10:16:02,336 | INFO | Shard ID None has connected to Gateway (Session ID: d432382af6088d69b81427c1510c145d).
+2026-04-12 10:16:04,363 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-04-12 10:16:04,798 | INFO | Global Commands: ['players', 'weather', 'kick', 'update']
+2026-04-12 10:16:04,798 | INFO | Setup Wyvern's status sucessfully
+2026-04-12 10:16:04,799 | INFO | Wyvern's Status Actived
+2026-04-12 10:16:14,837 | INFO | Connecting to voice...
+2026-04-12 10:16:14,837 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-12 10:16:15,706 | INFO | Voice handshake complete. Endpoint found: c-hkg08-52fd09e4.discord.media:2083
+2026-04-12 10:16:16,146 | INFO | Voice connection complete.
+2026-04-12 10:16:41,060 | INFO | ffmpeg process 1564022 successfully terminated with return code of 8.
+2026-04-12 10:17:34,806 | INFO | 🧠 AIHandler: Auto summarize loop started (every 30 minutes)
+2026-04-12 10:25:37,434 | INFO | Gemini 2.5 Flash initialized successfully (new package)
+2026-04-12 10:25:37,441 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-04-12 10:25:37,446 | INFO | logging in using static token
+2026-04-12 10:25:37,447 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-04-12 10:25:37,447 | WARNING | Passing
+2026-04-12 10:25:37,448 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-04-12 10:25:37,448 | INFO | Watching server_chat_log.txt...
+2026-04-12 10:25:40,899 | INFO | Shard ID None has connected to Gateway (Session ID: bdf28be7f082c1f96ce1ac2411bb4052).
+2026-04-12 10:25:42,921 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-04-12 10:25:43,384 | INFO | Global Commands: ['players', 'weather', 'kick', 'update']
+2026-04-12 10:25:43,384 | INFO | Setup Wyvern's status sucessfully
+2026-04-12 10:25:43,385 | INFO | Wyvern's Status Actived
+2026-04-12 10:27:13,395 | INFO | 🧠 AIHandler: Auto summarize loop started (every 30 minutes)
+2026-04-12 10:27:14,763 | INFO | Connecting to voice...
+2026-04-12 10:27:14,763 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-12 10:27:15,614 | INFO | Voice handshake complete. Endpoint found: c-hkg08-52fd09e4.discord.media:2083
+2026-04-12 10:27:16,062 | INFO | Voice connection complete.
+2026-04-12 10:27:42,653 | INFO | ffmpeg process 1569256 successfully terminated with return code of 8.
+2026-04-12 10:29:52,890 | INFO | Gemini 2.5 Flash initialized successfully (new package)
+2026-04-12 10:29:52,897 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-04-12 10:29:52,902 | INFO | logging in using static token
+2026-04-12 10:29:52,904 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-04-12 10:29:52,904 | WARNING | Passing
+2026-04-12 10:29:52,905 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-04-12 10:29:52,906 | INFO | Watching server_chat_log.txt...
+2026-04-12 10:29:55,734 | INFO | Shard ID None has connected to Gateway (Session ID: 048f7a62b9588ee1c4424035c1acd37a).
+2026-04-12 10:29:57,830 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-04-12 10:29:58,369 | INFO | Global Commands: ['players', 'weather', 'kick', 'update']
+2026-04-12 10:29:58,369 | INFO | Setup Wyvern's status sucessfully
+2026-04-12 10:29:58,370 | INFO | Wyvern's Status Actived
+2026-04-12 10:31:21,175 | INFO | Connecting to voice...
+2026-04-12 10:31:21,175 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-12 10:31:22,028 | INFO | Voice handshake complete. Endpoint found: c-hkg08-52fd09e4.discord.media:2083
+2026-04-12 10:31:22,407 | INFO | Voice connection complete.
+2026-04-12 10:31:28,374 | INFO | 🧠 AIHandler: Auto summarize loop started (every 30 minutes)
+2026-04-12 10:31:48,538 | INFO | ffmpeg process 1571270 successfully terminated with return code of 8.
+2026-04-12 10:34:44,729 | INFO | Shard ID None has successfully RESUMED session 048f7a62b9588ee1c4424035c1acd37a.
+2026-04-12 10:35:02,394 | ERROR | Disconnected from voice... Reconnecting in 0.44s.
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/aiohttp/client_ws.py", line 314, in receive
+    msg = await self._reader.read()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/aiohttp/streams.py", line 681, in read
+    return await super().read()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/aiohttp/streams.py", line 640, in read
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/voice_state.py", line 671, in _poll_voice_ws
+    await self.ws.poll_event()
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/gateway.py", line 1154, in poll_event
+    msg = await asyncio.wait_for(self.ws.receive(), timeout=30.0)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+2026-04-12 10:35:02,841 | INFO | The voice handshake is being terminated for Channel ID 1372987724344066158 (Guild ID 1369692222735257721)
+2026-04-12 10:35:02,842 | INFO | Connecting to voice...
+2026-04-12 10:35:02,842 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-12 10:35:03,897 | INFO | Voice handshake complete. Endpoint found: c-hkg08-52fd09e4.discord.media:2083
+2026-04-12 10:35:04,347 | INFO | Voice connection complete.
+2026-04-12 10:36:34,192 | ERROR | Disconnected from voice... Reconnecting in 3.60s.
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/aiohttp/client_ws.py", line 314, in receive
+    msg = await self._reader.read()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/aiohttp/streams.py", line 681, in read
+    return await super().read()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/aiohttp/streams.py", line 640, in read
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/voice_state.py", line 671, in _poll_voice_ws
+    await self.ws.poll_event()
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/gateway.py", line 1154, in poll_event
+    msg = await asyncio.wait_for(self.ws.receive(), timeout=30.0)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+2026-04-12 10:36:37,797 | INFO | The voice handshake is being terminated for Channel ID 1372987724344066158 (Guild ID 1369692222735257721)
+2026-04-12 10:36:37,798 | INFO | Connecting to voice...
+2026-04-12 10:36:37,798 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-12 10:36:48,944 | INFO | Shard ID None has successfully RESUMED session 048f7a62b9588ee1c4424035c1acd37a.
+2026-04-12 10:37:07,799 | WARNING | Could not connect to voice... Retrying...
+2026-04-12 10:38:07,790 | INFO | Shard ID None has successfully RESUMED session 048f7a62b9588ee1c4424035c1acd37a.
+2026-04-12 10:43:43,886 | INFO | Gemini 2.5 Flash initialized successfully (new package)
+2026-04-12 10:43:43,893 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-04-12 10:43:43,900 | INFO | logging in using static token
+2026-04-12 10:43:43,902 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-04-12 10:43:43,902 | WARNING | Passing
+2026-04-12 10:43:43,903 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-04-12 10:43:43,904 | INFO | Watching server_chat_log.txt...
+2026-04-12 10:43:46,322 | INFO | Shard ID None has connected to Gateway (Session ID: 2e818092e4139d7052d6fbddf51f220e).
+2026-04-12 10:43:48,370 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-04-12 10:43:48,830 | INFO | Global Commands: ['players', 'weather', 'kick', 'update']
+2026-04-12 10:43:48,831 | INFO | Setup Wyvern's status sucessfully
+2026-04-12 10:43:48,831 | INFO | Wyvern's Status Actived
+2026-04-12 10:43:52,704 | INFO | Connecting to voice...
+2026-04-12 10:43:52,704 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-12 10:43:53,208 | INFO | Voice handshake complete. Endpoint found: c-hkg08-52fd09e4.discord.media:2083
+2026-04-12 10:43:53,646 | INFO | Voice connection complete.
+2026-04-12 10:44:17,703 | ERROR | Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/steam/dst-discord-chat-sync/src/discord_handler.py", line 74, in on_message
+    if await handle_music(self, message):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/src/music/commands.py", line 14, in handle_music
+    await play_music(bot, message, query)
+  File "/home/steam/dst-discord-chat-sync/src/music/player.py", line 183, in play_music
+    await play_next(bot, vc, message)
+  File "/home/steam/dst-discord-chat-sync/src/music/player.py", line 124, in play_next
+    f"-headers \"User-Agent: {headers.get('User-Agent','Mozilla/5.0')}\\r\\n\""
+                              ^^^^^^^
+NameError: name 'headers' is not defined
+2026-04-12 10:44:49,933 | INFO | Gemini 2.5 Flash initialized successfully (new package)
+2026-04-12 10:44:49,941 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-04-12 10:44:49,947 | INFO | logging in using static token
+2026-04-12 10:44:49,949 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-04-12 10:44:49,950 | WARNING | Passing
+2026-04-12 10:44:49,951 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-04-12 10:44:49,952 | INFO | Watching server_chat_log.txt...
+2026-04-12 10:44:52,160 | INFO | Shard ID None has connected to Gateway (Session ID: c2224eb324eab8e06fbaefc1a1bd62c7).
+2026-04-12 10:44:54,200 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-04-12 10:44:54,639 | INFO | Global Commands: ['players', 'weather', 'kick', 'update']
+2026-04-12 10:44:54,639 | INFO | Setup Wyvern's status sucessfully
+2026-04-12 10:44:54,639 | INFO | Wyvern's Status Actived
+2026-04-12 10:44:58,896 | INFO | Connecting to voice...
+2026-04-12 10:44:58,896 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-12 10:44:59,721 | INFO | Voice handshake complete. Endpoint found: c-hkg08-52fd09e4.discord.media:2083
+2026-04-12 10:45:00,129 | INFO | Voice connection complete.
+2026-04-12 10:45:25,314 | ERROR | Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/steam/dst-discord-chat-sync/src/discord_handler.py", line 74, in on_message
+    if await handle_music(self, message):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/src/music/commands.py", line 14, in handle_music
+    await play_music(bot, message, query)
+  File "/home/steam/dst-discord-chat-sync/src/music/player.py", line 181, in play_music
+    await play_next(bot, vc, message)
+  File "/home/steam/dst-discord-chat-sync/src/music/player.py", line 117, in play_next
+    source = discord.FFmpegPCMAudio(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/player.py", line 396, in __init__
+    super().__init__(source, executable=executable, args=args, **subprocess_kwargs)
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/player.py", line 183, in __init__
+    self._process = self._spawn_process(args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/player.py", line 208, in _spawn_process
+    process = subprocess.Popen(args, creationflags=CREATE_NO_WINDOW, **subprocess_kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.12/subprocess.py", line 1885, in _execute_child
+    self.pid = _fork_exec(
+               ^^^^^^^^^^^
+TypeError: expected str, bytes or os.PathLike object, not dict
+2026-04-12 10:46:24,648 | INFO | 🧠 AIHandler: Auto summarize loop started (every 30 minutes)
+2026-04-12 10:46:54,905 | INFO | Gemini 2.5 Flash initialized successfully (new package)
+2026-04-12 10:46:54,912 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-04-12 10:46:54,919 | INFO | logging in using static token
+2026-04-12 10:46:54,920 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-04-12 10:46:54,921 | WARNING | Passing
+2026-04-12 10:46:54,921 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-04-12 10:46:54,922 | INFO | Watching server_chat_log.txt...
+2026-04-12 10:46:56,605 | INFO | Shard ID None has connected to Gateway (Session ID: 3bc0699c9680a083e345fa1e36e165d9).
+2026-04-12 10:46:58,627 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-04-12 10:46:59,232 | INFO | Global Commands: ['players', 'weather', 'kick', 'update']
+2026-04-12 10:46:59,232 | INFO | Setup Wyvern's status sucessfully
+2026-04-12 10:46:59,232 | INFO | Wyvern's Status Actived
+2026-04-12 10:47:04,671 | INFO | Connecting to voice...
+2026-04-12 10:47:04,671 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-12 10:47:05,499 | INFO | Voice handshake complete. Endpoint found: c-hkg08-52fd09e4.discord.media:2083
+2026-04-12 10:47:05,918 | INFO | Voice connection complete.
+2026-04-12 10:47:31,515 | INFO | ffmpeg process 1579731 successfully terminated with return code of 8.
+2026-04-12 10:48:29,240 | INFO | 🧠 AIHandler: Auto summarize loop started (every 30 minutes)
+2026-04-12 10:49:36,050 | WARNING | child process pid 1579396 exit status already read:  will report returncode 255
+2026-04-12 10:49:38,673 | INFO | Gemini 2.5 Flash initialized successfully (new package)
+2026-04-12 10:49:38,686 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-04-12 10:49:38,693 | INFO | logging in using static token
+2026-04-12 10:49:38,695 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-04-12 10:49:38,695 | WARNING | Passing
+2026-04-12 10:49:38,697 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-04-12 10:49:38,703 | INFO | Watching server_chat_log.txt...
+2026-04-12 10:49:40,708 | INFO | Shard ID None has connected to Gateway (Session ID: 8d0837d21b036b6650211b2f07fcd1a7).
+2026-04-12 10:49:42,808 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-04-12 10:49:43,450 | INFO | Global Commands: ['players', 'weather', 'kick', 'update']
+2026-04-12 10:49:43,450 | INFO | Setup Wyvern's status sucessfully
+2026-04-12 10:49:43,450 | INFO | Wyvern's Status Actived
+2026-04-12 10:49:47,790 | INFO | Connecting to voice...
+2026-04-12 10:49:47,790 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-12 10:49:48,587 | INFO | Voice handshake complete. Endpoint found: c-hkg08-52fd09e4.discord.media:2083
+2026-04-12 10:49:48,996 | INFO | Voice connection complete.
+2026-04-12 10:50:11,776 | ERROR | Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/steam/dst-discord-chat-sync/src/discord_handler.py", line 74, in on_message
+    if await handle_music(self, message):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/src/music/commands.py", line 14, in handle_music
+    await play_music(bot, message, query)
+  File "/home/steam/dst-discord-chat-sync/src/music/player.py", line 183, in play_music
+    await play_next(bot, vc, message)
+  File "/home/steam/dst-discord-chat-sync/src/music/player.py", line 116, in play_next
+    headers = audio_data.get("headers", {})
+             ^^^^^^^^^^
+NameError: name 'audio_data' is not defined
+2026-04-12 10:51:13,459 | INFO | 🧠 AIHandler: Auto summarize loop started (every 30 minutes)
+2026-04-12 10:51:24,722 | INFO | Gemini 2.5 Flash initialized successfully (new package)
+2026-04-12 10:51:24,730 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-04-12 10:51:24,735 | INFO | logging in using static token
+2026-04-12 10:51:24,736 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-04-12 10:51:24,736 | WARNING | Passing
+2026-04-12 10:51:24,736 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-04-12 10:51:24,737 | INFO | Watching server_chat_log.txt...
+2026-04-12 10:51:26,441 | INFO | Shard ID None has connected to Gateway (Session ID: 939f732922a245c10f3782c307de7341).
+2026-04-12 10:51:28,480 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-04-12 10:51:29,023 | INFO | Global Commands: ['players', 'weather', 'kick', 'update']
+2026-04-12 10:51:29,023 | INFO | Setup Wyvern's status sucessfully
+2026-04-12 10:51:29,023 | INFO | Wyvern's Status Actived
+2026-04-12 10:51:34,962 | INFO | Connecting to voice...
+2026-04-12 10:51:34,962 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-12 10:51:35,457 | INFO | Voice handshake complete. Endpoint found: c-hkg08-52fd09e4.discord.media:2083
+2026-04-12 10:51:36,045 | INFO | Voice connection complete.
+2026-04-12 10:52:01,335 | INFO | ffmpeg process 1581921 successfully terminated with return code of 8.
+2026-04-12 10:52:59,030 | INFO | 🧠 AIHandler: Auto summarize loop started (every 30 minutes)
+2026-04-12 10:54:25,745 | INFO | Gemini 2.5 Flash initialized successfully (new package)
+2026-04-12 10:54:25,752 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-04-12 10:54:25,759 | INFO | logging in using static token
+2026-04-12 10:54:25,762 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-04-12 10:54:25,762 | WARNING | Passing
+2026-04-12 10:54:25,763 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-04-12 10:54:25,766 | INFO | Watching server_chat_log.txt...
+2026-04-12 10:54:27,502 | INFO | Shard ID None has connected to Gateway (Session ID: 235443737f416bf4e831e8b7e6c8b3e8).
+2026-04-12 10:54:29,522 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-04-12 10:54:30,099 | INFO | Global Commands: ['players', 'weather', 'kick', 'update']
+2026-04-12 10:54:30,099 | INFO | Setup Wyvern's status sucessfully
+2026-04-12 10:54:30,099 | INFO | Wyvern's Status Actived
+2026-04-12 10:54:35,048 | INFO | Connecting to voice...
+2026-04-12 10:54:35,048 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-12 10:54:35,998 | INFO | Voice handshake complete. Endpoint found: c-hkg08-52fd09e4.discord.media:2083
+2026-04-12 10:54:36,403 | INFO | Voice connection complete.
+2026-04-12 10:54:59,658 | ERROR | Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/steam/dst-discord-chat-sync/src/discord_handler.py", line 74, in on_message
+    if await handle_music(self, message):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/steam/dst-discord-chat-sync/src/music/commands.py", line 14, in handle_music
+    await play_music(bot, message, query)
+  File "/home/steam/dst-discord-chat-sync/src/music/player.py", line 183, in play_music
+    await play_next(bot, vc, message)
+  File "/home/steam/dst-discord-chat-sync/src/music/player.py", line 124, in play_next
+    f"-headers \"User-Agent: Mozilla/5.0\r\nCookie: {cookie}\r\n\""
+                                                     ^^^^^^
+NameError: name 'cookie' is not defined
+2026-04-12 10:55:50,533 | INFO | Gemini 2.5 Flash initialized successfully (new package)
+2026-04-12 10:55:50,540 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-04-12 10:55:50,546 | INFO | logging in using static token
+2026-04-12 10:55:50,548 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-04-12 10:55:50,549 | WARNING | Passing
+2026-04-12 10:55:50,549 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-04-12 10:55:50,550 | INFO | Watching server_chat_log.txt...
+2026-04-12 10:55:52,419 | INFO | Shard ID None has connected to Gateway (Session ID: c54b2d7f293b84dcae3b99df32727d12).
+2026-04-12 10:55:54,541 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-04-12 10:55:54,981 | INFO | Global Commands: ['players', 'weather', 'kick', 'update']
+2026-04-12 10:55:54,982 | INFO | Setup Wyvern's status sucessfully
+2026-04-12 10:55:54,982 | INFO | Wyvern's Status Actived
+2026-04-12 10:56:02,776 | INFO | Connecting to voice...
+2026-04-12 10:56:02,776 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-12 10:56:03,579 | INFO | Voice handshake complete. Endpoint found: c-hkg08-52fd09e4.discord.media:2083
+2026-04-12 10:56:04,233 | INFO | Voice connection complete.
+2026-04-12 10:56:29,643 | INFO | ffmpeg process 1584086 successfully terminated with return code of 8.
+2026-04-12 10:57:24,987 | INFO | 🧠 AIHandler: Auto summarize loop started (every 30 minutes)
+2026-04-12 10:58:08,222 | INFO | Gemini 2.5 Flash initialized successfully (new package)
+2026-04-12 10:58:08,229 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-04-12 10:58:08,236 | INFO | logging in using static token
+2026-04-12 10:58:08,238 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-04-12 10:58:08,238 | WARNING | Passing
+2026-04-12 10:58:08,239 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-04-12 10:58:08,241 | INFO | Watching server_chat_log.txt...
+2026-04-12 10:58:09,887 | INFO | Shard ID None has connected to Gateway (Session ID: 4cea879e107a271b104a4a4d139706b5).
+2026-04-12 10:58:11,932 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-04-12 10:58:12,496 | INFO | Global Commands: ['players', 'weather', 'kick', 'update']
+2026-04-12 10:58:12,496 | INFO | Setup Wyvern's status sucessfully
+2026-04-12 10:58:12,496 | INFO | Wyvern's Status Actived
+2026-04-12 10:58:19,267 | INFO | Connecting to voice...
+2026-04-12 10:58:19,268 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-12 10:58:19,749 | INFO | Voice handshake complete. Endpoint found: c-hkg08-52fd09e4.discord.media:2083
+2026-04-12 10:58:20,141 | INFO | Voice connection complete.
+2026-04-12 10:58:24,673 | ERROR | get_audio_url error: [0;31mERROR:[0m [youtube] 8Ee4QjCEHHc: Requested format is not available. Use --list-formats for a list of available formats
+2026-04-12 10:59:42,503 | INFO | 🧠 AIHandler: Auto summarize loop started (every 30 minutes)
+2026-04-12 10:59:52,340 | INFO | Gemini 2.5 Flash initialized successfully (new package)
+2026-04-12 10:59:52,347 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-04-12 10:59:52,353 | INFO | logging in using static token
+2026-04-12 10:59:52,355 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-04-12 10:59:52,355 | WARNING | Passing
+2026-04-12 10:59:52,356 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-04-12 10:59:52,357 | INFO | Watching server_chat_log.txt...
+2026-04-12 10:59:54,133 | INFO | Shard ID None has connected to Gateway (Session ID: 4f595404a2976fbde81d4c2da0f9c281).
+2026-04-12 10:59:56,155 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-04-12 10:59:56,716 | INFO | Global Commands: ['players', 'weather', 'kick', 'update']
+2026-04-12 10:59:56,717 | INFO | Setup Wyvern's status sucessfully
+2026-04-12 10:59:56,717 | INFO | Wyvern's Status Actived
+2026-04-12 10:59:58,920 | INFO | Connecting to voice...
+2026-04-12 10:59:58,920 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-12 10:59:59,795 | INFO | Voice handshake complete. Endpoint found: c-hkg08-52fd09e4.discord.media:2083
+2026-04-12 11:00:00,198 | INFO | Voice connection complete.
+2026-04-12 11:00:04,762 | ERROR | get_audio_url error: [0;31mERROR:[0m [youtube] 8Ee4QjCEHHc: Requested format is not available. Use --list-formats for a list of available formats
+2026-04-12 11:03:12,841 | INFO | Gemini 2.5 Flash initialized successfully (new package)
+2026-04-12 11:03:12,849 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-04-12 11:03:12,855 | INFO | logging in using static token
+2026-04-12 11:03:12,857 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-04-12 11:03:12,857 | WARNING | Passing
+2026-04-12 11:03:12,858 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-04-12 11:03:12,859 | INFO | Watching server_chat_log.txt...
+2026-04-12 11:03:14,995 | INFO | Shard ID None has connected to Gateway (Session ID: 4184d2b2e3c45b88b2bd6180a5f3a532).
+2026-04-12 11:03:17,038 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-04-12 11:03:17,912 | INFO | Global Commands: ['players', 'weather', 'kick', 'update']
+2026-04-12 11:03:17,913 | INFO | Setup Wyvern's status sucessfully
+2026-04-12 11:03:17,913 | INFO | Wyvern's Status Actived
+2026-04-12 11:03:31,912 | INFO | Connecting to voice...
+2026-04-12 11:03:31,913 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-12 11:03:32,735 | INFO | Voice handshake complete. Endpoint found: c-hkg08-52fd09e4.discord.media:2083
+2026-04-12 11:03:33,162 | INFO | Voice connection complete.
+2026-04-12 11:03:38,027 | ERROR | get_audio_url error: [0;31mERROR:[0m [youtube] ozv4q2ov3Mk: Requested format is not available. Use --list-formats for a list of available formats
+2026-04-12 11:04:33,120 | INFO | Gemini 2.5 Flash initialized successfully (new package)
+2026-04-12 11:04:33,127 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-04-12 11:04:33,133 | INFO | logging in using static token
+2026-04-12 11:04:33,135 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-04-12 11:04:33,135 | WARNING | Passing
+2026-04-12 11:04:33,135 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-04-12 11:04:33,136 | INFO | Watching server_chat_log.txt...
+2026-04-12 11:04:35,193 | INFO | Shard ID None has connected to Gateway (Session ID: 163fa5b8b01aa5bf103cca15adbee1a5).
+2026-04-12 11:04:37,224 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-04-12 11:04:37,978 | INFO | Global Commands: ['players', 'weather', 'kick', 'update']
+2026-04-12 11:04:37,978 | INFO | Setup Wyvern's status sucessfully
+2026-04-12 11:04:37,978 | INFO | Wyvern's Status Actived
+2026-04-12 11:04:42,154 | INFO | Connecting to voice...
+2026-04-12 11:04:42,154 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-12 11:04:43,035 | INFO | Voice handshake complete. Endpoint found: c-hkg08-52fd09e4.discord.media:2083
+2026-04-12 11:04:43,416 | INFO | Voice connection complete.
+2026-04-12 11:05:08,383 | INFO | ffmpeg process 1588155 successfully terminated with return code of 8.
+2026-04-12 11:06:07,983 | INFO | 🧠 AIHandler: Auto summarize loop started (every 30 minutes)
+2026-04-12 11:11:40,830 | INFO | AFC is enabled with max remote calls: 10.
+2026-04-12 11:11:47,620 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-12 11:11:48,155 | INFO | AI replied to MB: hoi gi di?...
+2026-04-12 11:11:48,158 | INFO | → To Game (Announce): MB: <@1486115823327252602>
+2026-04-12 11:11:48,162 | INFO | ← From Discord: MB: <@1486115823327252602>
+2026-04-12 11:12:10,355 | INFO | AFC is enabled with max remote calls: 10.
+2026-04-12 11:12:16,503 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-12 11:12:17,124 | INFO | AI replied to MB: co biet cai me gi dau...
+2026-04-12 11:12:17,128 | INFO | → To Game (Announce): MB: m co biet cai me gi dau
+2026-04-12 11:12:17,132 | INFO | ← From Discord: MB: m co biet cai me gi dau
+2026-04-12 11:30:02,848 | INFO | AFC is enabled with max remote calls: 10.
+2026-04-12 11:30:09,818 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-12 11:30:10,872 | INFO | AI replied to chee: đại ca có thằng kia đòi đánh em...
+2026-04-12 11:30:10,875 | INFO | → To Game (Announce): chee: <@1486115823327252602> đại ca có thằng kia đòi đánh em
+2026-04-12 11:30:10,879 | INFO | ← From Discord: chee: <@1486115823327252602> đại ca có thằng kia đòi đánh em
+2026-04-12 11:30:59,975 | INFO | AFC is enabled with max remote calls: 10.
+2026-04-12 11:31:06,869 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-12 11:31:07,340 | INFO | AI replied to chee: ca như tả què...
+2026-04-12 11:31:07,343 | INFO | → To Game (Announce): chee: đại ca như tả què
+2026-04-12 11:31:07,347 | INFO | ← From Discord: chee: đại ca như tả què
+2026-04-12 13:16:27,891 | INFO | Shard ID None has successfully RESUMED session 163fa5b8b01aa5bf103cca15adbee1a5.
+2026-04-12 13:51:17,343 | ERROR | Playback error: FFmpeg exited with code 8. Stderr: <no stderr>
+2026-04-12 13:51:17,344 | INFO | ffmpeg process 1662145 successfully terminated with return code of 8.
+2026-04-12 14:21:51,905 | INFO | The voice handshake is being terminated for Channel ID 1372987724344066158 (Guild ID 1369692222735257721)
+2026-04-12 14:22:12,051 | INFO | → To Game (Announce): MB: UPDATING WYVERN …
+2026-04-12 14:22:12,055 | INFO | ← From Discord: MB: UPDATING WYVERN …
+2026-04-12 15:03:13,585 | INFO | Shard ID None has successfully RESUMED session 163fa5b8b01aa5bf103cca15adbee1a5.
+2026-04-12 15:51:47,926 | INFO | → To Game (Announce): Thanh Sơn: Trẫm cho phép tiểu quất update
+2026-04-12 15:51:47,930 | INFO | ← From Discord: Thanh Sơn: Trẫm cho phép tiểu quất update
+2026-04-12 15:52:00,148 | INFO | → To Game (Announce): Thanh Sơn: https://tenor.com/view/gugugaga-endmin-gif-5919251442139951940
+2026-04-12 15:52:00,151 | INFO | ← From Discord: Thanh Sơn: https://tenor.com/view/gugugaga-endmin-gif-5919251442139951940
+2026-04-12 18:59:40,924 | INFO | Shard ID None has successfully RESUMED session 163fa5b8b01aa5bf103cca15adbee1a5.
+2026-04-12 20:03:08,948 | INFO | Shard ID None has successfully RESUMED session 163fa5b8b01aa5bf103cca15adbee1a5.
+2026-04-12 20:48:45,856 | INFO | Connecting to voice...
+2026-04-12 20:48:45,856 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-12 20:48:46,391 | INFO | Voice handshake complete. Endpoint found: c-hkg11-b6672afd.discord.media:2053
+2026-04-12 20:48:46,821 | INFO | Voice connection complete.
+2026-04-12 20:48:56,044 | INFO | ffmpeg process 1848735 successfully terminated with return code of 8.
+2026-04-12 21:05:35,517 | INFO | Shard ID None has successfully RESUMED session 163fa5b8b01aa5bf103cca15adbee1a5.
+2026-04-12 23:25:14,584 | INFO | Disconnected from voice by force... potentially reconnecting.
+2026-04-12 23:42:19,017 | INFO | Shard ID None has successfully RESUMED session 163fa5b8b01aa5bf103cca15adbee1a5.
+2026-04-13 00:45:56,370 | ERROR | Disconnected from voice... Reconnecting in 1.36s.
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/voice_state.py", line 671, in _poll_voice_ws
+    await self.ws.poll_event()
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/gateway.py", line 1164, in poll_event
+    raise ConnectionClosed(self.ws, shard_id=None, code=self._close_code)
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1006
+2026-04-13 00:45:57,734 | INFO | The voice handshake is being terminated for Channel ID 1372987724344066158 (Guild ID 1369692222735257721)
+2026-04-13 00:45:57,734 | INFO | Connecting to voice...
+2026-04-13 00:45:57,734 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-13 00:45:58,808 | INFO | Voice handshake complete. Endpoint found: c-sin14-43128249.discord.media:2083
+2026-04-13 00:45:59,021 | INFO | Voice connection complete.
+2026-04-13 01:01:12,495 | INFO | Shard ID None has successfully RESUMED session 163fa5b8b01aa5bf103cca15adbee1a5.
+2026-04-13 04:12:08,431 | INFO | Shard ID None has successfully RESUMED session 163fa5b8b01aa5bf103cca15adbee1a5.
+2026-04-13 04:43:02,526 | INFO | Shard ID None has successfully RESUMED session 163fa5b8b01aa5bf103cca15adbee1a5.
+2026-04-13 05:13:44,067 | INFO | Shard ID None has successfully RESUMED session 163fa5b8b01aa5bf103cca15adbee1a5.
+2026-04-13 08:41:12,878 | INFO | Shard ID None has successfully RESUMED session 163fa5b8b01aa5bf103cca15adbee1a5.
+2026-04-13 08:56:29,460 | INFO | Shard ID None has successfully RESUMED session 163fa5b8b01aa5bf103cca15adbee1a5.
+2026-04-13 10:07:48,659 | ERROR | Disconnected from voice... Reconnecting in 0.73s.
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/voice_state.py", line 671, in _poll_voice_ws
+    await self.ws.poll_event()
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/gateway.py", line 1164, in poll_event
+    raise ConnectionClosed(self.ws, shard_id=None, code=self._close_code)
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1006
+2026-04-13 10:07:49,395 | INFO | The voice handshake is being terminated for Channel ID 1372987724344066158 (Guild ID 1369692222735257721)
+2026-04-13 10:07:49,395 | INFO | Connecting to voice...
+2026-04-13 10:07:49,396 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-13 10:07:50,406 | INFO | Voice handshake complete. Endpoint found: c-sin13-57427e18.discord.media:2087
+2026-04-13 10:07:50,621 | INFO | Voice connection complete.
+2026-04-13 10:10:39,223 | INFO | Shard ID None has successfully RESUMED session 163fa5b8b01aa5bf103cca15adbee1a5.
+2026-04-13 13:38:17,322 | INFO | Shard ID None has successfully RESUMED session 163fa5b8b01aa5bf103cca15adbee1a5.
+2026-04-13 16:45:49,769 | INFO | Shard ID None has successfully RESUMED session 163fa5b8b01aa5bf103cca15adbee1a5.
+2026-04-13 19:29:23,896 | INFO | The voice handshake is being terminated for Channel ID 1372987724344066158 (Guild ID 1369692222735257721)
+2026-04-13 20:26:38,638 | INFO | Shard ID None has successfully RESUMED session 163fa5b8b01aa5bf103cca15adbee1a5.
+2026-04-13 20:45:13,958 | INFO | Connecting to voice...
+2026-04-13 20:45:13,959 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-13 20:45:14,679 | INFO | Voice handshake complete. Endpoint found: c-sin13-57427e18.discord.media:2087
+2026-04-13 20:45:14,908 | INFO | Voice connection complete.
+2026-04-13 20:45:25,671 | INFO | ffmpeg process 2491671 successfully terminated with return code of 8.
+2026-04-13 20:52:34,120 | INFO | Shard ID None has successfully RESUMED session 163fa5b8b01aa5bf103cca15adbee1a5.
+2026-04-13 21:54:32,598 | ERROR | Disconnected from voice... Reconnecting in 1.62s.
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/voice_state.py", line 671, in _poll_voice_ws
+    await self.ws.poll_event()
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/gateway.py", line 1164, in poll_event
+    raise ConnectionClosed(self.ws, shard_id=None, code=self._close_code)
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1006
+2026-04-13 21:54:34,220 | INFO | The voice handshake is being terminated for Channel ID 1372987724344066158 (Guild ID 1369692222735257721)
+2026-04-13 21:54:34,220 | INFO | Connecting to voice...
+2026-04-13 21:54:34,221 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-13 21:54:35,685 | INFO | Voice handshake complete. Endpoint found: c-sin13-57427e18.discord.media:2087
+2026-04-13 21:54:35,896 | INFO | Voice connection complete.
+2026-04-13 22:11:08,294 | ERROR | Disconnected from voice... Reconnecting in 2.54s.
+Traceback (most recent call last):
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/voice_state.py", line 671, in _poll_voice_ws
+    await self.ws.poll_event()
+  File "/home/steam/dst-discord-chat-sync/venv/lib/python3.12/site-packages/discord/gateway.py", line 1164, in poll_event
+    raise ConnectionClosed(self.ws, shard_id=None, code=self._close_code)
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1006
+2026-04-13 22:11:10,835 | INFO | The voice handshake is being terminated for Channel ID 1372987724344066158 (Guild ID 1369692222735257721)
+2026-04-13 22:11:10,835 | INFO | Connecting to voice...
+2026-04-13 22:11:10,836 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-13 22:11:11,944 | INFO | Voice handshake complete. Endpoint found: c-sin13-57427e18.discord.media:2087
+2026-04-13 22:11:12,155 | INFO | Voice connection complete.
+2026-04-13 22:15:50,438 | INFO | Shard ID None has successfully RESUMED session 163fa5b8b01aa5bf103cca15adbee1a5.
+2026-04-13 23:47:30,063 | INFO | Shard ID None has successfully RESUMED session 163fa5b8b01aa5bf103cca15adbee1a5.
+2026-04-14 02:53:08,458 | INFO | Shard ID None has successfully RESUMED session 163fa5b8b01aa5bf103cca15adbee1a5.
+2026-04-14 03:24:22,239 | WARNING | child process pid 1587832 exit status already read:  will report returncode 255
+2026-04-14 03:24:24,585 | INFO | Gemini 2.5 Flash initialized successfully (new package)
+2026-04-14 03:24:24,598 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-04-14 03:24:24,604 | INFO | logging in using static token
+2026-04-14 03:24:24,606 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-04-14 03:24:24,606 | WARNING | Passing
+2026-04-14 03:24:24,610 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-04-14 03:24:24,611 | INFO | Watching server_chat_log.txt...
+2026-04-14 03:24:26,358 | INFO | Shard ID None has connected to Gateway (Session ID: 7ca2a289854521aad458d20fa49c9e3a).
+2026-04-14 03:24:28,393 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-04-14 03:24:28,887 | INFO | Global Commands: ['players', 'weather', 'kick', 'update']
+2026-04-14 03:24:28,887 | INFO | Setup Wyvern's status sucessfully
+2026-04-14 03:24:28,887 | INFO | Wyvern's Status Actived
+2026-04-14 03:24:48,411 | INFO | Connecting to voice...
+2026-04-14 03:24:48,411 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-14 03:24:48,928 | INFO | Voice handshake complete. Endpoint found: c-sin13-57427e18.discord.media:2087
+2026-04-14 03:24:49,147 | INFO | Voice connection complete.
+2026-04-14 03:24:52,956 | ERROR | get_audio_url error: [0;31mERROR:[0m [youtube] ozv4q2ov3Mk: Requested format is not available. Use --list-formats for a list of available formats
+2026-04-14 03:25:58,897 | INFO | 🧠 AIHandler: Auto summarize loop started (every 30 minutes)
+2026-04-14 03:26:56,547 | INFO | Gemini 2.5 Flash initialized successfully (new package)
+2026-04-14 03:26:56,554 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-04-14 03:26:56,560 | INFO | logging in using static token
+2026-04-14 03:26:56,562 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-04-14 03:26:56,562 | WARNING | Passing
+2026-04-14 03:26:56,563 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-04-14 03:26:56,564 | INFO | Watching server_chat_log.txt...
+2026-04-14 03:26:58,375 | INFO | Shard ID None has connected to Gateway (Session ID: 1523c8ec14e5534d1372649193b554a5).
+2026-04-14 03:27:00,401 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-04-14 03:27:00,916 | INFO | Global Commands: ['players', 'weather', 'kick', 'update']
+2026-04-14 03:27:00,916 | INFO | Setup Wyvern's status sucessfully
+2026-04-14 03:27:00,916 | INFO | Wyvern's Status Actived
+2026-04-14 03:27:04,588 | INFO | Connecting to voice...
+2026-04-14 03:27:04,588 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-14 03:27:05,616 | INFO | Voice handshake complete. Endpoint found: c-sin13-57427e18.discord.media:2087
+2026-04-14 03:27:05,787 | INFO | Voice connection complete.
+2026-04-14 03:27:09,909 | ERROR | get_audio_url error: [0;31mERROR:[0m [youtube] ozv4q2ov3Mk: Requested format is not available. Use --list-formats for a list of available formats
+2026-04-14 03:28:30,921 | INFO | 🧠 AIHandler: Auto summarize loop started (every 30 minutes)
+2026-04-14 03:36:49,672 | INFO | Gemini 2.5 Flash initialized successfully (new package)
+2026-04-14 03:36:49,679 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-04-14 03:36:49,685 | INFO | logging in using static token
+2026-04-14 03:36:49,687 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-04-14 03:36:49,687 | WARNING | Passing
+2026-04-14 03:36:49,688 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-04-14 03:36:49,689 | INFO | Watching server_chat_log.txt...
+2026-04-14 03:36:51,505 | INFO | Shard ID None has connected to Gateway (Session ID: 28860d4004d722173cbdda229df64eb5).
+2026-04-14 03:36:53,556 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-04-14 03:36:54,072 | INFO | Global Commands: ['players', 'weather', 'kick', 'update']
+2026-04-14 03:36:54,073 | INFO | Setup Wyvern's status sucessfully
+2026-04-14 03:36:54,073 | INFO | Wyvern's Status Actived
+2026-04-14 03:36:58,690 | INFO | Connecting to voice...
+2026-04-14 03:36:58,690 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-14 03:36:59,655 | INFO | Voice handshake complete. Endpoint found: c-sin13-57427e18.discord.media:2087
+2026-04-14 03:36:59,859 | INFO | Voice connection complete.
+2026-04-14 03:37:03,850 | ERROR | get_audio_url error: [0;31mERROR:[0m [youtube] ozv4q2ov3Mk: Requested format is not available. Use --list-formats for a list of available formats
+2026-04-14 03:38:11,597 | INFO | Gemini 2.5 Flash initialized successfully (new package)
+2026-04-14 03:38:11,605 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-04-14 03:38:11,611 | INFO | logging in using static token
+2026-04-14 03:38:11,613 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-04-14 03:38:11,613 | WARNING | Passing
+2026-04-14 03:38:11,615 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-04-14 03:38:11,616 | INFO | Watching server_chat_log.txt...
+2026-04-14 03:38:13,226 | INFO | Shard ID None has connected to Gateway (Session ID: 3811fffea3c4d30054219209cf2a3331).
+2026-04-14 03:38:15,278 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-04-14 03:38:15,808 | INFO | Global Commands: ['players', 'weather', 'kick', 'update']
+2026-04-14 03:38:15,809 | INFO | Setup Wyvern's status sucessfully
+2026-04-14 03:38:15,809 | INFO | Wyvern's Status Actived
+2026-04-14 03:38:29,021 | INFO | Connecting to voice...
+2026-04-14 03:38:29,021 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-14 03:38:29,993 | INFO | Voice handshake complete. Endpoint found: c-sin13-57427e18.discord.media:2087
+2026-04-14 03:38:30,159 | INFO | Voice connection complete.
+2026-04-14 03:38:34,063 | ERROR | get_audio_url error: [0;31mERROR:[0m [youtube] ozv4q2ov3Mk: Requested format is not available. Use --list-formats for a list of available formats
+2026-04-14 03:39:45,814 | INFO | 🧠 AIHandler: Auto summarize loop started (every 30 minutes)
+2026-04-14 03:40:20,884 | INFO | Gemini 2.5 Flash initialized successfully (new package)
+2026-04-14 03:40:20,891 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-04-14 03:40:20,898 | INFO | logging in using static token
+2026-04-14 03:40:20,900 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-04-14 03:40:20,901 | WARNING | Passing
+2026-04-14 03:40:20,902 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-04-14 03:40:20,903 | INFO | Watching server_chat_log.txt...
+2026-04-14 03:40:23,273 | INFO | Shard ID None has connected to Gateway (Session ID: fb0029d59b53525d5239f014ea506631).
+2026-04-14 03:40:25,320 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-04-14 03:40:25,863 | INFO | Global Commands: ['players', 'weather', 'kick', 'update']
+2026-04-14 03:40:25,864 | INFO | Setup Wyvern's status sucessfully
+2026-04-14 03:40:25,864 | INFO | Wyvern's Status Actived
+2026-04-14 03:40:32,731 | INFO | Connecting to voice...
+2026-04-14 03:40:32,731 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-14 03:40:33,684 | INFO | Voice handshake complete. Endpoint found: c-sin13-57427e18.discord.media:2087
+2026-04-14 03:40:33,872 | INFO | Voice connection complete.
+2026-04-14 03:40:37,774 | ERROR | get_audio_url error: [0;31mERROR:[0m [youtube] ozv4q2ov3Mk: Requested format is not available. Use --list-formats for a list of available formats
+2026-04-14 03:41:55,870 | INFO | 🧠 AIHandler: Auto summarize loop started (every 30 minutes)
+2026-04-14 03:43:03,250 | INFO | Gemini 2.5 Flash initialized successfully (new package)
+2026-04-14 03:43:03,257 | INFO | Starting DST Discord Sync (REALTIME MODE)...
+2026-04-14 03:43:03,263 | INFO | logging in using static token
+2026-04-14 03:43:03,265 | INFO | Chat Handler started - /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt
+2026-04-14 03:43:03,266 | WARNING | Passing
+2026-04-14 03:43:03,267 | INFO | [LOG] Listening server_log.txt: /home/steam/.klei/DoNotStarveTogether/MyDediServer/Master/server_log.txt
+2026-04-14 03:43:03,268 | INFO | Watching server_chat_log.txt...
+2026-04-14 03:43:04,995 | INFO | Shard ID None has connected to Gateway (Session ID: 191d6367d1352ffe7c15c1c29777881d).
+2026-04-14 03:43:07,092 | INFO |  Discord bot logged in as Wyvern#4200 | ID: 1486115823327252602
+2026-04-14 03:43:07,580 | INFO | Global Commands: ['players', 'weather', 'kick', 'update']
+2026-04-14 03:43:07,580 | INFO | Setup Wyvern's status sucessfully
+2026-04-14 03:43:07,580 | INFO | Wyvern's Status Actived
+2026-04-14 03:43:18,458 | INFO | Connecting to voice...
+2026-04-14 03:43:18,458 | INFO | Starting voice handshake... (connection attempt 1)
+2026-04-14 03:43:19,447 | INFO | Voice handshake complete. Endpoint found: c-sin13-57427e18.discord.media:2087
+2026-04-14 03:43:19,669 | INFO | Voice connection complete.
+2026-04-14 03:44:37,587 | INFO | 🧠 AIHandler: Auto summarize loop started (every 30 minutes)
+2026-04-14 03:47:21,988 | INFO | ffmpeg process 2679866 successfully terminated with return code of 0.

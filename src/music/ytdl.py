@@ -6,11 +6,11 @@ class NoLogger:
     def warning(self, msg): pass
     def error(self, msg): pass
 YTDL_OPTIONS = {
-    "format": "bestaudio/best",
+    "format": "bestaudio/best", 
     "quiet": True,
     "no-warnings": True,
     "noplaylist": True,
-    "cookiefile": "/home/steam/dst-discord-chat-sync/cookies.txt",
+    "cookies": "/home/steam/dst-discord-chat-sync/cookies.txt",
     "http_headers": {
         "User-Agent": "Mozilla/5.0"
     },
@@ -199,7 +199,7 @@ def get_related(last_track_title: str, last_track_url: str = None, history=None)
             # Fallback: lấy bài thứ 2
             if len(candidates):
                 return {
-                    "title": v["title"],
+                    "title": v["title"], 
                     "webpage_url": v.get("webpage_url")
                         }
 
