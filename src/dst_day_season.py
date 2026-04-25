@@ -18,11 +18,15 @@ class DSTDaySeasonHandler:
         self._event = asyncio.Event()
 
     def get_master_screen(self):
-        result = subprocess.check_output(["screen", "-ls"]).decode()
-        for line in result.splitlines():
-            if ".dst_master" in line:
-                return line.strip().split()[0]
-        return "dst_master" 
+        try:
+            result = subprocess.check_output(["screen", "-ls"]).decode()
+            for line in result.splitlines():
+                if ".dst_master" in line and "Detached" in line:
+                    return line.strip().split()[0]
+        except Exception as e:
+            logger.error(f"Screen list error: {e}")
+        return None 
+    
     async def update(self, day, season):
         self.current_day = day
         self.current_season = season
@@ -37,10 +41,23 @@ class DSTDaySeasonHandler:
         cmd = 'print(string.format("SYNC|Day:%d|Season:%s", TheWorld.state.cycles + 1, TheWorld.state.season))\n'
 
         try:
-            subprocess.run(
-                ["screen", "-S", self.master_screen, "-X", "stuff", cmd],
-                check=True
-            )
+            for i in range(2):
+                screen = self.get_master_screen()
+                if not screen:
+                    logger.warning("No dst_master screen found, retrying...")
+                    await asyncio.sleep(1)
+                    continue
+                try:
+                    subprocess.run(
+                        ["screen", "-S", screen, "-X", "stuff", cmd],
+                        check=True
+                        )
+                    break
+                except subprocess.CalledProcessError as e:
+                    logger.error(f"Send command failed (retry {i+1}): {e}")
+                    await asyncio.sleep(1)
+            else:
+                return None, None 
         except Exception as e:
             logger.error(f"Send command failed: {e}")
             return None, None

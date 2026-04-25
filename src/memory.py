@@ -46,7 +46,7 @@ class ChannelMemory:
         )
         return cursor.fetchall()
 
-    async def get_latest_summary(self, channel_id: int):
+    async def get_lastest_summary(self, channel_id: int):
         cursor = self.conn.execute(
             "SELECT summary FROM summaries WHERE channel_id = ? ORDER BY created_at DESC LIMIT 1",
             (channel_id,)

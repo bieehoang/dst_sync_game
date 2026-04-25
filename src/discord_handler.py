@@ -26,6 +26,7 @@ class DiscordHandler(commands.Bot):
         self.config = config
         self.weather_status = WeatherStatus(self) 
         self.ai_handler = AIHandler(self.config)
+        self.ai_handler.weather = self.weather_status
     async def on_ready(self):
         #if self._ready:
             #logger.warning("Skipping - on_ready was called")
