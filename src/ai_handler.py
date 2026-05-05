@@ -40,7 +40,7 @@ class AIHandler:
                contents=prompt,
                config={
                    "temperature": 1,
-                   "max_output_tokens": 1800,     # Giảm xuống để trả lời ngắn hơn
+                   "max_output_tokens": 10000,     # Giảm xuống để trả lời ngắn hơn
                }
            )
            return response.text.strip()
@@ -170,11 +170,6 @@ Tóm tắt (3-8 câu, rõ ràng):"""
         if any(k in lower_msg for k in ["thời tiết", "thoi tiet", "weather", "mưa", "nắng"]):
             logger.info("[TOOL] forced weather")
             return {"tool": "weather", "args": {}} 
-            return await self.generate_tool_response(
-                user_message,
-                "weather",
-                tool_result
-                ) 
         tool_prompt = f"""
 Bạn là hệ thống quyết định tool.
 

@@ -28,8 +28,8 @@ class StatusManager:
     async def start_rotation(self, interval: int = 60):
         async def rotate():
             activities = [
-                discord.Activity(type=discord.ActivityType.playing, name="Wyvern - The dumbest bot"),
-                discord.Activity(type=discord.ActivityType.playing, name="Mesa-Linux"),
+                discord.Activity(type=discord.ActivityType.playing, name="Wyvern - MesaLinux"),
+                discord.Activity(type=discord.ActivityType.playing, name="[VN VMware] - nmud - Wyvern Sync"),
                 discord.Activity(type=discord.ActivityType.playing, name="Don't Starve Together"),
             ]
             i = 0

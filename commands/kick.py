@@ -46,6 +46,7 @@ def setup(tree, bridge: Bridge):
             embed.add_field(name="Player ID", value=f"`{player_id}`", inline=False)
             embed.add_field(
                 name="Console Command", 
+                value=f"`TheNet:Kick(\"{player_id}\")`",
                 inline=False
             )
             embed.set_footer(text=f"Executed by: {interaction.user}")

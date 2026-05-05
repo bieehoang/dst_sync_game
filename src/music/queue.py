@@ -1,3 +1,4 @@
+import random
 class MusicQueue:
     def __init__(self):
         self.queue = []

@@ -2,4 +2,6 @@ config.json
 venv
 cookies.txt
 config.yaml
-
+.cache
+.spotify_cache
+.spotify_cache*

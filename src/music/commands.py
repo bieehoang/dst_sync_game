@@ -1,14 +1,13 @@
-from src.music.player import play_music, get_queue
+from src.music.player import play_music, get_queue, play_next
 import discord
-import random
 
-async def handle_music(bot, message):
+async def handle_music(bot, message, reply_channel=None):
+    channel = reply_channel or message.channel
     content = message.content.strip()
-
     if content.startswith("!play") or content.startswith("!p"):
         query = content.split(" ", 1)
         if len(query) < 2:
-            await message.channel.send("Bai j!")
+            await channel.send("Bai j!")
             return True
         query = query[1].strip()  # 🔥 CHỈ LẤY PHẦN SAU COMMAND
         await play_music(bot, message, query)
@@ -28,16 +27,16 @@ async def handle_music(bot, message):
     if content == "!queue":
         q = get_queue(message.guild.id)
         if not q.queue:
-            return await message.channel.send("ko co queue!")
+            return await channel.send("ko co queue!")
 
         text = "\n".join([f"{i+1}. {t['title']}" for i, t in enumerate(q.queue)])
-        await message.channel.send(f"Queue:\n{text}")
+        await channel.send(f"Queue:\n{text}")
         return True
 
     if content == "!loop":
         q = get_queue(message.guild.id)
         q.loop = not q.loop
-        await message.channel.send(f"Loop: {q.loop}")
+        await channel.send(f"Loop: {q.loop}")
         return True
 
     if content == "!back":
@@ -47,7 +46,7 @@ async def handle_music(bot, message):
             vc = message.guild.voice_client
             vc.stop()
         else:
-            await message.channel.send("ko bik!")
+            await channel.send("ko bik!")
         return True
 
     if content.startswith("!volume"):
@@ -60,26 +59,26 @@ async def handle_music(bot, message):
             if vc and vc.source:
                 vc.source.volume = vol
 
-            await message.channel.send(f"Volume: {int(vol*100)}%")
+            await channel.send(f"Volume: {int(vol*100)}%")
         except:
-            await message.channel.send("Set: !volume 0-100")
+            await channel.send("Set: !volume 0-100")
         return True
     if content == "!shuffle":
         q = get_queue(message.guild.id)
 
         if not q.queue:
-            await message.channel.send("ko co queue!")
+            await channel.send("ko co queue!")
             return True
 
         q.shuffle()
-        await message.channel.send("Shuffle queueeueueu!")
+        await channel.send("Shuffle queueeueueu!")
         return True
     if content == "!autoplay":
         q = get_queue(message.guild.id)
         q.autoplay = not q.autoplay
         
         status = "**ON**" if q.autoplay else "**Off**"
-        await message.channel.send(f"Autoplay: {status}")
+        await channel.send(f"Autoplay: {status}")
         
         # Nếu đang bật autoplay mà bot không đang phát → tự động bắt đầu
         vc = message.guild.voice_client
@@ -90,17 +89,17 @@ async def handle_music(bot, message):
     if content == "!clear":
         q = get_queue(message.guild.id)
         q.queue.clear()
-        await message.channel.send("Queue cleared!")
+        await channel.send("Queue cleared!")
         return True
     if content == "!leave":
         vc = message.guild.voice_client
         if not vc:
-            await message.channel.send("Wyvern not in voice!")
+            await channel.send("Wyvern not in voice!")
             return True
         await vc.disconnect()
-        await message.channel.send("Bye bro!")
+        await channel.send("Bye bro!")
         return True 
-    if content == "!show":
+    if content == "!help":
         await show_commands(bot, message)
         return True 
     
@@ -115,10 +114,9 @@ async def show_commands(bot, message):
         "`!shuffle` • Shuffle queue",
         "`!autoplay` • Auto play related songs",
         "`!back` • Play previous track",
-        "`!volume <0-100>` • Adjust volume",
-        "`!clear`",
-        "`!leave`",
-        "`!show` • Show this menu"
+        "`!clear`, • Clear queue",
+        "`!leave`, • Tam biet Wyvern ",
+        "`!help` • Show this menu"
     ]
 
     slash_cmds = [
@@ -148,7 +146,6 @@ async def show_commands(bot, message):
         name="━━━━━━━━━━ Notes ━━━━━━━━━━",
         value=(
             "• Must be in the same channel with Wyvern\n"
-            "• Volume range: **0 → 100**"
         ),
         inline=False
     )

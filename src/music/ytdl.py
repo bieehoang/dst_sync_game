@@ -108,101 +108,283 @@ def get_audio_url(query):
             logger.error(f"get_audio_url error: {e}")
             return None
 
+# def get_related(last_track_title: str, last_track_url: str = None, history=None):
+    # with yt_dlp.YoutubeDL(YTDL_OPTIONS) as ydl:
+    #     try:
+    #         artist = None
+
+    #         if last_track_url and ("youtube.com" in last_track_url or "youtu.be" in last_track_url):
+    #             try:
+    #                 info = ydl.extract_info(last_track_url, download=False, ignore_errors=True)
+    #                 if info:
+    #                     artist = info.get("artist") or info.get("uploader") or info.get("channel")
+    #             except:
+    #                 pass
+    #         # Làm sạch tiêu đề
+    #         clean_title = last_track_title.lower()
+    #         print(clean_title, "Clean title")
+    #         for word in ["official", "audio", "lyrics", "remix", "cover", "live", "version", "ft.", "feat", "music video"]:
+    #             clean_title = clean_title.replace(word, "").strip()
+
+    #         if artist and len(artist) > 3:
+    #             search_query = f"ytsearch10:{artist}"
+    #             info = ydl.extract_info(search_query, download=False)
+    #             candidates = info.get("entries", [])
+    #             print(search_query, "Artist - Autoplay ON")
+    #             for v in candidates:
+    #                 if not v or not v.get("title"):
+    #                     continue
+                    
+    #                 title_lower = v["title"].lower()
+                    
+    #                 if clean_title in title_lower and artist and artist.lower() in title_lower:
+    #                     continue
+    #                 duration = v.get("duration") or 0
+    #                 if 150 <= duration <= 360:          # 2.5 - 6 phút
+    #                     return {
+    #                         # "url": v["url"],
+    #                         # "title": v["title"]
+    #                         "title": v["title"],
+    #                         "webpage_url": v.get("webpage_url")
+    #                     }
+
+    #         search_query = f"ytsearch10:{artist} official audio"
+    #         info = ydl.extract_info(search_query, download=False)
+    #         candidates = info.get("entries", [])
+
+    #         if not candidates:
+    #             return None
+    #         import random
+    #         random.shuffle(candidates)
+    #         best = None
+    #         best_score = -1
+
+    #         for v in candidates:
+    #             if not v or not v.get("title"):
+    #                 continue
+
+    #             title = v["title"].lower()
+    #             views = v.get("view_count") or 0
+    #             duration = v.get("duration") or 0
+
+    #             # Lọc rác mạnh
+    #             if any(bad in title for bad in ["live", "cover", "remix", "8d", "slowed", "reverb", "lyrics video", "1 hour", "extended"]):
+    #                 continue
+    #             # ❌ tránh lặp bài
+    #             if history and title in [t["title"].lower() for t in history[-10:]]: 
+    #                 continue
+    #             # ❌ hạn chế lặp artist
+    #             # uploader = (v.get("uploader") or "").lower()
+    #             # if artist and artist.lower() in uploader:
+    #             #     continue
+    #             score = views
+
+    #             # Ưu tiên độ dài chuẩn (2.5 - 5.5 phút)
+    #             if 150 <= duration <= 330:
+    #                 score *= 2.5
+
+    #             # Ưu tiên có từ khóa vibe / similar / playlist
+    #             if any(word in title for word in ["similar", "like", "vibe", "playlist", "mix", "chill"]):
+    #                 score *= 1.8
+
+    #             if score > best_score:
+    #                 best_score = score
+    #                 best = v
+
+    #         if best:
+    #             return {
+    #                 "title": best["title"],
+    #                 "webpage_url": best.get("webpage_url")
+    #                     }
+
+    #         # Fallback: lấy bài thứ 2
+    #         if len(candidates):
+    #             return {
+    #                 "title": v["title"], 
+    #                 "webpage_url": v.get("webpage_url")
+    #                     }
+
+    #         return None
+
+    #     except Exception as e:
+    #         logger.error(f"get_related error: {e}")
+    #         return None
+# src/music/ytdl.py - thay toàn bộ hàm get_related
+
 def get_related(last_track_title: str, last_track_url: str = None, history=None):
+    """
+    3-tier related song finder:
+    1. YouTube Radio/Mix (most accurate vibe matching)
+    2. Artist popular songs (same artist, different songs)
+    3. Fallback title search
+    """
+    history_titles = set()
+    if history:
+        history_titles = {t.get("title", "").lower() for t in history[-15:]}
+
+    def is_blacklisted(title: str) -> bool:
+        """Lọc các bài không muốn autoplay"""
+        bad_words = ["live", "concert", "karaoke", "8d audio", "slowed", 
+                     "reverb", "1 hour", "extended", "nightcore", "sped up"]
+        title_lower = title.lower()
+        return any(w in title_lower for w in bad_words)
+
+    def score_track(v: dict, artist: str = None) -> float:
+        """Chấm điểm track dựa trên views, duration, keywords"""
+        title = (v.get("title") or "").lower()
+        views = v.get("view_count") or 0
+        duration = v.get("duration") or 0
+
+        if is_blacklisted(title):
+            return -1
+        if title in history_titles:
+            return -1
+
+        score = views
+
+        # Duration sweet spot: 2.5 - 5.5 phút
+        if 150 <= duration <= 330:
+            score *= 2.0
+        elif duration > 420:
+            score *= 0.3  # phạt bài quá dài
+
+        # Bonus nếu official
+        if "official" in title or "audio" in title:
+            score *= 1.5
+
+        # Bonus nếu cùng artist
+        if artist and artist.lower() in title:
+            score *= 1.3
+
+        return score
+
     with yt_dlp.YoutubeDL(YTDL_OPTIONS) as ydl:
         try:
             artist = None
+            video_id = None
 
-            # Lấy thông tin nghệ sĩ từ URL nếu có
-            if last_track_url and ("youtube.com" in last_track_url or "youtu.be" in last_track_url):
+            # Lấy video_id và artist từ URL
+            if last_track_url:
+                if "v=" in last_track_url:
+                    video_id = last_track_url.split("v=")[-1].split("&")[0]
+                elif "youtu.be/" in last_track_url:
+                    video_id = last_track_url.split("youtu.be/")[-1].split("?")[0]
+
                 try:
-                    info = ydl.extract_info(last_track_url, download=False, ignore_errors=True)
+                    info = ydl.extract_info(last_track_url, download=False)
                     if info:
                         artist = info.get("artist") or info.get("uploader") or info.get("channel")
+                        # Loại bỏ "- Topic" suffix của YouTube auto-generated channels
+                        if artist and " - Topic" in artist:
+                            artist = artist.replace(" - Topic", "").strip()
                 except:
                     pass
 
-            # Làm sạch tiêu đề
-            clean_title = last_track_title.lower()
-            for word in ["official", "audio", "lyrics", "remix", "cover", "live", "version", "ft.", "feat", "music video"]:
-                clean_title = clean_title.replace(word, "").strip()
+            # ═══════════════════════════════════════════
+            # TIER 1: YouTube Radio Mix (best vibe match)
+            # ═══════════════════════════════════════════
+            if video_id:
+                try:
+                    radio_url = f"https://www.youtube.com/watch?v={video_id}&list=RD{video_id}"
+                    logger.info(f"[AUTOPLAY T1] Trying YouTube Radio: RD{video_id}")
 
-            if artist and len(artist) > 3:
-                search_query = f"ytsearch10:{artist} {clean_title}"
-                info = ydl.extract_info(search_query, download=False)
-                candidates = info.get("entries", [])
+                    radio_opts = {**YTDL_OPTIONS, "noplaylist": False, "playlistend": 20}
+                    with yt_dlp.YoutubeDL(radio_opts) as ydl_radio:
+                        info = ydl_radio.extract_info(radio_url, download=False)
 
-                for v in candidates:
-                    if not v or not v.get("title"):
-                        continue
-                    
-                    title_lower = v["title"].lower()
-                    
-                    if clean_title in title_lower and artist and artist.lower() in title_lower:
-                        continue
-                    duration = v.get("duration") or 0
-                    if 150 <= duration <= 360:          # 2.5 - 6 phút
+                    if info and "entries" in info:
+                        candidates = [e for e in info["entries"] if e]
+                        # Bỏ bài đầu tiên (chính là bài đang phát)
+                        candidates = candidates[1:]
+
+                        # Shuffle nhẹ top candidates để không lặp thứ tự
+                        import random
+                        top = candidates[:10]
+                        random.shuffle(top)
+
+                        best, best_score = None, -1
+                        for v in top:
+                            s = score_track(v, artist)
+                            if s > best_score:
+                                best_score = s
+                                best = v
+
+                        if best and best_score > 0:
+                            logger.info(f"[AUTOPLAY T1] ✅ Radio pick: {best['title']}")
+                            return {
+                                "title": best["title"],
+                                "webpage_url": best.get("webpage_url")
+                            }
+                except Exception as e:
+                    logger.warning(f"[AUTOPLAY T1] Radio failed: {e}")
+
+            # ═══════════════════════════════════════════
+            # TIER 2: Artist popular songs
+            # ═══════════════════════════════════════════
+            if artist and len(artist) > 2:
+                try:
+                    search_query = f"ytsearch15:{artist} official audio"
+                    logger.info(f"[AUTOPLAY T2] Artist search: {search_query}")
+
+                    info = ydl.extract_info(search_query, download=False)
+                    candidates = info.get("entries", []) if info else []
+
+                    import random
+                    random.shuffle(candidates)
+
+                    best, best_score = None, -1
+                    for v in candidates:
+                        if not v:
+                            continue
+                        s = score_track(v, artist)
+                        if s > best_score:
+                            best_score = s
+                            best = v
+
+                    if best and best_score > 0:
+                        logger.info(f"[AUTOPLAY T2] ✅ Artist pick: {best['title']}")
                         return {
-                            "url": v["url"],
-                            "title": v["title"]
+                            "title": best["title"],
+                            "webpage_url": best.get("webpage_url")
                         }
+                except Exception as e:
+                    logger.warning(f"[AUTOPLAY T2] Artist search failed: {e}")
 
-            search_query = f"ytsearch10:{clean_title} official audio"
-            info = ydl.extract_info(search_query, download=False)
-            candidates = info.get("entries", [])
+            # ═══════════════════════════════════════════
+            # TIER 3: Fallback - vibe/genre search
+            # ═══════════════════════════════════════════
+            try:
+                clean_title = last_track_title.lower()
+                for word in ["official", "audio", "lyrics", "remix", "cover", 
+                             "live", "version", "ft.", "feat", "music video", "(", ")"]:
+                    clean_title = clean_title.replace(word, "").strip()
 
-            if not candidates:
-                return None
-            import random
-            random.shuffle(candidates)
-            best = None
-            best_score = -1
+                search_query = f"ytsearch10:{clean_title} similar songs"
+                logger.info(f"[AUTOPLAY T3] Fallback search: {search_query}")
 
-            for v in candidates:
-                if not v or not v.get("title"):
-                    continue
+                info = ydl.extract_info(search_query, download=False)
+                candidates = info.get("entries", []) if info else []
 
-                title = v["title"].lower()
-                views = v.get("view_count") or 0
-                duration = v.get("duration") or 0
+                best, best_score = None, -1
+                for v in candidates:
+                    if not v:
+                        continue
+                    s = score_track(v)
+                    if s > best_score:
+                        best_score = s
+                        best = v
 
-                # Lọc rác mạnh
-                if any(bad in title for bad in ["live", "cover", "remix", "8d", "slowed", "reverb", "lyrics video", "1 hour", "extended"]):
-                    continue
-                # ❌ tránh lặp bài
-                if history and title in [t["title"].lower() for t in history[-10:]]: 
-                    continue
-                # ❌ hạn chế lặp artist
-                uploader = (v.get("uploader") or "").lower()
-                if artist and artist.lower() in uploader:
-                    continue
-                score = views
+                if best and best_score > 0:
+                    logger.info(f"[AUTOPLAY T3] ✅ Fallback pick: {best['title']}")
+                    return {
+                        "title": best["title"],
+                        "webpage_url": best.get("webpage_url")
+                    }
 
-                # Ưu tiên độ dài chuẩn (2.5 - 5.5 phút)
-                if 150 <= duration <= 330:
-                    score *= 2.5
+            except Exception as e:
+                logger.warning(f"[AUTOPLAY T3] Fallback failed: {e}")
 
-                # Ưu tiên có từ khóa vibe / similar / playlist
-                if any(word in title for word in ["similar", "like", "vibe", "playlist", "mix", "chill"]):
-                    score *= 1.8
-
-                if score > best_score:
-                    best_score = score
-                    best = v
-
-            if best:
-                return {
-                    "title": best["title"],
-                    "webpage_url": best.get("webpage_url")
-                        }
-
-            # Fallback: lấy bài thứ 2
-            if len(candidates):
-                return {
-                    "title": v["title"], 
-                    "webpage_url": v.get("webpage_url")
-                        }
-
+            logger.warning("[AUTOPLAY] All tiers failed")
             return None
 
         except Exception as e:

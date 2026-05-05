@@ -41,21 +41,13 @@ class Bridge:
             elif isinstance(self.dst.players, set):
                 return {name: "Unknown" for name in self.dst.players}
         return {} 
-    def kick_command(self, command: str) -> bool:
+    def kick_command(self, player_id: str) -> bool:
         if not self.dst:
-            logger.error("[BRIDGE] Dst didnt ready")
+            logger.error("[BRIDGE] Dst didn't ready")
             return False
-
         try:
-            success = self.dst.send_to_game("Console", command)
-
-            if success:
-                logger.info(f"[BRIDGE] Sent console: {command}")
-                return True
-            else:
-                logger.warning(f"[BRIDGE] Excute fail: {command}")
-                return False
-
+            command = f'TheNet:Kick("{player_id}")'
+            return self.dst.send_console(command)  # ← dùng send_console thay vì send_to_game
         except Exception as e:
-            logger.error(f"[BRIDGE] Error console command '{command}': {e}")
+            logger.error(f"[BRIDGE] Error: {e}")
             return False

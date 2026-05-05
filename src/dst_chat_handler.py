@@ -3,6 +3,7 @@ import re
 import subprocess
 from src.logger import logger
 from src.bridge import Bridge
+from src.status_manager import setup_status
 class DSTChatHandler:
     def __init__(self, bridge: Bridge, config):
         self.bridge = bridge
@@ -60,20 +61,10 @@ class DSTChatHandler:
             if line:
                 await self.parse_line(line) 
     async def parse_line(self, line: str):
-
-        if m := re.search(r'\[Say\].*?\)\s*(.*?):\s*(.*)', line):
-            username = m.group(1).strip()
-            msg = m.group(2).strip()
-
-            if msg and not msg.startswith(self.bot_prefix):
-                await self.bridge.send_to_discord(username, msg)
-                logger.info(f"Chat: {username}: {msg}")
-            return
-    # Chat người chơi
+        # Chat người chơi
         if m := re.search(r'\[Say\].*?:\s*(.+?):\s*(.+)', line):
             username = m.group(1).strip()
             msg = m.group(2).strip()
-
             if msg and not msg.startswith(self.bot_prefix):
                 await self.bridge.send_to_discord(username, msg)
                 logger.info(f"Chat: {username}: {msg}")
@@ -139,4 +130,18 @@ class DSTChatHandler:
             return False
         except Exception as e:
             logger.error(f"[SEND] Failed to send to game: {e}")
+            return False
+
+    def send_console(self, command: str) -> bool:
+        screen_name = self.get_master_screen()
+        cmd = command.strip() + "\r"
+        try:
+            subprocess.run([
+                "screen", "-S", screen_name,
+                "-p", "0", "-X", "stuff", cmd
+                ], check=True, timeout=5)
+            logger.info(f"[CONSOLE] Sent: {command}")
+            return True
+        except Exception as e:
+            logger.error(f"[CONSOLE] Failed: {e}")
             return False

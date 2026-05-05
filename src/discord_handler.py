@@ -10,6 +10,9 @@ from commands.update import setup as setup_update
 from src.music.commands import handle_music 
 from discord.ext import commands
 from src.ai_handler import AIHandler
+from src.assets_manager import assets
+from src.memory import ChannelMemory
+GAME_SYNC_CHANNEL_ID = 1385629546245783693
 
 class DiscordHandler(commands.Bot):
     def __init__(self, bridge: Bridge, config):
@@ -27,6 +30,7 @@ class DiscordHandler(commands.Bot):
         self.weather_status = WeatherStatus(self) 
         self.ai_handler = AIHandler(self.config)
         self.ai_handler.weather = self.weather_status
+        self.memory = ChannelMemory()
     async def on_ready(self):
         #if self._ready:
             #logger.warning("Skipping - on_ready was called")
@@ -46,7 +50,7 @@ class DiscordHandler(commands.Bot):
         #await self.tree.sync(guild=guild)
         #sync global 
         await self.tree.sync()
-
+        await assets.load(self, int(self.config.data["discord"]["channel_id"]))
         logger.info(f"Global Commands: {[cmd.name for cmd in self.tree.get_commands()]}") 
 
         if self.bridge:
@@ -61,8 +65,33 @@ class DiscordHandler(commands.Bot):
         self.loop.create_task(weather.update_status_loop())
         self.loop.create_task(weather.update_readme_loop())
         self.loop.create_task(self.ai_handler.auto_summarize_loop())
-    
     async def on_message(self, message):
+        if message.channel.id == GAME_SYNC_CHANNEL_ID:
+            if not message.author.bot:
+                return
+
+            content = message.content.strip()
+            if not content:
+                return
+            import re
+            m = re.match(r'^.+?\s*:\s*(.+)$', content)
+            if not m:
+                return
+            actual_content = m.group(1).strip()
+            MUSIC_PREFIXES = ("!p ", "!play ", "!skip", "!stop", "!queue",
+                          "!loop", "!shuffle", "!autoplay", "!clear",
+                          "!back", "!volume", "!leave", "!show")
+            if actual_content.startswith(MUSIC_PREFIXES):
+                main_channel = self.get_channel(
+                    int(self.config.data["discord"]["channel_id"])
+                )
+                if not main_channel:
+                    logger.warning("[GAME SYNC] Main channel not found")
+                    return
+                message.content = actual_content
+                await handle_music(self, message, reply_channel=main_channel)
+                logger.info(f"[GAME SYNC] Music command: {actual_content}")
+            return
         if message.author.bot:
             return
 
@@ -86,6 +115,8 @@ class DiscordHandler(commands.Bot):
             message.guild.me.mentioned_in(message)
             or lower_content.startswith(("wyvern", "hey wyvern", "wyvern oi"))
             ):
+            gif_url = "https://media.discordapp.net/attachments/1127590803171196959/1500269893881299074/GIF_PB2_900_x_800_px.gif?ex=69f7d2b8&is=69f68138&hm=3b5ab998b1cb20f8c0a2467be530b37e30273eb83b647a642d75f7b12ba5befc&=&width=320&height=398"
+            await message.channel.send(gif_url) 
             parts = content.split(maxsplit=1)
             clean_msg = parts[1] if len(parts) > 1 else ""
             if not clean_msg:
@@ -114,6 +145,4 @@ class DiscordHandler(commands.Bot):
                 return
             await message.channel.send("Roi nha")
         await self.bridge.send_to_game(str(message.author.display_name), content)
-        if await handle_music(self, message):
-            return
         logger.info(f"← From Discord: {message.author.display_name}: {content}")

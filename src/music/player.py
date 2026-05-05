@@ -63,14 +63,16 @@ async def ensure_voice(message):
     return channel
 
 
-async def play_next(bot, vc, message):
+async def play_next(bot, vc, message, reply_channel=None):
+    channel = reply_channel or message.channel
     q = get_queue(message.guild.id)
     track = q.next()                     
 
     if not track and q.autoplay:
         if q.history:
             last_track = q.history[-1]
-            related = get_related(
+            related = await asyncio.to_thread(
+                    get_related,
                     last_track.get("title", ""),
                     last_track.get("webpage_url"),
                     history=q.history
@@ -84,10 +86,11 @@ async def play_next(bot, vc, message):
                     logger.info(f"[AUTOPLAY] Added related song: {track['title']}")
                 else:
                     logger.info("[AUTOPLAY] Related song already played recently, retry...")
-                    related = get_related(
-                    last_track.get("title", ""),
-                    last_track.get("webpage_url"),
-                    history=q.history
+                    related = await asyncio.to_thread(
+                        get_related,
+                        last_track.get("title", ""),
+                        last_track.get("webpage_url"),
+                        history=q.history
                     ) 
             else:
                 logger.info("[AUTOPLAY] No related song found")
@@ -95,11 +98,11 @@ async def play_next(bot, vc, message):
             logger.info("[AUTOPLAY] No history to get related song")
 
     if not track:
-        await message.channel.send("503")
+        await channel.send("503")
         await set_voice_status(bot, vc.channel.id, "")
-        return
+        return await play_next(bot, vc, message, reply_channel=channel)
 
-    await set_voice_status(bot, vc.channel.id, f"Listening: {track['title'][:50]}")
+    await set_voice_status(bot, vc.channel.id, f"Listening: {track['title']}")
     
     audio_url = await refresh_audio_url(track["webpage_url"])
     if not audio_url:
@@ -136,26 +139,26 @@ async def play_next(bot, vc, message):
     )
     await message.channel.send(embed=embed)
 
-async def play_music(bot, message, query: str):
-    channel = await ensure_voice(message)
-    if not channel:
+async def play_music(bot, message, query: str, reply_channel=None):
+    channel = reply_channel or message.channel
+    vc_channel = await ensure_voice(message)
+    if not vc_channel:
         return
 
     if not message.guild.voice_client:
-        vc = await channel.connect()
+        vc = await vc_channel.connect()
     else:
         vc = message.guild.voice_client
 
-    original_query = query
     if "spotify.com" in query:
         data = get_spotify_track(query)
         if not data:
-            await message.channel.send("Wyvern - 503 Spotify")
+            await channel.send("Wyvern - 503 Spotify")
             return
     else:
         data = await asyncio.to_thread(get_audio_url, query) 
     if not data:
-        await message.channel.send("501")
+        await channel.send("501")
         return
 
     q = get_queue(message.guild.id)
@@ -163,7 +166,7 @@ async def play_music(bot, message, query: str):
     if isinstance(data, list):           # Playlist
         for track in data:
             q.add(track)
-        await message.channel.send(f"Added playlist **{len(data)}** songs")
+        await channel.send(f"Added playlist **{len(data)}** songs")
     else:                                # Single track
         q.add(data)
         embed = discord.Embed(
@@ -171,10 +174,10 @@ async def play_music(bot, message, query: str):
             description=f"**{data['title']}**",
             color=0x3498db
         )
-        await message.channel.send(embed=embed)
+        await channel.send(embed=embed)
 
     if not vc.is_playing() and not vc.is_paused():
-        await play_next(bot, vc, message)
+        await play_next(bot, vc, message, reply_channel=channel)
 
 async def set_voice_status(bot, channel_id: int, text: str):
     url = f"https://discord.com/api/v10/channels/{channel_id}/voice-status"

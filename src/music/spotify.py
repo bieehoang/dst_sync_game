@@ -2,20 +2,21 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import logging
 from src.logger import logger   # Dùng logger chung của bot
+import yaml, os
 
-CLIENT_ID = "b82cf42b203b4c6d98f8531d87cf5a7f"
-CLIENT_SECRET = "d8891f6a380b4785b3607f21d458243e"
-REDIRECT_URI = "http://127.0.0.1:8888/callback"
-
-sp = None
+def load_spotify_config():
+    config_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "config.yaml")
+    with open(config_path, "r") as f:
+        config = yaml.safe_load(f)
+    return config.get("spotify", {})
 
 def init_spotify():
     global sp
     try:
         auth_manager = SpotifyOAuth(
-            client_id=CLIENT_ID,
-            client_secret=CLIENT_SECRET,
-            redirect_uri=REDIRECT_URI,
+            client_id=cfg["client_id"],
+            client_secret=cfg["client_secret"],
+            redirect_uri=cfg["redirect_uri"],
             scope="playlist-read-private playlist-read-collaborative",
             cache_path=".spotify_cache",
             show_dialog=False,          # Không hiện popup trên server
