@@ -1,4 +1,4 @@
-from src.music.player import play_music, get_queue, play_next
+from src.music.player import play_music, get_queue, play_next, now_playing_messages, _stopped_guilds
 import discord
 
 async def handle_music(bot, message, reply_channel=None):
@@ -21,7 +21,17 @@ async def handle_music(bot, message, reply_channel=None):
     if content == "!stop":
         vc = message.guild.voice_client
         if vc:
+            _stopped_guilds.add(message.guild.id)
+            get_queue(message.guild.id).queue.clear()
+            vc.stop()
             await vc.disconnect()
+            old_msg = now_playing_messages.pop(message.guild.id, None)
+            if old_msg:
+                try:
+                    await old_msg.delete()
+                except: 
+                    pass
+            await channel.send("Wyvern Stopped")
         return True
 
     if content == "!queue":
@@ -96,7 +106,16 @@ async def handle_music(bot, message, reply_channel=None):
         if not vc:
             await channel.send("Wyvern not in voice!")
             return True
+        _stopped_guilds.add(message.guild.id)
+        get_queue(message.guild.id).queue.clear()
+        vc.stop()
         await vc.disconnect()
+        old_msg = now_playing_messages.pop(message.guild.id, None)
+        if old_msg:
+            try:
+                await old_msg.delete()
+            except:
+                pass
         await channel.send("Bye bro!")
         return True 
     if content == "!help":

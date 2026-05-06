@@ -67,6 +67,10 @@ class DiscordHandler(commands.Bot):
         self.loop.create_task(self.ai_handler.auto_summarize_loop())
     async def on_message(self, message):
         if message.channel.id == GAME_SYNC_CHANNEL_ID:
+            logger.info(f"[GAME SYNC DEBUG] author={message.author} | bot={message.author.bot}")
+            logger.info(f"[GAME SYNC DEBUG] content='{message.content}'")
+            logger.info(f"[GAME SYNC DEBUG] embeds={message.embeds}")
+            logger.info(f"[GAME SYNC DEBUG] webhookid={message.webhook_id}")
             if not message.author.bot:
                 return
 
@@ -74,7 +78,7 @@ class DiscordHandler(commands.Bot):
             if not content:
                 return
             import re
-            m = re.match(r'^.+?\s*:\s*(.+)$', content)
+            m = re.search(r':\s+(!.+)$', content)
             if not m:
                 return
             actual_content = m.group(1).strip()

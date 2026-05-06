@@ -11,8 +11,8 @@ TEMP_DIR = "/tmp/dst_music"
 os.makedirs(TEMP_DIR, exist_ok=True)
 
 queues = {}  # guild_id -> queue
-
-
+now_playing_messages = {}
+_stopped_guilds = set()
 def get_queue(guild_id):
     if guild_id not in queues:
         queues[guild_id] = MusicQueue()
@@ -52,19 +52,62 @@ async def preload_next_track(q: MusicQueue):
     except:
         pass
 
-async def ensure_voice(message):
-    if not message.author.voice:
-        await message.channel.send("Join voice first bro!")
-        return None
-    channel = message.author.voice.channel
-    if message.guild.voice_client and message.guild.voice_client.channel != channel:
-        await message.channel.send("Vo chung voi tau!")
-        return None
-    return channel
+# async def ensure_voice(message):
+#     if not message.author.voice:
+#         await message.channel.send("Join voice first bro!")
+#         return
+#     channel = message.author.voice.channel
+#     if message.guild.voice_client and message.guild.voice_client.channel != channel:
+#         await message.channel.send("Vo chung voi tau!")
+#         return  
+#     return channel
 
+async def ensure_voice(message, bot=None):
+    """
+    - Nếu message.author có voice → join kênh đó (normal Discord user)
+    - Nếu không (game sync bot) → tìm kênh voice có người trong guild
+    """
+    guild = message.guild
+
+    # Normal case: Discord user đang trong voice
+    if message.author.voice and message.author.voice.channel:
+        channel = message.author.voice.channel
+        if message.guild.voice_client and message.guild.voice_client.channel != channel:
+            await message.channel.send("Vo chung voi tau!")
+            return None
+        return channel
+
+    # Game sync case: tìm kênh voice có người
+    voice_channel = None
+    most_members = 0
+
+    for vc in guild.voice_channels:
+        # Đếm số member thật (không phải bot)
+        real_members = [m for m in vc.members if not m.bot]
+        if real_members and len(real_members) > most_members:
+            most_members = len(real_members)
+            voice_channel = vc
+
+    if voice_channel:
+        logger.info(f"[VOICE] Game sync - auto joining: {voice_channel.name} ({most_members} members)")
+        return voice_channel
+
+    # Không có ai trong voice
+    if message.channel:
+        await message.channel.send(
+            "Vo voice truoc"
+        )
+    return None
 
 async def play_next(bot, vc, message, reply_channel=None):
     channel = reply_channel or message.channel
+    guild_id = message.guild.id
+    if guild_id in _stopped_guilds:
+        logger.info(f"[PLAY_NEXT] Guild {guild_id} stopped, skipping")
+        return
+    if not vc or not vc.is_connected():
+        logger.warning("[PLAY_NEXT] vc not connected, aborting")
+        return
     q = get_queue(message.guild.id)
     track = q.next()                     
 
@@ -80,7 +123,7 @@ async def play_next(bot, vc, message, reply_channel=None):
                         
             if related:
                 # Tránh lặp lại bài vừa phát
-                if related["title"] not in [t["title"] for t in q.history[-5:]]:
+                if related["title"] not in [t["title"] for t in q.history[-20:]]:
                     q.add(related) 
                     track = q.next()
                     logger.info(f"[AUTOPLAY] Added related song: {track['title']}")
@@ -98,7 +141,7 @@ async def play_next(bot, vc, message, reply_channel=None):
             logger.info("[AUTOPLAY] No history to get related song")
 
     if not track:
-        await channel.send("503")
+        logger.info(f"[PLAY_NEXT] Queue empty for guild {guild_id}")
         await set_voice_status(bot, vc.channel.id, "")
         return await play_next(bot, vc, message, reply_channel=channel)
 
@@ -107,6 +150,7 @@ async def play_next(bot, vc, message, reply_channel=None):
     audio_url = await refresh_audio_url(track["webpage_url"])
     if not audio_url:
         await message.channel.send(f"503: {track['title']}")
+        logger.warning(f"[PLAY_NEXT] No audio URL for: {track['title']}")
         logger.info(f"[DEBUG] webpage_url: {track.get('webpage_url')}")
         logger.info(f"[DEBUG] audio_url: {audio_url}")
         return await play_next(bot, vc, message)  # thử bài tiếp theo
@@ -123,7 +167,10 @@ async def play_next(bot, vc, message, reply_channel=None):
             ),
             options="-vn -buffer_size 256k" 
     )
- 
+    if not vc.is_connected():
+        logger.warning(f"[PLAY_NEXT] vc disconnected before play()")
+        return
+    
     def after(error):
         q.history.append(track)
         if error:
@@ -131,17 +178,31 @@ async def play_next(bot, vc, message, reply_channel=None):
         asyncio.run_coroutine_threadsafe(play_next(bot, vc, message), vc.loop)
     
     vc.play(source, after=after)
+    guild_id = message.guild.id
+    old_msg = now_playing_messages.get(guild_id)
+    if old_msg:
+        try:
+            await old_msg.delete()
+        except discord.NotFound:
+            pass
+        except Exception as e:
+            logger.warning(f"[NP]Can not delete old message {e}")
 
     embed = discord.Embed(
         title="Now Playing",
         description=track["title"],
         color=0x00ffcc
     )
-    await message.channel.send(embed=embed)
+    # await message.channel.send(embed=embed)
+    new_msg = await channel.send(embed=embed)
+    now_playing_messages[guild_id]=new_msg
 
 async def play_music(bot, message, query: str, reply_channel=None):
     channel = reply_channel or message.channel
-    vc_channel = await ensure_voice(message)
+    guild_id=message.guild.id
+    _stopped_guilds.discard(guild_id)
+    vc_channel = await ensure_voice(message, bot=bot)
+    
     if not vc_channel:
         return
 

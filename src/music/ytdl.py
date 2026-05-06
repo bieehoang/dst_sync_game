@@ -1,6 +1,7 @@
 import yt_dlp
 import random
 from src.logger import logger
+from src.music.spotify import get_spotify_client
 class NoLogger:
     def debug(self, msg): pass
     def warning(self, msg): pass
@@ -11,6 +12,7 @@ YTDL_OPTIONS = {
     "no-warnings": True,
     "noplaylist": True,
     "cookies": "/home/steam/dst-discord-chat-sync/cookies.txt",
+    "ignoreerrors": True,
     "http_headers": {
         "User-Agent": "Mozilla/5.0"
     },
@@ -391,74 +393,51 @@ def get_related(last_track_title: str, last_track_url: str = None, history=None)
             logger.error(f"get_related error: {e}")
             return None
 def get_spotify_track(spotify_url: str):
-    """Convert Spotify URL → YouTube audio (track | playlist | album)"""
     try:
-        from src.music.spotify import sp
-
+        sp = get_spotify_client()  # ← gọi getter mỗi lần, không import global
         if not sp:
-            logger.error("Spotify client not initialized")
+            logger.error("[Spotify] Client not available")
             return None
 
-        # ================= TRACK =================
         if "track/" in spotify_url:
             track_id = spotify_url.split("track/")[-1].split("?")[0]
             track = sp.track(track_id)
-
             name = track['name']
             artist = track['artists'][0]['name']
-
             logger.info(f"[Spotify TRACK] {artist} - {name}")
-
             return get_audio_url(f"{name} {artist} official audio")
 
-        # ================= PLAYLIST =================
         elif "playlist/" in spotify_url:
             playlist_id = spotify_url.split("playlist/")[-1].split("?")[0]
-
             results = sp.playlist_items(playlist_id)
             tracks = []
-
             for item in results['items']:
                 t = item.get('track')
                 if not t:
                     continue
-
                 name = t['name']
                 artist = t['artists'][0]['name']
-
-                query = f"{name} {artist} official audio"
-                yt_data = get_audio_url(query)
-
+                yt_data = get_audio_url(f"{name} {artist} official audio")
                 if yt_data:
                     tracks.append(yt_data)
-
-            logger.info(f"[Spotify PLAYLIST] Loaded {len(tracks)} tracks")
-
+            logger.info(f"[Spotify PLAYLIST] {len(tracks)} tracks")
             return tracks
 
-        # ================= ALBUM =================
         elif "album/" in spotify_url:
             album_id = spotify_url.split("album/")[-1].split("?")[0]
-
             results = sp.album_tracks(album_id)
             tracks = []
-
             for t in results['items']:
                 name = t['name']
                 artist = t['artists'][0]['name']
-
-                query = f"{name} {artist} official audio"
-                yt_data = get_audio_url(query)
-
+                yt_data = get_audio_url(f"{name} {artist} official audio")
                 if yt_data:
                     tracks.append(yt_data)
-
-            logger.info(f"[Spotify ALBUM] Loaded {len(tracks)} tracks")
-
+            logger.info(f"[Spotify ALBUM] {len(tracks)} tracks")
             return tracks
 
         else:
-            logger.warning(f"Unsupported Spotify URL: {spotify_url}")
+            logger.warning(f"[Spotify] Unsupported URL: {spotify_url}")
             return None
 
     except Exception as e:
